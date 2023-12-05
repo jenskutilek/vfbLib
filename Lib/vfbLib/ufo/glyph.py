@@ -15,13 +15,15 @@ if TYPE_CHECKING:
         LinkDict,
         MMNode,
     )
+    from vfbLib.ufo.tth import TTGlyphHints
 
 
 logger = logging.getLogger(__name__)
 
 
 class VfbToUfoGlyph:
-    def __init__(self) -> None:
+    def __init__(self, glyph_set: Dict[str, VfbToUfoGlyph] | None = None) -> None:
+        self.glyph_set = glyph_set
         self.anchors: List[Anchor] = []
         self.guide_properties: GuidePropertyList = []
         self.hintmasks: List[Dict[str, int]] = []
@@ -38,19 +40,14 @@ class VfbToUfoGlyph:
         self.note: str | None = None
         self.point_labels: Dict[int, str] = {}
         self.rename_points: Dict[str, str]
+        self.tt_glyph_hints: TTGlyphHints | None = None
         self.tth_commands: List[Dict[str, str | bool]] = []
         self.unicodes: List[int] = []
 
-    def get_point_label(
-        self,
-        index: int,
-        code: str,
-        start_count: int = 1,
-        glyph_set: Dict[str, VfbToUfoGlyph] | None = None,
-    ) -> str:
+    def get_point_label(self, index: int, code: str, start_count: int = 1) -> str:
         if self.mm_components:
             # Composite: We must add the label to the referenced glyph
-            if glyph_set is None:
+            if self.glyph_set is None:
                 logger.error(
                     "To compile composite TrueType hinting, you must supply the glyph set"
                     " to VfbToUfoGlyph.get_point_label()"
@@ -84,3 +81,32 @@ class VfbToUfoGlyph:
         self.lib["public.markColor"] = "%0.4f,%0.4f,%0.4f,1" % hls_to_rgb(
             h=hue / 255, l=0.8, s=0.76
         )
+
+    def __eq__(self, other) -> bool:
+        if len(self.mm_components) == len(other.mm_components):
+            if self.name == other.name:
+                return True
+
+        return False
+
+    def __gt__(self, other) -> bool:
+        ns = len(self.mm_components)
+        no = len(other.mm_components)
+        if ns > no:
+            return True
+        if ns == no:
+            if self.name > other.name:
+                return True
+
+        return False
+
+    def __lt__(self, other) -> bool:
+        ns = len(self.mm_components)
+        no = len(other.mm_components)
+        if ns < no:
+            return True
+        if ns == no:
+            if self.name < other.name:
+                return True
+
+        return False
