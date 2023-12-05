@@ -83,10 +83,12 @@ class TTGlyphHints:
         data: List[Dict[str, Any]],
         zone_names: Dict[str, List[str]],
         stems: TUfoStemsDict,
+        glyph_set: Dict[str, VfbToUfoGlyph],
     ) -> None:
         self.glyph: VfbToUfoGlyph = mm_glyph
         self.zone_names = zone_names
         self.stems = stems
+        self.glyph_set = glyph_set
 
         self.commands: List[Dict] = []
 
@@ -95,19 +97,20 @@ class TTGlyphHints:
     def _build_tt_glyph_hints(self, data: List[Dict[str, Any]]) -> None:
         # Write TT hints into glyph lib.
         self.commands = []
+        gs = self.glyph_set
         for cmd in data:
             code = cmd["cmd"]
             params = cmd["params"]
             d: Dict[str, str | bool] = {"code": vfb2ufo_command_codes[code]}
             if code in ("AlignBottom", "AlignTop"):
-                d["point"] = self.glyph.get_point_label(params["pt"], code)
+                d["point"] = self.glyph.get_point_label(params["pt"], code, glyph_set=gs)
                 if code == "AlignBottom":
                     zd = "ttZonesB"
                 else:
                     zd = "ttZonesT"
                 d["zone"] = self.zone_names[zd][params["zone"]]
             elif code in ("AlignH", "AlignV"):
-                d["point"] = self.glyph.get_point_label(params["pt"], code)
+                d["point"] = self.glyph.get_point_label(params["pt"], code, glyph_set=gs)
                 if "align" in params:
                     align = params["align"]
                     if align > -1:
@@ -118,8 +121,8 @@ class TTGlyphHints:
                 "DoubleLinkH",
                 "DoubleLinkV",
             ):
-                d["point1"] = self.glyph.get_point_label(params["pt1"], code)
-                d["point2"] = self.glyph.get_point_label(params["pt2"], code)
+                d["point1"] = self.glyph.get_point_label(params["pt1"], code, glyph_set=gs)
+                d["point2"] = self.glyph.get_point_label(params["pt2"], code, glyph_set=gs)
                 if "stem" in params:
                     stem = params["stem"]
                     if stem <= -2:
@@ -147,9 +150,9 @@ class TTGlyphHints:
                 "InterpolateH",
                 "InterpolateV",
             ):
-                d["point"] = self.glyph.get_point_label(params["pti"], code)
-                d["point1"] = self.glyph.get_point_label(params["pt1"], code)
-                d["point2"] = self.glyph.get_point_label(params["pt2"], code)
+                d["point"] = self.glyph.get_point_label(params["pti"], code, glyph_set=gs)
+                d["point1"] = self.glyph.get_point_label(params["pt1"], code, glyph_set=gs)
+                d["point2"] = self.glyph.get_point_label(params["pt2"], code, glyph_set=gs)
                 if "align" in params:
                     align = params["align"]
                     if align > -1:
@@ -160,7 +163,7 @@ class TTGlyphHints:
                 "FDeltaH",
                 "FDeltaV",
             ):
-                d["point"] = self.glyph.get_point_label(params["pt"], code)
+                d["point"] = self.glyph.get_point_label(params["pt"], code, glyph_set=gs)
                 d["delta"] = params["shift"]
                 d["ppm1"] = params["ppm1"]
                 d["ppm2"] = params["ppm2"]

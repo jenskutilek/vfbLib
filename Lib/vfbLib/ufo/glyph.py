@@ -41,7 +41,23 @@ class VfbToUfoGlyph:
         self.tth_commands: List[Dict[str, str | bool]] = []
         self.unicodes: List[int] = []
 
-    def get_point_label(self, index: int, code: str, start_count: int = 1) -> str:
+    def get_point_label(
+        self,
+        index: int,
+        code: str,
+        start_count: int = 1,
+        glyph_set: Dict[str, VfbToUfoGlyph] | None = None,
+    ) -> str:
+        if self.mm_components:
+            # Composite: We must add the label to the referenced glyph
+            if glyph_set is None:
+                logger.error(
+                    "To compile composite TrueType hinting, you must supply the glyph set"
+                    " to VfbToUfoGlyph.get_point_label()"
+                )
+                raise ValueError
+            return "invalid"
+
         if index in self.point_labels:
             # We already have a label for this point index
             return self.point_labels[index]

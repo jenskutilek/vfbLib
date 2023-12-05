@@ -185,7 +185,9 @@ class VfbToUfoBuilder:
         # TrueType hinting, needs to come after mm_nodes, because it needs
         # access to the point indices.
         if "tth" in data:
-            tth = TTGlyphHints(g, data["tth"], self.zone_names, self.stems)
+            tth = TTGlyphHints(
+                g, data["tth"], self.zone_names, self.stems, self.glyph_masters
+            )
             g.tth_commands = tth.commands
             del tth
 
