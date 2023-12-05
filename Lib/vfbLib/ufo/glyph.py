@@ -57,12 +57,13 @@ class VfbToUfoGlyph:
 
             # Find the right component the point index belongs to
             orig_index = index
-            for mm_component in self.mm_components:
+            for i, mm_component in enumerate(self.mm_components):
                 component_name = self.builder.glyphOrder[mm_component["gid"]]
                 component = self.builder.glyph_masters[component_name]
                 num_nodes = len(component.mm_nodes)
                 if index < num_nodes:
-                    return component.get_point_label(index, code)
+                    # Add the component index to the label to make it unique enough.
+                    return f"{component.get_point_label(index, code)}-{i}"
 
                 index -= num_nodes
             logger.error(
