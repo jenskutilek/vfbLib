@@ -56,6 +56,7 @@ class VfbToUfoGlyph:
                 raise ValueError
 
             # Find the right component the point index belongs to
+            orig_index = index
             for mm_component in self.mm_components:
                 component_name = self.builder.glyphOrder[mm_component["gid"]]
                 component = self.builder.glyph_masters[component_name]
@@ -64,6 +65,10 @@ class VfbToUfoGlyph:
                     return component.get_point_label(index, code)
 
                 index -= num_nodes
+            logger.error(
+                f"Could not find point {orig_index} for hinted composite '{self.name}'."
+                " TrueType hinting will be broken in UFO glyph."
+            )
             return "invalid"
 
         if index in self.point_labels:
