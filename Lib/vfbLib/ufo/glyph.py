@@ -54,6 +54,16 @@ class VfbToUfoGlyph:
                     "VfbToUfoBuilder to VfbToUfoGlyph.__init__()"
                 )
                 raise ValueError
+            
+            # Find the right component the point index belongs to
+            for mm_component in self.mm_components:
+                component_name = self.builder.glyphOrder[mm_component["gid"]]
+                component = self.builder.glyph_masters[component_name]
+                num_nodes = len(component.mm_nodes)
+                if index < num_nodes:
+                    return component.get_point_label(index, code)
+
+                index -= num_nodes
             return "invalid"
 
         if index in self.point_labels:
