@@ -54,7 +54,7 @@ class VfbToUfoGlyph:
                     "VfbToUfoBuilder to VfbToUfoGlyph.__init__()"
                 )
                 raise ValueError
-            
+
             # Find the right component the point index belongs to
             for mm_component in self.mm_components:
                 component_name = self.builder.glyphOrder[mm_component["gid"]]
