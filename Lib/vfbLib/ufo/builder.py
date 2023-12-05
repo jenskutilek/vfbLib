@@ -155,7 +155,7 @@ class VfbToUfoBuilder:
             self.lib[TT_GLYPH_LIB_KEY] = {}
 
     def build_mm_glyph(self, data: Dict[str, Any]) -> None:
-        g = self.current_glyph = VfbToUfoGlyph(self.glyph_masters)
+        g = self.current_glyph = VfbToUfoGlyph(self)
         g.lib = {}
         g.name = data["name"]
         g.unicodes = []

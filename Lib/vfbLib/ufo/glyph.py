@@ -15,6 +15,7 @@ if TYPE_CHECKING:
         LinkDict,
         MMNode,
     )
+    from vfbLib.ufo.builder import VfbToUfoBuilder
     from vfbLib.ufo.tth import TTGlyphHints
 
 
@@ -22,8 +23,8 @@ logger = logging.getLogger(__name__)
 
 
 class VfbToUfoGlyph:
-    def __init__(self, glyph_set: Dict[str, VfbToUfoGlyph] | None = None) -> None:
-        self.glyph_set = glyph_set
+    def __init__(self, builder: VfbToUfoBuilder | None = None) -> None:
+        self.builder = builder
         self.anchors: List[Anchor] = []
         self.guide_properties: GuidePropertyList = []
         self.hintmasks: List[Dict[str, int]] = []
@@ -47,10 +48,10 @@ class VfbToUfoGlyph:
     def get_point_label(self, index: int, code: str, start_count: int = 1) -> str:
         if self.mm_components:
             # Composite: We must add the label to the referenced glyph
-            if self.glyph_set is None:
+            if self.builder is None:
                 logger.error(
-                    "To compile composite TrueType hinting, you must supply the glyph set"
-                    " to VfbToUfoGlyph.get_point_label()"
+                    "To compile composite TrueType hinting, you must supply the"
+                    "VfbToUfoBuilder to VfbToUfoGlyph.__init__()"
                 )
                 raise ValueError
             return "invalid"
