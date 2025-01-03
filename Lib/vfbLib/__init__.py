@@ -1,1 +1,0 @@
-GLYPH_CONSTANT = (1, 9, 7, 1)
