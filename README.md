@@ -9,6 +9,10 @@ subject to Apple’s mercy (no native support for Apple Silicon).
 That’s why a single determined programmer with a hex editor set out to rectify
 this situation.
 
+The VFB file format is described in the
+[vfbLib-rust](https://github.com/jenskutilek/vfbLib-rust/blob/main/FILEFORMAT.md) repo,
+a work-in-progress implementation of vfbLib in rust.
+
 
 ## Installation
 
@@ -38,4 +42,4 @@ See the [description](DESCRIPTION.md) of the command line scripts.
 
 ## Copyright
 
-© 2022-2024 by [LucasFonts GmbH](https://www.lucasfonts.com/), Berlin
+© 2022-2025 by [LucasFonts GmbH](https://www.lucasfonts.com/), Berlin
