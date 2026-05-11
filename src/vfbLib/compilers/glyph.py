@@ -363,6 +363,7 @@ class OutlinesCompiler(StreamWriter):
     def _compile(self, data: Any) -> int:
         self.write_value(len(data))  # Number of nodes, may be 0
         num_values = 0
+        # Reference coordinates to build relative values for each master
         ref_coords = [[0, 0] for _ in range(self.num_masters)]
         for node in data:
             type_flags = node.get("flags", 0) * 16 + PathCommand[node["type"]].value
