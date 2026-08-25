@@ -413,19 +413,17 @@ class VfbToUfoBuilder:
 
             glyph.tth_commands = glyph.tt_glyph_hints.get_tt_glyph_hints()
 
-    def build(self) -> None:  # noqa: C901
+    def build(self) -> None:
         # Non-MM data
-        skip_keys = set(
-            (
-                F.Encoding,
-                F.EncodingDefault,
-                F.version,
-                F.xuid,
-                G.AnchorsProperties,
-                G.HintingOptions,
-                G.Origin,
-            )
-        )
+        skip_keys = {
+            F.Encoding,
+            F.EncodingDefault,
+            F.version,
+            F.xuid,
+            G.AnchorsProperties,
+            G.HintingOptions,
+            G.Origin,
+        }
         if self.vfb.minimal:
             skip_keys = skip_keys.union(ignore_minimal_keys)
 
