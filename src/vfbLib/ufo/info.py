@@ -223,8 +223,8 @@ class VfbToUfoInfo(Info):
             )
             return
 
-        self.postscriptUnderlinePosition += int(
-            round(0.5 * self.postscriptUnderlineThickness)
+        self.postscriptUnderlinePosition += round(
+            0.5 * self.postscriptUnderlineThickness
         )
 
     def set_attr(self, attr: str, data):
