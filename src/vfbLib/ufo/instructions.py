@@ -6,7 +6,7 @@ def format_assembly(instructions: str | list[str] | bytes) -> str:
     if isinstance(instructions, bytes):
         p = Program()
         p.fromBytecode(instructions)
-        inst: list[str] = p.getAssembly()
+        inst = p.getAssembly()
     elif isinstance(instructions, str):
         inst = instructions.splitlines()
     elif isinstance(instructions, list):
