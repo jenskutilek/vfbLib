@@ -21,7 +21,7 @@ class FontOptionsParser(EncodedKeyValuesParser):
         options = FontOptionsDict()
         for d in super()._parse():
             assert len(d) == 1
-            k, v = tuple(d.items())[0]
+            k, v = next(iter(d.items()))
             options[font_options.get(k, str(k))] = v
 
         # Post-process some entries
