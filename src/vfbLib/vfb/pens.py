@@ -108,7 +108,7 @@ class VfbGlyphPointPen(AbstractPointPen):
         if base_index == -1:
             raise KeyError(f"Base glyph not found: '{baseGlyphName}'")
 
-        xx, xy, yx, yy, dx, dy = transformation
+        xx, _xy, _yx, yy, dx, dy = transformation
 
         if not isinstance(self.target, dict):
             raise TypeError
