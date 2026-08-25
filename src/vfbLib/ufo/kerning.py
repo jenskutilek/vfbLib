@@ -27,13 +27,8 @@ class UfoKerning:
 
     def _is_exception(self, L: str, R: str):
         L_is_key = (1, L) in self.key_glyphs or L not in self.glyph_group_1
-
         R_is_key = (2, R) in self.key_glyphs or R not in self.glyph_group_2
-
-        if L_is_key and R_is_key:
-            return False
-
-        return True
+        return not (L_is_key and R_is_key)
 
     def _make_name_based_kerning(self) -> None:
         """

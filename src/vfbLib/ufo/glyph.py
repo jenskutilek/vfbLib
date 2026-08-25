@@ -120,33 +120,24 @@ class VfbToUfoGlyph:
         self.mm_mask_nodes = data.get("nodes", [])
 
     def __eq__(self, other) -> bool:
-        if len(self.mm_components) == len(other.mm_components):
-            if self.name == other.name:
-                return True
-
-        return False
+        return bool(
+            len(self.mm_components) == len(other.mm_components)
+            and self.name == other.name
+        )
 
     def __gt__(self, other) -> bool:
         ns = len(self.mm_components)
         no = len(other.mm_components)
         if ns > no:
             return True
-        if ns == no:
-            if self.name > other.name:
-                return True
-
-        return False
+        return bool(ns == no and self.name > other.name)
 
     def __lt__(self, other) -> bool:
         ns = len(self.mm_components)
         no = len(other.mm_components)
         if ns < no:
             return True
-        if ns == no:
-            if self.name < other.name:
-                return True
-
-        return False
+        return bool(ns == no and self.name < other.name)
 
 
 class IndexVfbToUfoGlyph(VfbToUfoGlyph):
