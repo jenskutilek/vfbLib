@@ -214,7 +214,6 @@ class BaseCompiler(StreamWriter):
             data (Any): The main data structure.
         """
         # Must be implemented for compilers that need it, e.g. the GlyphCompiler.
-        pass
 
 
 class EncodedValueListCompiler(BaseCompiler):
