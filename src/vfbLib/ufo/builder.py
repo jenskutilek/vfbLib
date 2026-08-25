@@ -352,7 +352,7 @@ class VfbToUfoBuilder:
                         i += 1
                         name = f"{oldname}#{i:02}"
                     logger.warning(
-                        f"Duplicate zone name: '{oldname}', renamed to '{name}."
+                        f"Duplicate zone name: '{oldname}', renamed to '{name}'"
                         ". Preferably make zone names unique in VFB."
                     )
                 self.tt_zones[name] = zone
