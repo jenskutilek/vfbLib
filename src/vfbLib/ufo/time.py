@@ -11,8 +11,7 @@ def convert_timestamp(t: int) -> datetime:
     t = int.from_bytes(b, signed=False)
 
     # 1970-01-01 is the earliest timestamp in FL notation, enforce it
-    if t < TIME_ZERO:
-        t = TIME_ZERO
+    t = max(t, TIME_ZERO)
 
     return datetime.fromtimestamp(t - TIME_ZERO, UTC)
 

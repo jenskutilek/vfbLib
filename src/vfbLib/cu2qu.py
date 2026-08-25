@@ -84,13 +84,12 @@ def vfbcu2qu():
             out_path = (Path(args.path[0]) / vfb_path.name).with_suffix(suffix)
         else:
             out_path = vfb_path.with_suffix(suffix)
-        if out_path.exists():
-            if not args.force_overwrite:
-                print(
-                    "Output file exists, new file was not saved. "
-                    "Use -fo to force overwriting."
-                )
-                raise FileExistsError
+        if out_path.exists() and not args.force_overwrite:
+            print(
+                "Output file exists, new file was not saved. "
+                "Use -fo to force overwriting."
+            )
+            raise FileExistsError
 
         print(f"Saving converted file to {out_path}.")
         vfb.write(out_path)

@@ -17,10 +17,9 @@ logger = logging.getLogger(__name__)
 
 def normalize_hint(hint: tuple[str, int, int]):
     direction, pos, width = hint
-    if width < 0:
-        if width not in (-21, -20):  # Skip ghost hints
-            pos = pos + width
-            width = abs(width)
+    if width < 0 and width not in (-21, -20):  # Skip ghost hints
+        pos = pos + width
+        width = abs(width)
     return (direction, pos, width)
 
 
@@ -210,16 +209,18 @@ def build_ps_glyph_hints(
         )
         if ufo_hint_set["stems"]:
             # Only add if the set has stems
-            if ufo_hint_set["pointTag"] in ufo_hint_sets:
-                if ufo_hint_sets[point_tag] != ufo_hint_set:
-                    # Warn about duplicate hint sets per point, but use the last one
-                    logger.warning(
-                        f"Duplicate hint sets for point '{point_tag}' "
-                        f"in glyph '{glyph.name}':"
-                    )
-                    logger.warning(f"    Old: {ufo_hint_sets[point_tag]}")
-                    logger.warning(f"    New: {ufo_hint_set}")
-                    logger.warning("    Using the new hint set.")
+            if (
+                ufo_hint_set["pointTag"] in ufo_hint_sets
+                and ufo_hint_sets[point_tag] != ufo_hint_set
+            ):
+                # Warn about duplicate hint sets per point, but use the last one
+                logger.warning(
+                    f"Duplicate hint sets for point '{point_tag}' "
+                    f"in glyph '{glyph.name}':"
+                )
+                logger.warning(f"    Old: {ufo_hint_sets[point_tag]}")
+                logger.warning(f"    New: {ufo_hint_set}")
+                logger.warning("    Using the new hint set.")
             ufo_hint_sets[point_tag] = ufo_hint_set
 
     if ufo_hint_sets:
@@ -303,12 +304,11 @@ def update_adobe_hinting(data) -> UfoHintingV2:
                 "pointTag": el.attrib["pointTag"],
                 "stems": [],
             }
-        elif el.tag in ("hstem", "vstem"):
-            if hintset is not None:
-                tag, pos, width = normalize_hint(
-                    (el.tag, int(el.attrib["pos"]), int(el.attrib["width"]))
-                )
-                hintset["stems"].append(f"{tag} {pos} {width}")
+        elif el.tag in ("hstem", "vstem") and hintset is not None:
+            tag, pos, width = normalize_hint(
+                (el.tag, int(el.attrib["pos"]), int(el.attrib["width"]))
+            )
+            hintset["stems"].append(f"{tag} {pos} {width}")
     if hintset:
         hintSetList.append(hintset)
     if hintSetList:
