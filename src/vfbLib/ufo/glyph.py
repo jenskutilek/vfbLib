@@ -95,10 +95,10 @@ class VfbToUfoGlyph:
         # Make a new label
         label_short = vfb2ufo_label_codes[code]
         i = start_count
-        label = "%s%02d" % (label_short, i)
+        label = f"{label_short}{i:02d}"
         while label in self.labels:
             i += 1
-            label = "%s%02d" % (label_short, i)
+            label = f"{label_short}{i:02d}"
         self.labels[label] = index
         self.point_labels[index] = label
         return label

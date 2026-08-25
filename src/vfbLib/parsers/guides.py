@@ -74,7 +74,7 @@ class GuidePropertiesParser(BaseParser):
 
                 color_raw = self.read_value()
                 if color_raw > -1:
-                    color_bgr = "%06x" % color_raw
+                    color_bgr = f"{color_raw:06x}"
                     g["color"] = f"#{color_bgr[4:]}{color_bgr[2:4]}{color_bgr[:2]}"
 
                 name = self.read_str_with_len()
