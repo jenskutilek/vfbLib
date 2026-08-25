@@ -345,7 +345,16 @@ class VfbToUfoBuilder:
                 )
                 name = dz["name"]
                 if name in self.tt_zones:
-                    logger.warning(f"Duplicate zone name: {name}, overwriting.")
+                    oldname = name
+                    i = 0
+                    name = f"{oldname}#{i:02}"
+                    while name in self.tt_zones:
+                        i += 1
+                        name = f"{oldname}#{i:02}"
+                    logger.warning(
+                        f"Duplicate zone name: '{oldname}', renamed to '{name}."
+                        ". Preferably make zone names unique in VFB."
+                    )
                 self.tt_zones[name] = zone
                 self.tt_zone_names.append(name)  # for deltas
                 self.zone_names[d].append(name)  # for AlignTop/AlignBottom
@@ -387,11 +396,15 @@ class VfbToUfoBuilder:
                 del stem["name"]
                 if name == "":
                     dname = "v" if d == "ttStemsH" else "h"
-                    name = "%s%02i" % (dname, i)
+                    name = f"{dname}{i:02}"
                     i += 1
                 if name in lib:
                     oldname = name
-                    name = "%s#%02i" % (oldname, i)
+                    j = 0
+                    name = f"{oldname}#{i:02}"
+                    while name in lib:
+                        j += 1
+                        name = f"{oldname}#{i:02}"
                     logger.warning(
                         f"Duplicate TrueType stem name '{oldname}', renamed to '{name}'"
                         ". Preferably make stem names unique in VFB."
