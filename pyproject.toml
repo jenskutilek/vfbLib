@@ -1,8 +1,8 @@
 [project]
 name = "vfbLib"
-description = "Tools for converting FontLab Studio 5 (VFB) files."
-keywords = ["vfb", "vfbLib", "fonttools"]
 version = "0.11.7"
+description = "Tools for converting FontLab Studio 5 (VFB) files."
+keywords = ["fonttools", "vfb", "vfbLib"]
 
 readme = "README.md"
 license = "GPL-3.0-or-later"
@@ -10,63 +10,31 @@ license-files = ["LICENSE"]
 
 authors = [{ name = "Jens Kutílek", email = "webmail@kutilek.de" }]
 classifiers = [
-    "Environment :: Console",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python",
-    "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3.13",
-    "Programming Language :: Python :: 3.14",
-    "Programming Language :: Python :: 3.15",
+  "Environment :: Console",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Programming Language :: Python :: 3.15",
 ]
 
 requires-python = ">=3.11"
 dependencies = [
-    "fonttools[ufo] >= 4.63.0",
-    "orjson >= 3.11.9, < 4",
-    "typing_extensions >= 4.15.0",
-    "ufonormalizer >= 0.6.3",
-    "ufoLib2[json] >= 0.18.1",
-]
-
-[dependency-groups]
-dev = [
-    "flake8",
-    "mypy",
-    "ruff",
-    "types-pyyaml",
-]
-test = [
-    { include-group = "dev"},
-    "pytest",
-    "pytest-cov",
-    "tox",
-    "tox-gh",
-    "tox-uv",
-]
-
-[project.optional-dependencies]
-toml = [
-    "tomli-w >= 1.2.0"
-]
-yaml = [
-    "pyyaml >= 6.0.3"
-]
-all = [
-    "vfbLib[toml]",
-    "vfbLib[yaml]",
-]
-doc = [
-    "sphinx >= 9.0.0",  # Update to 9.1.0 when we drop Python 3.11
-    "sphinx_rtd_theme",
+  "fonttools[ufo] >= 4.63.0",
+  "orjson >= 3.11.9, < 4",
+  "typing_extensions >= 4.15.0",
+  "ufoLib2[json] >= 0.18.1",
+  "ufonormalizer >= 0.6.3",
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/LucasFonts/vfbLib"
-"Documentation" = "https://vfblib.readthedocs.io/en/latest/"
 "Bug Tracker" = "https://github.com/LucasFonts/vfbLib/issues"
 "Changelog" = "https://github.com/LucasFonts/vfbLib/blob/main/CHANGELOG.md"
+"Documentation" = "https://vfblib.readthedocs.io/en/latest/"
+"Homepage" = "https://github.com/LucasFonts/vfbLib"
 
 [project.scripts]
 vfb2json = "vfbLib.cmdline:vfb2json"
@@ -76,22 +44,46 @@ vfbcu2qu = "vfbLib.cu2qu:vfbcu2qu"
 vfbdiff = "vfbLib.diff:diffvfb"
 yuri = "vfbLib.value:yuri"
 
+[project.optional-dependencies]
+all = [
+  "vfbLib[toml]",
+  "vfbLib[yaml]",
+]
+doc = [
+  "sphinx >= 9.0.0",  # Update to 9.1.0 when we drop Python 3.11
+  "sphinx_rtd_theme",
+]
+toml = ["tomli-w >= 1.2.0"]
+yaml = ["pyyaml >= 6.0.3"]
+
+[dependency-groups]
+dev = [
+  "flake8",
+  "mypy",
+  "ruff",
+  "types-pyyaml",
+]
+test = [
+  "pytest",
+  "pytest-cov",
+  "tox",
+  "tox-gh",
+  "tox-uv",
+  { include-group = "dev" },
+]
+
 [build-system]
 requires = ["uv_build>=0.12.1,<0.13"]
 build-backend = "uv_build"
 
-
 [tool.coverage.paths]
 source = ["src", ".tox/py*/**/site-packages"]
 
-
 [tool.ruff]
-extend-exclude =  ["Scripts"]
-
+extend-exclude = ["Scripts"]
 
 [tool.ruff.lint.isort]
 known-first-party = ["vfbLib"]
-
 
 [tool.uv.build-backend]
 module-name = "vfbLib"
