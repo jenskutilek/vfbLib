@@ -76,7 +76,7 @@ class VfbToUfoBuilder:
             move_groups (bool, optional): Move non-kerning groups from `groups.plist` to
                 `features.fea`. Defaults to True.
         """
-        self.axes: "list[AxisDescriptor | DiscreteAxisDescriptor]" = []
+        self.axes: list[AxisDescriptor | DiscreteAxisDescriptor] = []
         self.axis_count: int = 0
         self.vfb = vfb
         self.minimal = minimal
@@ -88,7 +88,7 @@ class VfbToUfoBuilder:
 
         self.features_classes = ""
         self.features_code = ""
-        self.groups: "UfoGroups" = {}
+        self.groups: UfoGroups = {}
         self.guide_properties = GuidePropertiesDict(h=[], v=[])
         self.info = VfbToUfoInfo()
         self.kerning_class_flags: KerningClassFlagDict = KerningClassFlagDict()
@@ -99,7 +99,7 @@ class VfbToUfoBuilder:
         self.num_stem_snap_h = 0
         self.num_stem_snap_v = 0
         self.mm_guides = None
-        self.mm_kerning: "UfoMMKerning" = {}
+        self.mm_kerning: UfoMMKerning = {}
         self.kerning: dict[tuple[str, str], int] = {}
         self.lib: dict[str, Any] = {}
         self.masters: list[str] = []
