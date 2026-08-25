@@ -222,7 +222,7 @@ class VfbEntry(StreamReader):
 
         try:
             self.data = self.parser().parse(BytesIO(byte_data), self.size, self.vfb)
-        except:  # noqa: E722
+        except:
             logger.error(f"Parse error for data: {self.key}; {hexStr(byte_data)}")
             logger.error(f"Parser class: {self.parser.__name__}")
             # self.data = byte_data

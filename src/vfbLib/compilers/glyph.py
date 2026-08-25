@@ -121,7 +121,7 @@ class GlyphCompiler(BaseCompiler):
 
     def _compile_binary(self, data):
         # Imported binary data 8-)
-        if not (imported := data.get("imported")):  # noqa: F841
+        if not (imported := data.get("imported")):
             return
 
         self.write_uint8(9)
@@ -246,7 +246,7 @@ class GlyphCompiler(BaseCompiler):
             else:
                 self.write_value(0)
 
-        if not (hintmasks := hints.get("hintmasks")):  # noqa: F841
+        if not (hintmasks := hints.get("hintmasks")):
             self.write_value(0)
             return
 

@@ -177,7 +177,7 @@ parser_classes = {
     F.weight_code: ("weight_code", SignedInt16Parser, SignedInt16Compiler),
     F.italic_angle: ("italic_angle", DoubleParser, DoubleCompiler),
     F.slant_angle: ("slant_angle", DoubleParser, DoubleCompiler),
-    F.underline_position: ("underline_position", SignedInt16Parser, SignedInt16Compiler),  # noqa: E501
+    F.underline_position: ("underline_position", SignedInt16Parser, SignedInt16Compiler),
     F.underline_thickness: ("underline_thickness", Int16Parser, Int16Compiler),
     F.ms_charset: ("ms_charset", Int16Parser, Int16Compiler),
     F.panose: ("panose", PanoseParser, PanoseCompiler),
@@ -195,8 +195,8 @@ parser_classes = {
     F.version_minor: ("version_minor", Int16Parser, Int16Compiler),
     F.upm: ("upm", Int16Parser, Int16Compiler),
     F.fond_id: ("fond_id", Int16Parser, Int16Compiler),
-    F.PostScriptHintingOptions: ("PostScript Hinting Options", PostScriptGlobalHintingOptionsParser, PostScriptGlobalHintingOptionsCompiler),  # noqa: E501
-    F.Collection: ("Collection", EncodedValueListWithCountParser, EncodedValueListWithCountCompiler),  # noqa: E501
+    F.PostScriptHintingOptions: ("PostScript Hinting Options", PostScriptGlobalHintingOptionsParser, PostScriptGlobalHintingOptionsCompiler),
+    F.Collection: ("Collection", EncodedValueListWithCountParser, EncodedValueListWithCountCompiler),
     F.blue_values_num: ("blue_values_num", Int16Parser, Int16Compiler),
     F.other_blues_num: ("other_blues_num", Int16Parser, Int16Compiler),
     F.family_blues_num: ("family_blues_num", Int16Parser, Int16Compiler),
@@ -219,11 +219,11 @@ parser_classes = {
     T.hhea_ascender: ("hhea_ascender", SignedInt16Parser, SignedInt16Compiler),
     T.hhea_descender: ("hhea_descender", SignedInt16Parser, SignedInt16Compiler),
     # hstem_data and vstem_data, goes to font.ttinfo:
-    T.TrueTypeStemPPEMs2And3: ("TrueType Stem PPEMs 2 And 3", TrueTypeStemPpems23Parser, TrueTypeStemPpems23Compiler),  # noqa: E501
-    T.TrueTypeStemPPEMs: ("TrueType Stem PPEMs", TrueTypeStemPpemsParser, TrueTypeStemPpemsCompiler),  # noqa: E501
+    T.TrueTypeStemPPEMs2And3: ("TrueType Stem PPEMs 2 And 3", TrueTypeStemPpems23Parser, TrueTypeStemPpems23Compiler),
+    T.TrueTypeStemPPEMs: ("TrueType Stem PPEMs", TrueTypeStemPpemsParser, TrueTypeStemPpemsCompiler),
     # Probably in font.ttinfo, but not accessible through API:
     T.TrueTypeStems: ("TrueType Stems", TrueTypeStemsParser, TrueTypeStemsCompiler),
-    T.TrueTypeStemPPEMs1: ("TrueType Stem PPEMs 1", TrueTypeStemPpems1Parser, TrueTypeStemPpems1Compiler),  # noqa: E501
+    T.TrueTypeStemPPEMs1: ("TrueType Stem PPEMs 1", TrueTypeStemPpems1Parser, TrueTypeStemPpems1Compiler),
     # Probably in font.ttinfo, but not accessible through API:
     T.TrueTypeZones: ("TrueType Zones", TrueTypeZonesParser, TrueTypeZonesCompiler),
 
@@ -236,7 +236,7 @@ parser_classes = {
     T.codeppm: ("codeppm", Int16Parser, Int16Compiler),  # Code Stop PPEM
     T.dropoutppm: ("dropoutppm", Int16Parser, Int16Compiler),  # Dropout control PPEM
     T.MeasurementLine: ("Measurement Line", SignedInt16Parser, SignedInt16Compiler),
-    T.TrueTypeZoneDeltas: ("TrueType Zone Deltas", TrueTypeZoneDeltasParser, TrueTypeZoneDeltasCompiler),  # noqa: E501
+    T.TrueTypeZoneDeltas: ("TrueType Zone Deltas", TrueTypeZoneDeltasParser, TrueTypeZoneDeltasCompiler),
 
     # Goes to font again:
     F.fontnames: ("fontnames", NameRecordsParser, NameRecordsCompiler),
@@ -246,8 +246,8 @@ parser_classes = {
     F.note: ("note", StringParser, StringCompiler),
     F.FontFlags: ("Font Flags", BaseParser, HexStringCompiler),  # FIXME
     F.customdata: ("customdata", StringParser, StringCompiler),
-    F.MetricsClassFlags: ("OpenType Metrics Class Flags", OpenTypeMetricsClassFlagsParser, OpenTypeMetricsClassFlagsCompiler),  # noqa: E501
-    F.KerningClassFlags: ("OpenType Kerning Class Flags", OpenTypeKerningClassFlagsParser, OpenTypeKerningClassFlagsCompiler),  # noqa: E501
+    F.MetricsClassFlags: ("OpenType Metrics Class Flags", OpenTypeMetricsClassFlagsParser, OpenTypeMetricsClassFlagsCompiler),
+    F.KerningClassFlags: ("OpenType Kerning Class Flags", OpenTypeKerningClassFlagsParser, OpenTypeKerningClassFlagsCompiler),
 
     # Repeat for each binary table:
     # truetypetables: TrueTypeTable
@@ -264,23 +264,23 @@ parser_classes = {
     # Repeat for each axis:
     F.AxisName: ("Axis Name", StringParser, StringCompiler),
 
-    F.AnisotropicInterpolationMappings: ("Anisotropic Interpolation Mappings", AnisotropicInterpolationsParser, AnisotropicInterpolationsCompiler),  # noqa: E501
-    F.AxisMappingsCount: ("Axis Mappings Count", AxisMappingsCountParser, AxisMappingsCountCompiler),  # noqa: E501
+    F.AnisotropicInterpolationMappings: ("Anisotropic Interpolation Mappings", AnisotropicInterpolationsParser, AnisotropicInterpolationsCompiler),
+    F.AxisMappingsCount: ("Axis Mappings Count", AxisMappingsCountParser, AxisMappingsCountCompiler),
     F.AxisMappings: ("Axis Mappings", AxisMappingsParser, AxisMappingsCompiler),
 
     # Repeat the next two for each master:
     M.MasterName: ("Master Name", StringParser, StringCompiler),
     M.MasterLocation: ("Master Location", MasterLocationParser, MasterLocationCompiler),
 
-    F.PrimaryInstanceLocations: ("Primary Instance Locations", DoubleListParser, DoubleListCompiler),  # noqa: E501
-    F.PrimaryInstances: ("Primary Instances", PrimaryInstancesParser, PrimaryInstancesCompiler),  # noqa: E501
+    F.PrimaryInstanceLocations: ("Primary Instance Locations", DoubleListParser, DoubleListCompiler),
+    F.PrimaryInstances: ("Primary Instances", PrimaryInstancesParser, PrimaryInstancesCompiler),
 
     # Repeat PostScript Info for each master:
     M.PostScriptInfo: ("PostScript Info", PostScriptInfoParser, PostScriptInfoCompiler),
 
     F.BlockMMFontInfoEnd: ("Block MM Font Info End", BaseParser, HexStringCompiler),
     F.GlobalGuides: ("Global Guides", GlobalGuidesParser, GuidesCompiler),
-    F.GlobalGuideProperties: ("Global Guide Properties", GuidePropertiesParser, GuidePropertiesCompiler),  # noqa: E501
+    F.GlobalGuideProperties: ("Global Guide Properties", GuidePropertiesParser, GuidePropertiesCompiler),
     F.GlobalMask: ("Global Mask", GlobalMaskParser, GlobalMaskCompiler),
     F.default_character: ("default_character", StringParser, StringCompiler),
 
@@ -290,26 +290,26 @@ parser_classes = {
     G.Links: ("Links", LinkParser, LinksCompiler),
     G.image: ("image", BackgroundBitmapParser, BackgroundBitmapCompiler),
     G.Bitmaps: ("Glyph Bitmaps", GlyphBitmapsParser, GlyphBitmapsCompiler),
-    G.VSB: ("VSB", EncodedValueListParser, EncodedValueListCompiler),  # 1 encoded value per master  # noqa: E501
+    G.VSB: ("VSB", EncodedValueListParser, EncodedValueListCompiler),  # 1 encoded value per master
     G.Sketch: ("Glyph Sketch", GlyphSketchParser, GlyphSketchCompiler),
-    G.HintingOptions: ("Glyph Hinting Options", PostScriptGlyphHintingOptionsParser, PostScriptGlyphHintingOptionsCompiler),  # noqa: E501
+    G.HintingOptions: ("Glyph Hinting Options", PostScriptGlyphHintingOptionsParser, PostScriptGlyphHintingOptionsCompiler),
     G.mask: ("mask", MaskParser, MaskCompiler),
-    G.MaskMetrics: ("mask.metrics", MaskMetricsParser, MaskMetricsCompiler),  # Single master mask metrics  # noqa: E501
-    G.MaskMetricsMM: ("mask.metrics_mm", MaskMetricsMMParser, MaskMetricsMMCompiler),  # Mask metrics master 2 to 16  # noqa: E501
+    G.MaskMetrics: ("mask.metrics", MaskMetricsParser, MaskMetricsCompiler),  # Single master mask metrics
+    G.MaskMetricsMM: ("mask.metrics_mm", MaskMetricsMMParser, MaskMetricsMMCompiler),  # Mask metrics master 2 to 16
     G.Origin: ("Glyph Origin", GlyphOriginParser, GlyphOriginCompiler),
-    G.unicodes: ("unicodes", GlyphUnicodeParser, GlyphUnicodesCompiler),  # Glyph Unicode  # noqa: E501
+    G.unicodes: ("unicodes", GlyphUnicodeParser, GlyphUnicodesCompiler),  # Glyph Unicode
     G.CustomDict: ("Custom Dict", StringParser, StringCompiler),
-    G.UnicodesNonBMP: ("Glyph Unicode Non-BMP", GlyphUnicodeSuppParser, GlyphUnicodesSuppCompiler),  # noqa: E501
+    G.UnicodesNonBMP: ("Glyph Unicode Non-BMP", GlyphUnicodeSuppParser, GlyphUnicodesSuppCompiler),
     G.mark: ("mark", Int16Parser, Int16Compiler),  # Mark Color
     G.customdata: ("glyph.customdata", StringParser, StringCompiler),
     G.note: ("glyph.note", StringParser, StringCompiler),
     G.GDEFData: ("Glyph GDEF Data", GlyphGDEFParser, GlyphGDEFCompiler),
-    G.AnchorsProperties: ("Glyph Anchors Supplemental", GlyphAnchorsSuppParser, GlyphAnchorsSuppCompiler),  # noqa: E501
-    G.AnchorsMM: ("Glyph Anchors MM", GlyphAnchorsParser, GlyphAnchorsCompiler),  # MM-compatible  # noqa: E501
-    G.GuideProperties: ("Glyph Guide Properties", GuidePropertiesParser, GuidePropertiesCompiler),  # noqa: E501
+    G.AnchorsProperties: ("Glyph Anchors Supplemental", GlyphAnchorsSuppParser, GlyphAnchorsSuppCompiler),
+    G.AnchorsMM: ("Glyph Anchors MM", GlyphAnchorsParser, GlyphAnchorsCompiler),  # MM-compatible
+    G.GuideProperties: ("Glyph Guide Properties", GuidePropertiesParser, GuidePropertiesCompiler),
     # End: Repeat for each glyph
 
-    F.FontOptions: ("Font Options", FontOptionsParser, FontOptionsCompiler),  # noqa: E501
+    F.FontOptions: ("Font Options", FontOptionsParser, FontOptionsCompiler),
     F.ExportOptions: ("Export Options", ExportOptionsParser, ExportOptionsCompiler),
     F.MappingMode: ("Mapping Mode", MappingModeParser, MappingModeCompiler),
 
@@ -326,19 +326,17 @@ parser_classes = {
 
 
 # Those entries are ignored in minimal mode:
-ignore_minimal = set(
-    (
-        "Global Guides",
-        "Global Mask",
-        "Glyph Bitmaps",
-        "Glyph Guide Properties",
-        "glyph.note",
-        "image",
-        "mark",
-        "mask",
-        "note",
-    )
-)
+ignore_minimal = {
+    "Global Guides",
+    "Global Mask",
+    "Glyph Bitmaps",
+    "Glyph Guide Properties",
+    "glyph.note",
+    "image",
+    "mark",
+    "mask",
+    "note",
+}
 
 ignore_minimal_keys = frozenset(
     (

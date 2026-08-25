@@ -291,7 +291,7 @@ class VfbToUfoInfo(Info):
             )
         self.openTypeGaspRangeRecords = gasp
 
-    def set_tt_info(self, data: dict[str, int | list[int] | list[str]]) -> None:  # noqa: C901, E501
+    def set_tt_info(self, data: dict[str, int | list[int] | list[str]]) -> None:
         for k, v in data.items():
             if isinstance(v, int):
                 if k in self.mapping_int:

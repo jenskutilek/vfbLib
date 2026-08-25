@@ -69,7 +69,7 @@ class BaseBitmapParser(BaseParser):
         bytes_per_row = ((w + 15) // 16) * 2
         # fmt:off
         nice = [
-            data[j : j + bytes_per_row]  # noqa: E203
+            data[j : j + bytes_per_row]
             for j in range(0, len(data), bytes_per_row)
         ]
         # fmt:on
