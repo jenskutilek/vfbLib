@@ -6,8 +6,9 @@ from vfbLib.compilers.value import write_value, write_value_long
 from vfbLib.helpers import deHexStr, hexStr, int8_size, int16_size, int32_size
 
 if TYPE_CHECKING:
+    from collections.abc import Iterable
     from io import BufferedIOBase
-    from typing import Any, Iterable
+    from typing import Any
 
     from vfbLib.typing import (
         KerningClassFlagDict,

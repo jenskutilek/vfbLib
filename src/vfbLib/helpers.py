@@ -1,7 +1,7 @@
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from typing import Iterable
+    from collections.abc import Iterable
 
 # Length of data types used by StreamReader and Stream Writer etc.
 int8_size = 1
