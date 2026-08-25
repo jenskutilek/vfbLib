@@ -46,18 +46,18 @@ class UfoMasterGlyph:
         self.master_index = master_index
 
         self.lib: dict[str, Any] = {}
-        self.anchors: "list[AnchorDict]" = []
+        self.anchors: list[AnchorDict] = []
         self.guidelines: list = []
         self.unicodes: list[int] = []
         self.width: int = 0
         self.height: int = 0
 
-        self.components: "list[UfoComponent]" = []
-        self.contours: "list[UfoContour]" = []
+        self.components: list[UfoComponent] = []
+        self.contours: list[UfoContour] = []
         self.rename_points: dict[str, str] = {}
         self.tth_commands: list[dict[str, str | bool]] = []
 
-        self.mask_contours: "list[UfoContour]" = []
+        self.mask_contours: list[UfoContour] = []
         self.mask_metrics: tuple[int, int] = (0, 0)
 
     @property
@@ -137,7 +137,7 @@ class UfoMasterGlyph:
         path_is_open = False
         in_qcurve = False
         if True:
-            contour: "UfoContour" = []
+            contour: UfoContour = []
             for i, n in enumerate(mm_nodes):
                 if to_mask:
                     name: str | None = None

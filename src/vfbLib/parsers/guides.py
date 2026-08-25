@@ -33,7 +33,7 @@ def parse_guides(stream: "BytesIO", num_masters: int, name: str) -> "MMGuidesDic
     Raises:
         ValueError: If the data structure is incomplete.
     """
-    guides: "MMGuidesDict" = {"h": [], "v": []}
+    guides: MMGuidesDict = {"h": [], "v": []}
     for direction in DIRECTIONS:
         num_guides = read_value(stream)
         if num_guides == 0:

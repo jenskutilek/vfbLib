@@ -74,7 +74,7 @@ def transform_groups(
     """
     FIRST = 2**10
     SECOND = 2**11
-    groups: "UfoGroups" = {}
+    groups: UfoGroups = {}
     group_order = []
     key_glyphs: dict[str, str] = {}
     for name, glyphs in orig_groups.items():
@@ -195,7 +195,7 @@ def build_glyph_to_group_maps(
 
 
 def _build_groups(glyph_to_group_mapping: dict[str, str]) -> "UfoGroups":
-    groups: "UfoGroups" = {}
+    groups: UfoGroups = {}
     for name, group in glyph_to_group_mapping.items():
         if group in groups:
             groups[group].append(name)
@@ -212,7 +212,7 @@ def rebuild_kerning_groups(
     This should get rid of any duplicate groups per glyph.
     """
     # Filter groups so only non-kerning groups are kept
-    new_groups: "UfoGroups" = {
+    new_groups: UfoGroups = {
         n: g for n, g in groups.items() if not n.startswith("public.kern")
     }
     new_groups.update(_build_groups(glyph_group_1))

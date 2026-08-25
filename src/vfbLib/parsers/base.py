@@ -35,7 +35,7 @@ class StreamReader:
 
     def __init__(self) -> None:
         self.encoding = "cp1252"
-        self.stream: "BufferedIOBase" = BytesIO()
+        self.stream: BufferedIOBase = BytesIO()
 
     def read_double(self) -> float:
         """
@@ -335,7 +335,7 @@ class GlyphEncodingParser(BaseParser):
 
 class OpenTypeKerningClassFlagsParser(BaseParser):
     def _parse(self) -> "KerningClassFlagDict":
-        class_flags: "KerningClassFlagDict" = {}
+        class_flags: KerningClassFlagDict = {}
         num_classes = self.read_value()
         for _ in range(num_classes):
             name = self.read_str_with_len()
@@ -347,7 +347,7 @@ class OpenTypeKerningClassFlagsParser(BaseParser):
 
 class OpenTypeMetricsClassFlagsParser(BaseParser):
     def _parse(self) -> "MetricsClassFlagDict":
-        class_flags: "MetricsClassFlagDict" = {}
+        class_flags: MetricsClassFlagDict = {}
         num_classes = self.read_value()
         for _ in range(num_classes):
             name = self.read_str_with_len()

@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 class VfbHeader:
     def __init__(self) -> None:
         # The original or decompiled data
-        self._data: "bytes | VfbHeaderDict | None" = None
+        self._data: bytes | VfbHeaderDict | None = None
         # The parser which can convert data to decompiled
         self.parser = VfbHeaderParser
         # The compiler which can convert the decompiled representation to bytes

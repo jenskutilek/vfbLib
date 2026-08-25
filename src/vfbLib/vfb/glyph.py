@@ -27,8 +27,8 @@ class VfbGlyph:
         self.entry = entry
 
         # Related entries that we need when generating fonts
-        self.links_entry: "VfbEntry | None" = None
-        self.ps_hinting_options: "VfbEntry | None" = None
+        self.links_entry: VfbEntry | None = None
+        self.ps_hinting_options: VfbEntry | None = None
 
         self._parent = parent
         self._glyph: UfoMasterGlyph | None = None
@@ -137,7 +137,7 @@ class VfbGlyph:
         return hint_sets
 
     def resolve_hints(self) -> "dict[str, list[HintTuple]]":
-        hints: "dict[str, list[HintTuple]]" = {"h": [], "v": []}
+        hints: dict[str, list[HintTuple]] = {"h": [], "v": []}
 
         mm_hints = self.entry.data.get("hints", {"h": [], "v": []})
 

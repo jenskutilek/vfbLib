@@ -149,7 +149,7 @@ def build_ps_glyph_hints(
     <dict>
     """
     hint_sets = []
-    stems: "list[HintTuple]" = []
+    stems: list[HintTuple] = []
     hint_set: HintSet = HintSet(pointTag="0", stems=stems)
     if mmglyph.hintmasks:
         for mask in mmglyph.hintmasks:
@@ -158,7 +158,7 @@ def build_ps_glyph_hints(
                 if direction == dd:
                     master_direction_hints = master_hints[direction]
                     if hint_index < len(master_direction_hints):
-                        hint: "HintTuple" = master_direction_hints[hint_index]
+                        hint: HintTuple = master_direction_hints[hint_index]
                         hint_set["stems"].append(hint)
                     else:
                         logger.debug(
@@ -236,7 +236,7 @@ def build_ps_glyph_hints(
 def get_master_hints(
     mmglyph: "VfbToUfoGlyph", master_index=0
 ) -> "dict[str, list[HintTuple]]":
-    hints: "dict[str, list[HintTuple]]" = {"h": [], "v": []}
+    hints: dict[str, list[HintTuple]] = {"h": [], "v": []}
 
     # Hints
     for direction in DIRECTIONS:

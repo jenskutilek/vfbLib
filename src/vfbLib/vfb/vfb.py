@@ -125,7 +125,7 @@ class Vfb:
         Return the Vfb structure as Dict, e.g. for saving as JSON. The dict has the keys
         "header" and "entries".
         """
-        d: "VfbDict" = {"header": {}, "entries": []}
+        d: VfbDict = {"header": {}, "entries": []}
         if self.header is not None:
             d["header"] = self.header.as_dict()
         if self.entries:

@@ -88,7 +88,7 @@ class UfoKerning:
         Extract the kerning values for master_index and return the kerning as
         dict[tuple[str, str], int].
         """
-        master_kerning: "UfoMasterKerning" = {}
+        master_kerning: UfoMasterKerning = {}
         for pair, values in self.mm_kerning_names.items():
             value = values[master_index]
             if value != 0 or self._is_exception(*pair):

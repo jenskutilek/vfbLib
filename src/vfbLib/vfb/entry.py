@@ -35,7 +35,7 @@ class VfbEntry(StreamReader):
         # The parent object, Vfb
         self.vfb = parent
         # The original or decompiled data
-        self._data: "bytes | EntryDecompiled | None" = None
+        self._data: bytes | EntryDecompiled | None = None
         # Temporary data for additional master, must be merged when compiling
         self.temp_masters: list[list] | None = None
         self.parser = None

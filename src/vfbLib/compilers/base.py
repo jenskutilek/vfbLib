@@ -29,7 +29,7 @@ class StreamWriter:
 
     def __init__(self) -> None:
         self.encoding = "cp1252"
-        self.stream: "BufferedIOBase" = BytesIO()
+        self.stream: BufferedIOBase = BytesIO()
 
     def write_bytes(self, value: bytes) -> None:
         """

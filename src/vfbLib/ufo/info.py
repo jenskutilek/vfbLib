@@ -43,7 +43,7 @@ class VfbToUfoInfo(Info):
         super().__init__()
         # Chance to set some defaults that should always be written
         self.familyName = "Untitled"
-        self.guidelines: "list[UfoGuide]" = []
+        self.guidelines: list[UfoGuide] = []
         self.italicAngle: float | int = 0
         self.openTypeGaspRangeRecords: list[TUfoGaspRecDict] = []
         self.openTypeHeadCreated: str | None = None

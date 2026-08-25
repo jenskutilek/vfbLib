@@ -34,7 +34,7 @@ class VfbHeaderParser(StreamReader):
         assert version_major == 3, f"Unsupported app version (major): {version_major}"
         version_minor = self.read_uint8()
 
-        header: "VfbHeaderDict" = {
+        header: VfbHeaderDict = {
             "signature": signature,
             "app_version": app_version,
             "file_version": file_version,

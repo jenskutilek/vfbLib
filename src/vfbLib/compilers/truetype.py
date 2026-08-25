@@ -168,7 +168,7 @@ class TrueTypeZonesCompiler(BaseCompiler):
                 self.write_value(0)
                 continue
 
-            side_zones: "list[TTZoneDict]" = data[side]
+            side_zones: list[TTZoneDict] = data[side]
             self.write_value(len(side_zones))
             for zone in side_zones:
                 self.write_value(zone["position"])
