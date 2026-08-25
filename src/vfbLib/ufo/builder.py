@@ -305,7 +305,7 @@ class VfbToUfoBuilder:
                 # The rounding ppm value for 6 pixels is stored right here. We must
                 #  re-add it to the dict later
                 r = ds["round"]
-                rk = list(r.keys())[0]
+                rk = next(iter(r.keys()))
                 rv = str(r[rk])
 
                 # Take the other rounding ppm values (2-5) from self.stem_ppms
