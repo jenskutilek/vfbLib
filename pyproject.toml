@@ -58,7 +58,6 @@ yaml = ["pyyaml >= 6.0.3"]
 
 [dependency-groups]
 dev = [
-  "flake8",
   "mypy",
   "ruff",
   "types-pyyaml",
