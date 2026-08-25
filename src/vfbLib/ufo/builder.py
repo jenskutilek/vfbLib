@@ -207,9 +207,8 @@ class VfbToUfoBuilder:
         if "tth" in data:
             g.tt_glyph_hints = TTGlyphHints(g, data["tth"], self.zone_names, self.stems)
 
-        if imported := data.get("imported"):
-            if "instructions" in imported:
-                g.set_instructions(imported["instructions"])
+        if (imported := data.get("imported")) and "instructions" in imported:
+            g.set_instructions(imported["instructions"])
 
     def set_feature_code(self, data: list[str]) -> None:
         # Make the kern feature compilable
@@ -922,9 +921,8 @@ class VfbToUfoBuilder:
         # Write the Designspace
         if ds:
             ds_path = out_path.with_suffix(".designspace")
-            if ds_path.exists():
-                if not overwrite:
-                    raise FileExistsError(str(ds_path))
+            if ds_path.exists() and not overwrite:
+                raise FileExistsError(str(ds_path))
             if not silent:
                 print(f"Writing designspace: {ds_path}")
             ds.write(str(ds_path))
