@@ -18,6 +18,7 @@ from ufonormalizer import normalizeUFO
 
 from vfbLib.constants import ignore_minimal_keys
 from vfbLib.enum import F, G, M, T
+from vfbLib.helpers import stripControlChars
 from vfbLib.typing import AnchorDict, GuidePropertiesDict, KerningClassFlagDict
 from vfbLib.ufo.designspace import get_ds_location
 from vfbLib.ufo.features import rename_kern_classes_in_feature_code
@@ -343,7 +344,12 @@ class VfbToUfoBuilder:
                     top=d == "ttZonesT",
                     width=dz["value"],
                 )
-                name = dz["name"]
+                name = stripControlChars(dz["name"])
+                if name != dz["name"]:
+                    logger.warning(
+                        f"Sanitized zone name with control characters: "
+                        f"{dz['name']!r} -> {name!r}"
+                    )
                 if name in self.tt_zones:
                     oldname = name
                     i = 0
