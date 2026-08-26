@@ -251,14 +251,14 @@ class GlyphCompiler(BaseCompiler):
             return
 
         self.write_value(len(hintmasks))
-        for k, v in hintmasks:
-            key = {
+        for state, index in hintmasks:
+            state_key = {
                 "h": 0x01,
                 "v": 0x02,
                 "r": 0xFF,
-            }[k]
-            self.write_uint8(key)
-            self.write_value(v)
+            }.get(state, int(state, 16))
+            self.write_uint8(state_key)
+            self.write_value(index)
 
     def _compile_instructions(self, data):
         # TrueType instructions

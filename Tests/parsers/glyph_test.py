@@ -112,3 +112,119 @@ class GlyphParserTest(TestCase):
         }
         result = GlyphParser().parse_hex(data)
         assert result == expected
+
+    def test_glyph_invalid_num_hints(self):
+        # fmt: off
+        data = (
+                "01090701"              # constant
+                "01"                    # glyph name
+                "91 64 61 67 67 65 72"  # [6]dagger
+                "08"                    # outlines
+                   "8c f730 a5"
+                   "00 f77d a5"
+                   "01 8b f774"
+                   "01 a5 f757"
+                   "01 ac 8b"
+                   "01 a5 fb57"
+                   "01 8b fb74"
+                   "01 71 fb76"
+                   "01 6a 8b"
+                   "00 fb67 f968"
+                   "01 e2 8b"
+                   "01 f16f"
+                   "01 8b 6f"
+                   "01 25 6f"
+                   "01 34 8b"
+                   "00 f74d f771"
+                   "01 8b e2"
+                   "01 e0 8b"
+                   "01 8b 34"
+                   "01 71 fb22"
+                   "01 6a 8b"
+                   "00 c2 58"
+                   "01 8b a7"
+                   "01 f1a7"
+                   "01 e2 8b"
+                   "01 8b 37"
+                   "01 34 8b"
+                "02"                    # metrics
+                   "f8bb 8b"
+                "03"                    # Hints
+                   "8a f980 77 fb47 76 f84c df 8c f77d e0 8b" # -1 hints
+                "04"                    # Guides
+                   "8b 8b"
+                "0a"                    # TrueType commands
+                   "a3 90"
+                   "01 9a 8e"
+                   "02 92 8c"
+                   "06 93 98 8a"
+                   "04 93 a1 8a 8a"
+                   "04 98 a4 8a 8a"
+                   "8b 8b 8b"
+                "0f"                    # End of glyph
+            )
+        # fmt: on
+        result = GlyphParser().parse_hex(data)
+        assert "hints" not in result
+
+    def test_glyph_invalid_num_hint_masks(self):
+        # fmt: off
+        data = (
+                    "01090701"              # constant
+                    "01"                    # glyph name
+                    "91 64 61 67 67 65 72"  # [6]dagger
+                    "08"                    # outlines
+                       "8c f730 a5"
+                       "00 f77d a5"
+                       "01 8b f774"
+                       "01 a5 f757"
+                       "01 ac 8b"
+                       "01 a5 fb57"
+                       "01 8b fb74"
+                       "01 71 fb76"
+                       "01 6a 8b"
+                       "00 fb67 f968"
+                       "01 e2 8b"
+                       "01 f16f"
+                       "01 8b 6f"
+                       "01 25 6f"
+                       "01 34 8b"
+                       "00 f74d f771"
+                       "01 8b e2"
+                       "01 e0 8b"
+                       "01 8b 34"
+                       "01 71 fb22"
+                       "01 6a 8b"
+                       "00 c2 58"
+                       "01 8b a7"
+                       "01 f1a7"
+                       "01 e2 8b"
+                       "01 8b 37"
+                       "01 34 8b"
+                    "02"                    # metrics
+                       "f8bb 8b"
+                    "03"                    # Hints
+                       "8e f980 77 fb47 76 f84c df 8c f77d e0 8a" # -1 hint masks
+                    "04"                    # Guides
+                       "8b 8b"
+                    "0a"                    # TrueType commands
+                       "a3 90"
+                       "01 9a 8e"
+                       "02 92 8c"
+                       "06 93 98 8a"
+                       "04 93 a1 8a 8a"
+                       "04 98 a4 8a 8a"
+                       "8b 8b 8b"
+                    "0f"                    # End of glyph
+                )
+        # fmt: on
+        result = GlyphParser().parse_hex(data)
+        assert "hints" in result
+        assert result["hints"] == {
+            "h": [
+                [{"pos": 748, "width": -20}],
+                [{"pos": -179, "width": -21}],
+                [{"pos": 440, "width": 84}],
+            ],
+            "v": [[{"pos": 233, "width": 85}]],
+        }

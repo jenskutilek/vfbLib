@@ -237,6 +237,14 @@ class BaseParser(StreamReader):
         """
         return hexStr(self.stream.read())
 
+    def skip_stream(self) -> None:
+        """
+        Skip the rest of the current entry data. Can be used if a parse error should be
+        ignored. By default, the parser expects the stream to have been consumed after
+        parsing.
+        """
+        self.stream.seek(self.stream.getbuffer().nbytes - 1)
+
 
 class EncodedKeyValuesParser(BaseParser):
     __end__ = 0x64
