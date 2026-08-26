@@ -1,5 +1,21 @@
 # Change Log
 
+## 0.11.7
+
+UFO
+
+- Disambiguate duplicate TrueType zone names
+- Strip control characters from TT zone names
+
+General
+
+- Add demo script to read kerning classes from a VFB
+- Support unknown hint mask states
+- Guard against invalid (negative) numbers of hints and hint masks
+- Fix parsing the point index in hint mask when it is stored as a negative number
+- Run tests in Python 3.15 as well
+- Support Glyph.CustomDict parsing and compilation
+
 ## 0.11.6
 
 UFO
