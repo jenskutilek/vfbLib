@@ -349,10 +349,9 @@ class GlyphParser(BaseParser):
         else:
             hintmasks: list[tuple[str, int]] = []
             for _ in range(num_hintmasks):
-                k = self.read_uint8()
-                val = self.read_value()
-                key = replace_types[k]
-                hintmasks.append((key, val))
+                state = self.read_uint8()
+                index = self.read_value()
+                hintmasks.append((replace_types.get(state, hex(state)), index))
             if hintmasks:
                 hints["hintmasks"] = hintmasks
 
