@@ -32,5 +32,10 @@ def deHexStr(hexstr: str) -> bytes:
     return bytes.fromhex(hexstr)
 
 
+def stripControlChars(string: str) -> str:
+    # Control characters are not representable in XML property lists
+    return "".join(c for c in string if ord(c) >= 32 and ord(c) != 127)
+
+
 def hexStr(b: bytes) -> str:
     return bytes.hex(b)

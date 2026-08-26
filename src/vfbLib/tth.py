@@ -7,6 +7,7 @@ from typing import Any
 
 import orjson
 
+from vfbLib.helpers import stripControlChars
 from vfbLib.ufo.glyph import IndexVfbToUfoGlyph
 from vfbLib.ufo.tth import TTGlyphHints, transform_stem_rounds
 from vfbLib.vfb.vfb import Vfb
@@ -282,7 +283,7 @@ def extract_tt_zones(data: dict, target: dict, zone_names: dict) -> None:
     zone_names_global = set()
     for side in ("ttZonesT", "ttZonesB"):
         for zone_index, zone in enumerate(data.get(side, [])):
-            name = zone["name"]
+            name = stripControlChars(zone["name"])
             i = 1
             # Make zone names unique
             if name in zone_names_global:
