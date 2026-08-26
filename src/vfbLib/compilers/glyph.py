@@ -25,6 +25,13 @@ if TYPE_CHECKING:
 logger = logging.getLogger(__name__)
 
 
+replace_types_rev = {
+    "h": 0x01,
+    "v": 0x02,
+    "r": 0xFF,
+}
+
+
 class GlyphAnchorsCompiler(BaseCompiler):
     def _compile(self, data: "list[MMAnchorDict]") -> None:
         assert self.vfb is not None
@@ -252,11 +259,16 @@ class GlyphCompiler(BaseCompiler):
 
         self.write_value(len(hintmasks))
         for state, index in hintmasks:
-            state_key = {
-                "h": 0x01,
-                "v": 0x02,
-                "r": 0xFF,
-            }.get(state, int(state, 16))
+            if state in replace_types_rev:
+                state_key = replace_types_rev[state]
+            else:
+                try:
+                    state_key = int(state, 16)
+                except ValueError:
+                    raise ValueError(
+                        f"Invalid hint mask state in glyph '{data['name']}': "
+                        f"{state} (in {hintmasks})"
+                    )
             self.write_uint8(state_key)
             self.write_value(index)
 
