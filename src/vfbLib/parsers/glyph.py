@@ -321,6 +321,16 @@ class GlyphParser(BaseParser):
         hints = MMHintsDict(v=[], h=[])
         for direction in DIRECTIONS:
             num_hints = self.read_value()
+            if num_hints < 0:
+                logger.error(
+                    f"Invalid number of hints in glyph '{self.name}': {num_hints}. "
+                    "Skipping the rest of the glyph data."
+                )
+                self.skip_stream()
+                if hints["v"] or hints["h"]:
+                    self.glyphdata["hints"] = hints
+                return
+
             for _ in range(num_hints):
                 master_hints = []
                 for _ in range(self.num_masters):
@@ -330,7 +340,13 @@ class GlyphParser(BaseParser):
                 hints[direction].append(master_hints)
 
         num_hintmasks = self.read_value()
-        if num_hintmasks > 0:
+        if num_hintmasks < 0:
+            logger.error(
+                f"Invalid number of hint masks in glyph '{self.name}': {num_hintmasks}."
+                " Skipping the rest of the glyph data."
+            )
+            self.skip_stream()
+        else:
             hintmasks: list[tuple[str, int]] = []
             for _ in range(num_hintmasks):
                 k = self.read_uint8()
