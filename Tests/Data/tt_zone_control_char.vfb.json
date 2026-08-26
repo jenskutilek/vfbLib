@@ -1,0 +1,6013 @@
+{
+  "header": {
+    "decompiled": {
+      "signature": 1179408154,
+      "app_version": 49,
+      "file_version": 48,
+      "version_major": 3,
+      "version_minor": 0
+    }
+  },
+  "entries": [
+    {
+      "key": "Block File Data Start",
+      "decompiled": ""
+    },
+    {
+      "key": "Block Font Start",
+      "decompiled": ""
+    },
+    {
+      "key": "FL Version",
+      "decompiled": {
+        "platform": "macos",
+        "version": [
+          5,
+          2,
+          2,
+          128
+        ],
+        "owner": 0
+      }
+    },
+    {
+      "key": "Block Names Start",
+      "decompiled": ""
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        0,
+        ".notdef"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        1,
+        ".null"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        2,
+        "CR"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        3,
+        "space"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        4,
+        "a"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        5,
+        "a.alt01"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        6,
+        "b"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        7,
+        "c"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        8,
+        "d"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        9,
+        "e"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        10,
+        "f"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        11,
+        "g"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        12,
+        "g.alt01"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        13,
+        "g.alt02"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        14,
+        "h"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        15,
+        "i"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        16,
+        "j"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        17,
+        "k"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        18,
+        "l"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        19,
+        "m"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        20,
+        "n"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        21,
+        "o"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        22,
+        "p"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        23,
+        "q"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        24,
+        "r"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        25,
+        "s"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        26,
+        "t"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        27,
+        "u"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        28,
+        "v"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        29,
+        "w"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        30,
+        "x"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        31,
+        "y"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        32,
+        "z"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        33,
+        "A"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        34,
+        "B"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        35,
+        "C"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        36,
+        "D"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        37,
+        "E"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        38,
+        "F"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        39,
+        "G"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        40,
+        "H"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        41,
+        "I"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        42,
+        "J"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        43,
+        "K"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        44,
+        "L"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        45,
+        "M"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        46,
+        "N"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        47,
+        "O"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        48,
+        "P"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        49,
+        "Q"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        50,
+        "R"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        51,
+        "S"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        52,
+        "T"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        53,
+        "U"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        54,
+        "V"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        55,
+        "W"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        56,
+        "X"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        57,
+        "Y"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        58,
+        "Z"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        59,
+        "zero"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        60,
+        "zero.alt01"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        61,
+        "zero.alt02"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        62,
+        "one"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        63,
+        "two"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        64,
+        "three"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        65,
+        "four"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        66,
+        "five"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        67,
+        "six"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        68,
+        "seven"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        69,
+        "eight"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        70,
+        "nine"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        71,
+        "zero.loclIWR"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        72,
+        "zero.loclIWR.alt01"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        73,
+        "zero.loclIWR.alt02"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        74,
+        "one.loclIWR"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        75,
+        "two.loclIWR"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        76,
+        "three.loclIWR"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        77,
+        "four.loclIWR"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        78,
+        "five.loclIWR"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        79,
+        "six.loclIWR"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        80,
+        "seven.loclIWR"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        81,
+        "eight.loclIWR"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        82,
+        "nine.loclIWR"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        83,
+        "ampersand"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        84,
+        "at"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        85,
+        "hyphen"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        86,
+        "softhyphen"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        87,
+        "endash"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        88,
+        "emdash"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        89,
+        "underscore"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        90,
+        "period"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        91,
+        "ellipsis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        92,
+        "colon"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        93,
+        "comma"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        94,
+        "semicolon"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        95,
+        "quotesingle"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        96,
+        "quotedbl"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        97,
+        "quoteleft"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        98,
+        "quoteright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        99,
+        "quotedblleft"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        100,
+        "quotedblright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        101,
+        "quotesinglbase"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        102,
+        "quotedblbase"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        103,
+        "guilsinglleft"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        104,
+        "guilsinglright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        105,
+        "guillemotleft"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        106,
+        "guillemotright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        107,
+        "exclamdown"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        108,
+        "exclam"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        109,
+        "questiondown"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        110,
+        "question"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        111,
+        "parenleft"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        112,
+        "parenright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        113,
+        "bracketleft"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        114,
+        "bracketright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        115,
+        "braceleft"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        116,
+        "braceright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        117,
+        "slash"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        118,
+        "backslash"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        119,
+        "fraction"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        120,
+        "divisionslash"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        121,
+        "percent"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        122,
+        "perthousand"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        123,
+        "bar"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        124,
+        "brokenbar"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        125,
+        "section"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        126,
+        "paragraph"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        127,
+        "copyright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        128,
+        "registered"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        129,
+        "trademark"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        130,
+        "ordfeminine"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        131,
+        "ordmasculine"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        132,
+        "degree"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        133,
+        "asterisk"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        134,
+        "dagger"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        135,
+        "daggerdbl"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        136,
+        "numbersign"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        137,
+        "asciicircum"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        138,
+        "asciitilde"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        139,
+        "plus"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        140,
+        "minus"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        141,
+        "plusminus"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        142,
+        "multiply"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        143,
+        "divide"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        144,
+        "equal"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        145,
+        "approxequal"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        146,
+        "notequal"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        147,
+        "less"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        148,
+        "greater"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        149,
+        "lessequal"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        150,
+        "greaterequal"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        151,
+        "periodcentered"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        152,
+        "bullet"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        153,
+        "lozenge"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        154,
+        "logicalnot"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        155,
+        "radical"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        156,
+        "integral"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        157,
+        "infinity"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        158,
+        "estimated"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        159,
+        "litre"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        160,
+        "numerosign"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        161,
+        "partialdiff"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        162,
+        "currency"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        163,
+        "cent"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        164,
+        "Euro"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        165,
+        "florin"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        166,
+        "sterling"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        167,
+        "dollar"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        168,
+        "yen"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        169,
+        "baht"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        170,
+        "coloncurrency"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        171,
+        "lira"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        172,
+        "naira"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        173,
+        "rupee"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        174,
+        "won"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        175,
+        "sheqel"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        176,
+        "sheqel.loclIWR"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        177,
+        "dong"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        178,
+        "kip"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        179,
+        "tugrik"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        180,
+        "peso"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        181,
+        "guarani"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        182,
+        "hryvnia"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        183,
+        "cedi"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        184,
+        "tenge"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        185,
+        "rupeeindian"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        186,
+        "liraturkish"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        187,
+        "ruble"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        188,
+        "bitcoin"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        189,
+        "fi"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        190,
+        "fl"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        191,
+        "aacute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        192,
+        "acircumflex"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        193,
+        "adieresis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        194,
+        "agrave"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        195,
+        "aring"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        196,
+        "atilde"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        197,
+        "aacute.alt01"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        198,
+        "acircumflex.alt01"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        199,
+        "adieresis.alt01"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        200,
+        "agrave.alt01"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        201,
+        "aring.alt01"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        202,
+        "atilde.alt01"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        203,
+        "ae"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        204,
+        "ccedilla"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        205,
+        "eth"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        206,
+        "eacute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        207,
+        "ecircumflex"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        208,
+        "edieresis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        209,
+        "egrave"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        210,
+        "dotlessi"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        211,
+        "iacute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        212,
+        "icircumflex"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        213,
+        "idieresis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        214,
+        "igrave"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        215,
+        "ij"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        216,
+        "dotlessj"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        217,
+        "jacute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        218,
+        "jcircumflex"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        219,
+        "ldot"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        220,
+        "lslash"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        221,
+        "ntilde"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        222,
+        "oacute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        223,
+        "ocircumflex"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        224,
+        "odieresis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        225,
+        "ograve"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        226,
+        "oslash"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        227,
+        "otilde"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        228,
+        "oe"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        229,
+        "scaron"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        230,
+        "germandbls"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        231,
+        "germandbls.alt01"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        232,
+        "thorn"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        233,
+        "uacute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        234,
+        "ucircumflex"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        235,
+        "udieresis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        236,
+        "ugrave"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        237,
+        "yacute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        238,
+        "ydieresis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        239,
+        "zcaron"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        240,
+        "Aacute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        241,
+        "Acircumflex"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        242,
+        "Adieresis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        243,
+        "Agrave"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        244,
+        "Aring"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        245,
+        "Atilde"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        246,
+        "AE"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        247,
+        "Ccedilla"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        248,
+        "Dcroat"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        249,
+        "Eth"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        250,
+        "Eacute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        251,
+        "Ecircumflex"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        252,
+        "Edieresis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        253,
+        "Egrave"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        254,
+        "Iacute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        255,
+        "Icircumflex"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        256,
+        "Idieresis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        257,
+        "Igrave"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        258,
+        "IJ"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        259,
+        "Lslash"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        260,
+        "Ntilde"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        261,
+        "Oacute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        262,
+        "Ocircumflex"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        263,
+        "Odieresis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        264,
+        "Ograve"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        265,
+        "Oslash"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        266,
+        "Otilde"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        267,
+        "OE"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        268,
+        "Scaron"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        269,
+        "Germandbls"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        270,
+        "Thorn"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        271,
+        "Uacute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        272,
+        "Ucircumflex"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        273,
+        "Udieresis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        274,
+        "Ugrave"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        275,
+        "Yacute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        276,
+        "Ydieresis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        277,
+        "Zcaron"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        278,
+        "mu"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        279,
+        "Delta"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        280,
+        "product"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        281,
+        "summation"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        282,
+        "Omega"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        283,
+        "pi"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        284,
+        "alef-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        285,
+        "bet-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        286,
+        "gimel-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        287,
+        "dalet-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        288,
+        "he-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        289,
+        "vav-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        290,
+        "zayin-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        291,
+        "het-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        292,
+        "tet-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        293,
+        "yod-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        294,
+        "finalkaf-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        295,
+        "kaf-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        296,
+        "lamed-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        297,
+        "finalmem-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        298,
+        "mem-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        299,
+        "finalnun-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        300,
+        "nun-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        301,
+        "samekh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        302,
+        "ayin-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        303,
+        "finalpe-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        304,
+        "pe-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        305,
+        "finaltsadi-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        306,
+        "tsadi-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        307,
+        "qof-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        308,
+        "resh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        309,
+        "shin-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        310,
+        "tav-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        311,
+        "vavvav-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        312,
+        "vavyod-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        313,
+        "yodyod-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        314,
+        "yodyodpatah-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        315,
+        "alefpatah-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        316,
+        "alefqamats-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        317,
+        "alefdagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        318,
+        "betdagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        319,
+        "betrafe-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        320,
+        "gimeldagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        321,
+        "daletdagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        322,
+        "hedagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        323,
+        "vavholam-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        324,
+        "vavdagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        325,
+        "zayindagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        326,
+        "tetdagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        327,
+        "yoddagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        328,
+        "finalkaf_sheva-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        329,
+        "finalkaf_qamats-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        330,
+        "finalkafdagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        331,
+        "finalkafdagesh_sheva-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        332,
+        "finalkafdagesh_qamats-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        333,
+        "kafrafe-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        334,
+        "kafdagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        335,
+        "lamed_holam-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        336,
+        "lameddagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        337,
+        "lamed_dagesh_holam-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        338,
+        "memdagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        339,
+        "nundagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        340,
+        "samekhdagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        341,
+        "ayinaltone-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        342,
+        "finalpedagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        343,
+        "perafe-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        344,
+        "pedagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        345,
+        "tsadidagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        346,
+        "qofdagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        347,
+        "reshdagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        348,
+        "shindagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        349,
+        "shinshindot-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        350,
+        "shinsindot-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        351,
+        "shindageshshindot-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        352,
+        "shindageshsindot-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        353,
+        "tavdagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        354,
+        "aleflamed-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        355,
+        "geresh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        356,
+        "gershayim-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        357,
+        "maqaf-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        358,
+        "zerosuperior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        359,
+        "onesuperior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        360,
+        "twosuperior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        361,
+        "threesuperior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        362,
+        "foursuperior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        363,
+        "fivesuperior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        364,
+        "sixsuperior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        365,
+        "sevensuperior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        366,
+        "eightsuperior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        367,
+        "ninesuperior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        368,
+        "zeroinferior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        369,
+        "oneinferior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        370,
+        "twoinferior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        371,
+        "threeinferior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        372,
+        "fourinferior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        373,
+        "fiveinferior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        374,
+        "sixinferior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        375,
+        "seveninferior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        376,
+        "eightinferior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        377,
+        "nineinferior"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        378,
+        "onehalf"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        379,
+        "uni2153"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        380,
+        "uni2154"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        381,
+        "onequarter"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        382,
+        "threequarters"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        383,
+        "uni2155"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        384,
+        "uni2156"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        385,
+        "uni2157"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        386,
+        "uni2158"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        387,
+        "uni2159"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        388,
+        "uni215A"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        389,
+        "uni2150"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        390,
+        "uni215B"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        391,
+        "uni215C"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        392,
+        "uni215D"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        393,
+        "uni215E"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        394,
+        "uni2151"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        395,
+        "checkmark"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        396,
+        "crossmark"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        397,
+        "arrowleft"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        398,
+        "arrowup"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        399,
+        "arrowdown"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        400,
+        "arrowright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        401,
+        "arrowupleft"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        402,
+        "arrowupright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        403,
+        "arrowdownleft"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        404,
+        "arrowdownright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        405,
+        "arrowupleftcorner"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        406,
+        "arrowdownleftcorner"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        407,
+        "arrowleftupcorner"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        408,
+        "arrowrightupcorner"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        409,
+        "arrowleftdowncorner"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        410,
+        "arrowrightdowncorner"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        411,
+        "arrowuprightcorner"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        412,
+        "arrowdownrightcorner"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        413,
+        "arrowleftarrowright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        414,
+        "arrowrightarrowleft"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        415,
+        "arrowleftright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        416,
+        "arrowupdown"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        417,
+        "arrowdowncounterclockhalf"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        418,
+        "arrowdownclockhalf"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        419,
+        "arrowhookleft"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        420,
+        "arrowhookright"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        421,
+        "arrowupleftcounterclock"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        422,
+        "arrowuprightclock"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        423,
+        "tilde"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        424,
+        "tilde.alt01"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        425,
+        "macron"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        426,
+        "dotaccent"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        427,
+        "dieresis"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        428,
+        "hungarumlaut"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        429,
+        "acute"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        430,
+        "grave"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        431,
+        "circumflex"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        432,
+        "caron"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        433,
+        "breve"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        434,
+        "ring"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        435,
+        "commaturnedtop"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        436,
+        "caronslovak"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        437,
+        "cedilla"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        438,
+        "ogonek"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        439,
+        "tildecomb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        440,
+        "macroncomb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        441,
+        "dotaccentcomb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        442,
+        "dieresiscomb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        443,
+        "hungarumlautcomb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        444,
+        "acutecomb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        445,
+        "gravecomb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        446,
+        "circumflexcomb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        447,
+        "caroncomb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        448,
+        "ringcomb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        449,
+        "caronslovakcomb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        450,
+        "cedillacomb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        451,
+        "ogonekcomb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        452,
+        "tilde.case"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        453,
+        "tilde.alt01.case"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        454,
+        "macron.case"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        455,
+        "dotaccent.case"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        456,
+        "dieresis.case"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        457,
+        "acute.case"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        458,
+        "grave.case"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        459,
+        "circumflex.case"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        460,
+        "caron.case"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        461,
+        "breve.case"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        462,
+        "ring.case"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        463,
+        "sheva-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        464,
+        "hatafsegol-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        465,
+        "hatafpatah-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        466,
+        "hatafqamats-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        467,
+        "hiriq-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        468,
+        "tsere-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        469,
+        "segol-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        470,
+        "patah-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        471,
+        "qamats-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        472,
+        "holam-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        473,
+        "holamhaser-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        474,
+        "qubuts-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        475,
+        "dagesh-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        476,
+        "rafe-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        477,
+        "shindot-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        478,
+        "sindot-hb"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        479,
+        "nbspace"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        480,
+        "fcclogo"
+      ]
+    },
+    {
+      "key": "Encoding",
+      "decompiled": [
+        481,
+        "celogo"
+      ]
+    },
+    {
+      "key": "MM Encoding Type",
+      "decompiled": 0
+    },
+    {
+      "key": "Block Names End",
+      "decompiled": ""
+    },
+    {
+      "key": "Block Font Info Start",
+      "decompiled": ""
+    },
+    {
+      "key": "font_name",
+      "decompiled": "IBMPlexSansHebrew-ExtLt"
+    },
+    {
+      "key": "Master Count",
+      "decompiled": 1
+    },
+    {
+      "key": "weight_vector",
+      "decompiled": [
+        1.0
+      ]
+    },
+    {
+      "key": "unique_id",
+      "decompiled": -1
+    },
+    {
+      "key": "version",
+      "decompiled": "1.3"
+    },
+    {
+      "key": "notice",
+      "decompiled": ""
+    },
+    {
+      "key": "full_name",
+      "decompiled": "IBM Plex Sans Hebrew ExtLt"
+    },
+    {
+      "key": "family_name",
+      "decompiled": "IBM Plex Sans Hebrew"
+    },
+    {
+      "key": "pref_family_name",
+      "decompiled": "IBM Plex Sans Hebrew"
+    },
+    {
+      "key": "menu_name",
+      "decompiled": "IBM Plex Sans Hebrew ExtLt"
+    },
+    {
+      "key": "apple_name",
+      "decompiled": "IBMPlexSansHebrew ExtraLight"
+    },
+    {
+      "key": "weight",
+      "decompiled": "ExtraLight"
+    },
+    {
+      "key": "width",
+      "decompiled": "Medium (normal)"
+    },
+    {
+      "key": "License",
+      "decompiled": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    },
+    {
+      "key": "License URL",
+      "decompiled": "http://scripts.sil.org/OFL"
+    },
+    {
+      "key": "copyright",
+      "decompiled": "Copyright 2019 IBM Corp. All rights reserved."
+    },
+    {
+      "key": "trademark",
+      "decompiled": "IBM Plexâ„¢ is a trademark of IBM Corp, registered in many jurisdictions worldwide."
+    },
+    {
+      "key": "designer",
+      "decompiled": "Mike Abbink, Paul van der Laan, Pieter van Rosmalen, Yanek Iontef"
+    },
+    {
+      "key": "designer_url",
+      "decompiled": "http://www.ibm.com"
+    },
+    {
+      "key": "vendor_url",
+      "decompiled": "http://www.boldmonday.com"
+    },
+    {
+      "key": "source",
+      "decompiled": "Bold Monday"
+    },
+    {
+      "key": "is_fixed_pitch",
+      "decompiled": 0
+    },
+    {
+      "key": "weight_code",
+      "decompiled": 200
+    },
+    {
+      "key": "italic_angle",
+      "decompiled": 0.0
+    },
+    {
+      "key": "slant_angle",
+      "decompiled": -0.0
+    },
+    {
+      "key": "underline_position",
+      "decompiled": -176
+    },
+    {
+      "key": "underline_thickness",
+      "decompiled": 26
+    },
+    {
+      "key": "ms_charset",
+      "decompiled": 0
+    },
+    {
+      "key": "panose",
+      "decompiled": [
+        2,
+        11,
+        3,
+        3,
+        5,
+        2,
+        3,
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "key": "tt_version",
+      "decompiled": "Version 1.003 2020"
+    },
+    {
+      "key": "tt_u_id",
+      "decompiled": "IBM;IBMPlexSansHebrew-ExtraLight;1.003;2020"
+    },
+    {
+      "key": "style_name",
+      "decompiled": "ExtraLight"
+    },
+    {
+      "key": "pref_style_name",
+      "decompiled": "ExtraLight"
+    },
+    {
+      "key": "mac_compatible",
+      "decompiled": ""
+    },
+    {
+      "key": "Sample Text",
+      "decompiled": ""
+    },
+    {
+      "key": "vendor",
+      "decompiled": "IBM"
+    },
+    {
+      "key": "xuid",
+      "decompiled": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "xuid_num",
+      "decompiled": 0
+    },
+    {
+      "key": "year",
+      "decompiled": 2020
+    },
+    {
+      "key": "version_major",
+      "decompiled": 1
+    },
+    {
+      "key": "version_minor",
+      "decompiled": 3
+    },
+    {
+      "key": "upm",
+      "decompiled": 1000
+    },
+    {
+      "key": "fond_id",
+      "decompiled": 1970
+    },
+    {
+      "key": "PostScript Hinting Options",
+      "decompiled": {
+        "other": []
+      }
+    },
+    {
+      "key": "Collection",
+      "decompiled": []
+    },
+    {
+      "key": "blue_values_num",
+      "decompiled": 12
+    },
+    {
+      "key": "other_blues_num",
+      "decompiled": 4
+    },
+    {
+      "key": "family_blues_num",
+      "decompiled": 12
+    },
+    {
+      "key": "family_other_blues_num",
+      "decompiled": 4
+    },
+    {
+      "key": "stem_snap_h_num",
+      "decompiled": 2
+    },
+    {
+      "key": "stem_snap_v_num",
+      "decompiled": 3
+    },
+    {
+      "key": "font_style",
+      "decompiled": 64
+    },
+    {
+      "key": "ms_id",
+      "decompiled": 2
+    },
+    {
+      "key": "pcl_chars_set",
+      "decompiled": " 9U"
+    },
+    {
+      "key": "gasp",
+      "decompiled": [
+        {
+          "maxPpem": 8,
+          "flags": 2
+        },
+        {
+          "maxPpem": 16,
+          "flags": 1
+        },
+        {
+          "maxPpem": 65535,
+          "flags": 3
+        }
+      ]
+    },
+    {
+      "key": "ttinfo",
+      "decompiled": {
+        "max_zones": 0,
+        "max_twilight_points": 0,
+        "max_storage": 0,
+        "max_function_defs": 0,
+        "max_instruction_defs": 0,
+        "max_stack_elements": 0,
+        "head_flags": {
+          "flags": [],
+          "options": []
+        },
+        "head_units_per_em": 1000,
+        "head_mac_style": 0,
+        "head_lowest_rec_ppem": 9,
+        "head_creation": 1362037784,
+        "head_creation2": 0,
+        "head_font_direction_hint": 2,
+        "os2_us_weight_class": 171,
+        "os2_us_width_class": 5,
+        "os2_fs_type": 0,
+        "os2_y_subscript_x_size": 700,
+        "os2_y_subscript_y_size": 650,
+        "os2_y_subscript_x_offset": 0,
+        "os2_y_subscript_y_offset": 140,
+        "os2_y_superscript_x_size": 700,
+        "os2_y_superscript_y_size": 650,
+        "os2_y_superscript_x_offset": 0,
+        "os2_y_superscript_y_offset": 477,
+        "os2_y_strikeout_size": 26,
+        "os2_y_strikeout_position": 302,
+        "os2_s_family_class": 2049,
+        "OpenTypeOS2Panose": [
+          2,
+          11,
+          5,
+          9,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "os2_s_typo_ascender": 780,
+        "os2_s_typo_descender": -220,
+        "os2_s_typo_line_gap": 300,
+        "os2_fs_selection": 0,
+        "os2_us_win_ascent": 1025,
+        "os2_us_win_descent": 275,
+        "Average Width": 0,
+        "Hdmx PPMs 1": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          19,
+          21,
+          24,
+          27,
+          29,
+          32,
+          33,
+          37,
+          42,
+          46,
+          50,
+          54,
+          58,
+          67,
+          75
+        ],
+        "Hdmx PPMs 2": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          19,
+          21,
+          24,
+          27,
+          29,
+          32,
+          33,
+          37,
+          42,
+          46,
+          50,
+          54,
+          58,
+          67,
+          75
+        ],
+        "Codepages": {
+          "os2_ul_code_page_range1": 536870945,
+          "os2_ul_code_page_range2": 0
+        }
+      }
+    },
+    {
+      "key": "vdmx",
+      "decompiled": []
+    },
+    {
+      "key": "hhea_line_gap",
+      "decompiled": 0
+    },
+    {
+      "key": "hhea_ascender",
+      "decompiled": 1025
+    },
+    {
+      "key": "hhea_descender",
+      "decompiled": -275
+    },
+    {
+      "key": "TrueType Stem PPEMs",
+      "decompiled": {
+        "ttStemsV": [
+          {
+            "stem": 0,
+            "round": {
+              "2": 47,
+              "3": 80,
+              "4": 117,
+              "5": 150
+            }
+          },
+          {
+            "stem": 1,
+            "round": {
+              "2": 19,
+              "3": 23,
+              "4": 30,
+              "5": 36
+            }
+          },
+          {
+            "stem": 2,
+            "round": {
+              "2": 47,
+              "3": 84,
+              "4": 117,
+              "5": 150
+            }
+          },
+          {
+            "stem": 3,
+            "round": {
+              "2": 47,
+              "3": 97,
+              "4": 135,
+              "5": 174
+            }
+          },
+          {
+            "stem": 4,
+            "round": {
+              "2": 47,
+              "3": 80,
+              "4": 113,
+              "5": 146
+            }
+          },
+          {
+            "stem": 5,
+            "round": {
+              "2": 47,
+              "3": 90,
+              "4": 125,
+              "5": 161
+            }
+          },
+          {
+            "stem": 6,
+            "round": {
+              "2": 14,
+              "3": 24,
+              "4": 33,
+              "5": 42
+            }
+          },
+          {
+            "stem": 7,
+            "round": {
+              "2": 20,
+              "3": 34,
+              "4": 47,
+              "5": 60
+            }
+          },
+          {
+            "stem": 8,
+            "round": {
+              "2": 63,
+              "3": 105,
+              "4": 146,
+              "5": 188
+            }
+          },
+          {
+            "stem": 9,
+            "round": {
+              "2": 72,
+              "3": 120,
+              "4": 167,
+              "5": 215
+            }
+          },
+          {
+            "stem": 10,
+            "round": {
+              "2": 10,
+              "3": 17,
+              "4": 24,
+              "5": 32
+            }
+          },
+          {
+            "stem": 11,
+            "round": {
+              "2": 60,
+              "3": 100,
+              "4": 140,
+              "5": 180
+            }
+          },
+          {
+            "stem": 12,
+            "round": {
+              "2": 47,
+              "3": 80,
+              "4": 107,
+              "5": 137
+            }
+          }
+        ],
+        "ttStemsH": [
+          {
+            "stem": 0,
+            "round": {
+              "2": 47,
+              "3": 79,
+              "4": 110,
+              "5": 141
+            }
+          },
+          {
+            "stem": 1,
+            "round": {
+              "2": 43,
+              "3": 72,
+              "4": 100,
+              "5": 129
+            }
+          },
+          {
+            "stem": 2,
+            "round": {
+              "2": 40,
+              "3": 66,
+              "4": 93,
+              "5": 119
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "TrueType Stems",
+      "decompiled": {
+        "ttStemsV": [
+          {
+            "value": 30,
+            "name": "currency_stroke",
+            "round": {
+              "6": 184
+            }
+          },
+          {
+            "value": 128,
+            "name": "currency_white",
+            "round": {
+              "6": 40
+            }
+          },
+          {
+            "value": 30,
+            "name": "diacritics_thick",
+            "round": {
+              "6": 184
+            }
+          },
+          {
+            "value": 26,
+            "name": "diacritics_thin",
+            "round": {
+              "6": 212
+            }
+          },
+          {
+            "value": 31,
+            "name": "lc-hstem",
+            "round": {
+              "6": 178
+            }
+          },
+          {
+            "value": 28,
+            "name": "lc-mid",
+            "round": {
+              "6": 197
+            }
+          },
+          {
+            "value": 108,
+            "name": "logo_ce",
+            "round": {
+              "6": 51
+            }
+          },
+          {
+            "value": 75,
+            "name": "logo_fcc",
+            "round": {
+              "6": 74
+            }
+          },
+          {
+            "value": 24,
+            "name": "ord_mid",
+            "round": {
+              "6": 230
+            }
+          },
+          {
+            "value": 21,
+            "name": "registered",
+            "round": {
+              "6": 262
+            }
+          },
+          {
+            "value": 140,
+            "name": "spur",
+            "round": {
+              "6": 40
+            }
+          },
+          {
+            "value": 25,
+            "name": "sup-hstem",
+            "round": {
+              "6": 220
+            }
+          },
+          {
+            "value": 33,
+            "name": "uc-hstem",
+            "round": {
+              "6": 167
+            }
+          }
+        ],
+        "ttStemsH": [
+          {
+            "value": 32,
+            "name": "X: 32",
+            "round": {
+              "6": 172
+            }
+          },
+          {
+            "value": 35,
+            "name": "X: 35",
+            "round": {
+              "6": 158
+            }
+          },
+          {
+            "value": 38,
+            "name": "X: 38",
+            "round": {
+              "6": 145
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "TrueType Stem PPEMs 1",
+      "decompiled": {
+        "ttStemsV": [
+          {
+            "stem": 0,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 1,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 2,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 3,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 4,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 5,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 6,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 7,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 8,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 9,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 10,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 11,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 12,
+            "round": {
+              "1": 0
+            }
+          }
+        ],
+        "ttStemsH": [
+          {
+            "stem": 0,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 1,
+            "round": {
+              "1": 0
+            }
+          },
+          {
+            "stem": 2,
+            "round": {
+              "1": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "TrueType Zones",
+      "decompiled": {
+        "ttZonesT": [
+          {
+            "position": 369,
+            "value": 6,
+            "name": "inf_top"
+          },
+          {
+            "position": 508,
+            "value": 12,
+            "name": "xheight"
+          },
+          {
+            "position": 698,
+            "value": 12,
+            "name": "capheight"
+          },
+          {
+            "position": 740,
+            "value": 12,
+            "name": "ascender"
+          },
+          {
+            "position": 598,
+            "value": 12,
+            "name": "hebr\u001f_height"
+          }
+        ],
+        "ttZonesB": [
+          {
+            "position": 0,
+            "value": 12,
+            "name": "baseline"
+          },
+          {
+            "position": -200,
+            "value": 12,
+            "name": "descender"
+          },
+          {
+            "position": 329,
+            "value": 6,
+            "name": "sup_bot"
+          }
+        ]
+      }
+    },
+    {
+      "key": "unicoderanges",
+      "decompiled": [
+        0,
+        1,
+        5,
+        6,
+        11,
+        31,
+        32,
+        33,
+        35,
+        36,
+        37,
+        60,
+        62
+      ]
+    },
+    {
+      "key": "stemsnaplimit",
+      "decompiled": 68
+    },
+    {
+      "key": "zoneppm",
+      "decompiled": 42
+    },
+    {
+      "key": "codeppm",
+      "decompiled": 0
+    },
+    {
+      "key": "dropoutppm",
+      "decompiled": 255
+    },
+    {
+      "key": "Measurement Line",
+      "decompiled": 0
+    },
+    {
+      "key": "TrueType Zone Deltas",
+      "decompiled": {
+        "4": {
+          "32": 8,
+          "34": 8,
+          "36": 8,
+          "38": 8,
+          "40": 8
+        },
+        "3": {
+          "15": -8,
+          "26": -8,
+          "31": 8,
+          "41": 8,
+          "44": 8,
+          "47": 8,
+          "50": 8
+        },
+        "2": {
+          "32": -8,
+          "29": -8,
+          "28": 8,
+          "35": -8,
+          "42": -8,
+          "45": -8
+        },
+        "7": {
+          "39": 8,
+          "34": 8,
+          "29": 8,
+          "24": 8,
+          "19": 8
+        }
+      }
+    },
+    {
+      "key": "fontnames",
+      "decompiled": [
+        [
+          0,
+          1,
+          0,
+          0,
+          "Copyright 2019 IBM Corp. All rights reserved."
+        ],
+        [
+          0,
+          3,
+          1,
+          1033,
+          "Copyright 2019 IBM Corp. All rights reserved."
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          "IBM Plex Sans Hebrew ExtLt"
+        ],
+        [
+          1,
+          3,
+          1,
+          1033,
+          "IBM Plex Sans Hebrew ExtLt"
+        ],
+        [
+          2,
+          1,
+          0,
+          0,
+          "Regular"
+        ],
+        [
+          2,
+          3,
+          1,
+          1033,
+          "Regular"
+        ],
+        [
+          3,
+          1,
+          0,
+          0,
+          "IBM;IBMPlexSansHebrew-ExtraLight;1.003;2020"
+        ],
+        [
+          3,
+          3,
+          1,
+          1033,
+          "IBM;IBMPlexSansHebrew-ExtraLight;1.003;2020"
+        ],
+        [
+          4,
+          1,
+          0,
+          0,
+          "IBM Plex Sans Hebrew ExtLt"
+        ],
+        [
+          4,
+          3,
+          1,
+          1033,
+          "IBM Plex Sans Hebrew ExtLt"
+        ],
+        [
+          5,
+          1,
+          0,
+          0,
+          "Version 1.003 2020"
+        ],
+        [
+          5,
+          3,
+          1,
+          1033,
+          "Version 1.003 2020"
+        ],
+        [
+          6,
+          1,
+          0,
+          0,
+          "IBMPlexSansHebrew-ExtLt"
+        ],
+        [
+          6,
+          3,
+          1,
+          1033,
+          "IBMPlexSansHebrew-ExtLt"
+        ],
+        [
+          7,
+          1,
+          0,
+          0,
+          "IBM Plex™ is a trademark of IBM Corp, registered in many jurisdictions worldwide."
+        ],
+        [
+          7,
+          3,
+          1,
+          1033,
+          "IBM Plex™ is a trademark of IBM Corp, registered in many jurisdictions worldwide."
+        ],
+        [
+          8,
+          1,
+          0,
+          0,
+          "Bold Monday"
+        ],
+        [
+          8,
+          3,
+          1,
+          1033,
+          "Bold Monday"
+        ],
+        [
+          9,
+          1,
+          0,
+          0,
+          "Mike Abbink, Paul van der Laan, Pieter van Rosmalen, Yanek Iontef"
+        ],
+        [
+          9,
+          3,
+          1,
+          1033,
+          "Mike Abbink, Paul van der Laan, Pieter van Rosmalen, Yanek Iontef"
+        ],
+        [
+          11,
+          1,
+          0,
+          0,
+          "http://www.boldmonday.com"
+        ],
+        [
+          11,
+          3,
+          1,
+          1033,
+          "http://www.boldmonday.com"
+        ],
+        [
+          12,
+          1,
+          0,
+          0,
+          "http://www.ibm.com"
+        ],
+        [
+          12,
+          3,
+          1,
+          1033,
+          "http://www.ibm.com"
+        ],
+        [
+          13,
+          1,
+          0,
+          0,
+          "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+        ],
+        [
+          13,
+          3,
+          1,
+          1033,
+          "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+        ],
+        [
+          14,
+          1,
+          0,
+          0,
+          "http://scripts.sil.org/OFL"
+        ],
+        [
+          14,
+          3,
+          1,
+          1033,
+          "http://scripts.sil.org/OFL"
+        ],
+        [
+          16,
+          1,
+          0,
+          0,
+          "IBM Plex Sans Hebrew"
+        ],
+        [
+          16,
+          3,
+          1,
+          1033,
+          "IBM Plex Sans Hebrew"
+        ],
+        [
+          17,
+          1,
+          0,
+          0,
+          "ExtraLight"
+        ],
+        [
+          17,
+          3,
+          1,
+          1033,
+          "ExtraLight"
+        ],
+        [
+          19,
+          1,
+          0,
+          0,
+          "How razorback-jumping frogs can level six piqued gymnasts!"
+        ],
+        [
+          19,
+          3,
+          1,
+          1033,
+          "How razorback-jumping frogs can level six piqued gymnasts!"
+        ]
+      ]
+    },
+    {
+      "key": "Custom CMAPs",
+      "decompiled": []
+    },
+    {
+      "key": "PCLT Table",
+      "decompiled": {
+        "font_number": 0,
+        "pitch": 0,
+        "x_height": 0,
+        "style": 0,
+        "type_family": 0,
+        "cap_height": 0,
+        "symbol_set": 0,
+        "typeface": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "character_complement": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "file_name": "\u0000\u0000\u0000\u0000\u0000\u0000",
+        "stroke_weight": 0,
+        "width_type": 0,
+        "serif_style": 0
+      }
+    },
+    {
+      "key": "Export PCLT Table",
+      "decompiled": 0
+    },
+    {
+      "key": "note",
+      "decompiled": "How razorback-jumping frogs can level six piqued gymnasts!"
+    },
+    {
+      "key": "Font Flags",
+      "decompiled": "00000000"
+    },
+    {
+      "key": "customdata",
+      "decompiled": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n\t<key>com.type-invaders.fontnaming.macfam</key>\n\t<string>IBM Plex Sans Hebrew</string>\n\t<key>com.type-invaders.fontnaming.macstyle</key>\n\t<string>ExtraLight</string>\n\t<key>com.type-invaders.fontnaming.winfam</key>\n\t<string>IBM Plex Sans Hebrew ExtLt</string>\n\t<key>com.type-invaders.fontnaming.winstyle</key>\n\t<string>Regular</string>\n</dict>\n</plist>\n"
+    },
+    {
+      "key": "Block Font Info End",
+      "decompiled": ""
+    },
+    {
+      "key": "Block MM Font Info Start",
+      "decompiled": ""
+    },
+    {
+      "key": "Axis Count",
+      "decompiled": 0
+    },
+    {
+      "key": "Anisotropic Interpolation Mappings",
+      "decompiled": []
+    },
+    {
+      "key": "Axis Mappings Count",
+      "decompiled": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "Axis Mappings",
+      "decompiled": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "key": "Master Name",
+      "decompiled": "Untitled"
+    },
+    {
+      "key": "Master Location",
+      "decompiled": [
+        1,
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "key": "PostScript Info",
+      "decompiled": {
+        "font_matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "force_bold": 0,
+        "blue_values": [
+          -12,
+          0,
+          369,
+          375,
+          508,
+          520,
+          598,
+          610,
+          698,
+          710,
+          740,
+          752,
+          0,
+          0
+        ],
+        "other_blues": [
+          -212,
+          -200,
+          323,
+          329,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "family_blues": [
+          -12,
+          0,
+          369,
+          375,
+          516,
+          528,
+          606,
+          618,
+          698,
+          710,
+          740,
+          752,
+          0,
+          0
+        ],
+        "family_other_blues": [
+          -212,
+          -200,
+          323,
+          329,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "blue_scale": 0.0625,
+        "blue_shift": 7,
+        "blue_fuzz": 0,
+        "std_hw": 31,
+        "std_vw": 32,
+        "stem_snap_h": [
+          31,
+          25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stem_snap_v": [
+          32,
+          35,
+          38,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bounding_box": {
+          "xMin": -170,
+          "yMin": -229,
+          "xMax": 1180,
+          "yMax": 957
+        },
+        "adv_width_min": 0,
+        "adv_width_max": 0,
+        "adv_width_avg": 0,
+        "ascender": 780,
+        "descender": -220,
+        "x_height": 508,
+        "cap_height": 698
+      }
+    },
+    {
+      "key": "Block MM Font Info End",
+      "decompiled": ""
+    },
+    {
+      "key": "Global Guides",
+      "decompiled": {
+        "h": [],
+        "v": [
+          [
+            {
+              "pos": 169,
+              "angle": 0.0
+            }
+          ],
+          [
+            {
+              "pos": 371,
+              "angle": 0.0
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "key": "Global Guide Properties",
+      "decompiled": {
+        "h": [],
+        "v": []
+      }
+    },
+    {
+      "key": "default_character",
+      "decompiled": ".notdef"
+    },
+    {
+      "key": "Glyph",
+      "decompiled": {
+        "name": "a",
+        "num_masters": 1,
+        "nodes": [
+          {
+            "type": "move",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  431,
+                  0
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  390,
+                  0
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  388,
+                  42
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  388,
+                  79
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  384,
+                  79
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  366,
+                  40
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  288,
+                  -12
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  222,
+                  -12
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  143,
+                  -12
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  57,
+                  64
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  57,
+                  133
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  57,
+                  166
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  77,
+                  220
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  124,
+                  259
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  199,
+                  280
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  254,
+                  280
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  387,
+                  280
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  387,
+                  348
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  387,
+                  420
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  317,
+                  489
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  248,
+                  489
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  141,
+                  489
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  100,
+                  399
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  75,
+                  416
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  96,
+                  463
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  178,
+                  520
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  249,
+                  520
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  334,
+                  520
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  422,
+                  433
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  422,
+                  352
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  422,
+                  31
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  500,
+                  31
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  500,
+                  0
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "move",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  225,
+                  19
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  258,
+                  19
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  317,
+                  36
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  361,
+                  68
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  387,
+                  116
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  387,
+                  148
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  387,
+                  252
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  254,
+                  252
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  170,
+                  252
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  94,
+                  195
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  94,
+                  148
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "line",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  94,
+                  120
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  94,
+                  70
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "qcurve",
+            "flags": 0,
+            "points": [
+              [
+                [
+                  167,
+                  19
+                ]
+              ]
+            ]
+          }
+        ],
+        "metrics": [
+          [
+            522,
+            0
+          ]
+        ],
+        "hints": {
+          "v": [
+            [
+              {
+                "pos": 387,
+                "width": 35
+              }
+            ],
+            [
+              {
+                "pos": 57,
+                "width": 37
+              }
+            ]
+          ],
+          "h": [
+            [
+              {
+                "pos": 252,
+                "width": 28
+              }
+            ],
+            [
+              {
+                "pos": -12,
+                "width": 31
+              }
+            ],
+            [
+              {
+                "pos": 0,
+                "width": 31
+              }
+            ],
+            [
+              {
+                "pos": 489,
+                "width": 31
+              }
+            ]
+          ],
+          "hintmasks": [
+            [
+              "h",
+              2
+            ],
+            [
+              "h",
+              0
+            ],
+            [
+              "h",
+              3
+            ],
+            [
+              "v",
+              0
+            ],
+            [
+              "v",
+              1
+            ],
+            [
+              "r",
+              6
+            ],
+            [
+              "h",
+              1
+            ],
+            [
+              "v",
+              1
+            ],
+            [
+              "h",
+              0
+            ],
+            [
+              "v",
+              0
+            ],
+            [
+              "h",
+              3
+            ],
+            [
+              "r",
+              30
+            ],
+            [
+              "h",
+              2
+            ],
+            [
+              "v",
+              0
+            ],
+            [
+              "h",
+              0
+            ],
+            [
+              "h",
+              3
+            ],
+            [
+              "v",
+              1
+            ],
+            [
+              "r",
+              33
+            ],
+            [
+              "h",
+              1
+            ],
+            [
+              "v",
+              0
+            ],
+            [
+              "h",
+              0
+            ],
+            [
+              "v",
+              1
+            ],
+            [
+              "h",
+              3
+            ]
+          ]
+        },
+        "tth": [
+          {
+            "cmd": "InterpolateH",
+            "params": {
+              "pti": 40,
+              "pt1": 47,
+              "pt2": 48,
+              "align": -1
+            }
+          },
+          {
+            "cmd": "SingleLinkH",
+            "params": {
+              "pt1": 40,
+              "pt2": 15,
+              "stem": -1,
+              "align": -1
+            }
+          },
+          {
+            "cmd": "AlignTop",
+            "params": {
+              "pt": 26,
+              "zone": 1
+            }
+          },
+          {
+            "cmd": "AlignBottom",
+            "params": {
+              "pt": 7,
+              "zone": 0
+            }
+          },
+          {
+            "cmd": "AlignBottom",
+            "params": {
+              "pt": 0,
+              "zone": 0
+            }
+          },
+          {
+            "cmd": "SingleLinkV",
+            "params": {
+              "pt1": 7,
+              "pt2": 33,
+              "stem": 4,
+              "align": -1
+            }
+          },
+          {
+            "cmd": "InterpolateV",
+            "params": {
+              "pti": 4,
+              "pt1": 33,
+              "pt2": 26,
+              "align": -1
+            }
+          },
+          {
+            "cmd": "SingleLinkV",
+            "params": {
+              "pt1": 26,
+              "pt2": 20,
+              "stem": 4,
+              "align": -1
+            }
+          },
+          {
+            "cmd": "InterpolateV",
+            "params": {
+              "pti": 15,
+              "pt1": 20,
+              "pt2": 33,
+              "align": 0
+            }
+          },
+          {
+            "cmd": "MDeltaV",
+            "params": {
+              "pt": 15,
+              "shift": 8,
+              "ppm1": 12,
+              "ppm2": 12
+            }
+          },
+          {
+            "cmd": "MDeltaV",
+            "params": {
+              "pt": 15,
+              "shift": 8,
+              "ppm1": 19,
+              "ppm2": 20
+            }
+          },
+          {
+            "cmd": "MDeltaV",
+            "params": {
+              "pt": 15,
+              "shift": 8,
+              "ppm1": 15,
+              "ppm2": 16
+            }
+          },
+          {
+            "cmd": "MDeltaV",
+            "params": {
+              "pt": 15,
+              "shift": 7,
+              "ppm1": 11,
+              "ppm2": 11
+            }
+          },
+          {
+            "cmd": "InterpolateV",
+            "params": {
+              "pti": 22,
+              "pt1": 20,
+              "pt2": 15,
+              "align": -1
+            }
+          },
+          {
+            "cmd": "SingleLinkV",
+            "params": {
+              "pt1": 0,
+              "pt2": 30,
+              "stem": 4,
+              "align": -1
+            }
+          },
+          {
+            "cmd": "SingleLinkV",
+            "params": {
+              "pt1": 15,
+              "pt2": 40,
+              "stem": 5,
+              "align": -1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "Links",
+      "decompiled": {
+        "x": [],
+        "y": []
+      }
+    },
+    {
+      "key": "VSB",
+      "decompiled": [
+        0
+      ]
+    },
+    {
+      "key": "Glyph Hinting Options",
+      "decompiled": {
+        "hint_replacement": 1,
+        "horizontal_3_stem": 1,
+        "vertical_3_stem": 1,
+        "other": [
+          2
+        ]
+      }
+    },
+    {
+      "key": "mask",
+      "decompiled": {
+        "weight_vector": [
+          1.0
+        ],
+        "num_masters": 1,
+        "nodes": []
+      }
+    },
+    {
+      "key": "mask.metrics",
+      "decompiled": [
+        522,
+        0
+      ]
+    },
+    {
+      "key": "Glyph Origin",
+      "decompiled": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "key": "unicodes",
+      "decompiled": [
+        97
+      ]
+    },
+    {
+      "key": "mark",
+      "decompiled": 45
+    },
+    {
+      "key": "Glyph GDEF Data",
+      "decompiled": {
+        "anchors": [
+          {
+            "x": 229,
+            "y": 0,
+            "name": "bottom"
+          },
+          {
+            "x": 500,
+            "y": 0,
+            "name": "bottomright"
+          },
+          {
+            "x": 250,
+            "y": 540,
+            "name": "top"
+          }
+        ]
+      }
+    },
+    {
+      "key": "Glyph Anchors Supplemental",
+      "decompiled": [
+        {
+          "hue": 1,
+          "data": 0
+        },
+        {
+          "hue": 1,
+          "data": 0
+        },
+        {
+          "hue": 1,
+          "data": 0
+        }
+      ]
+    },
+    {
+      "key": "Font Options",
+      "decompiled": {
+        "fit_ascender": 1000,
+        "fit_descender": -400,
+        "auto_metrics_left": 30,
+        "auto_metrics_right": 30,
+        "auto_metrics_close": 10,
+        "auto_hinting_min_h_len": 60,
+        "auto_hinting_min_v_len": 60,
+        "auto_hinting_min_h_width": 20,
+        "auto_hinting_min_v_width": 20,
+        "auto_hinting_max_h_width": 250,
+        "auto_hinting_max_v_width": 250,
+        "auto_hinting_h_ratio": 2.0,
+        "auto_hinting_v_ratio": 2.0,
+        "duplicate_place_x": 0,
+        "duplicate_place_y": 0,
+        "paste_place_x": 0,
+        "paste_place_y": 0,
+        "opentype_name_records": 0,
+        "codepage_for_cmap_1_0": 0,
+        "dont_ignore_unicode_indexes": 1,
+        "head_bbox_savings": 64,
+        "autohinting_options": {
+          "single_link_attachment_precision": 0,
+          "generate_triple_hints": 1,
+          "generate_delta_instructions": 1,
+          "direct_links_to_center_of_the_glyph_where_possible": 0,
+          "interpolate_positions_of_cusp_points": 1,
+          "interpolate_positions_of_double_links": 1,
+          "add_link_to_rsb": 1
+        },
+        "export_hinted_truetype_font": 1,
+        "autohint_unhinted_glyphs": 1,
+        "keep_existing_truetype_instructions": 0,
+        "export_visual_truetype_hints": 1,
+        "apply_bbox_savings": 1,
+        "auto_win_asc_desc": 1,
+        "add_characters": 1,
+        "export_embedded_bitmaps": 1,
+        "copy_hdmx_data_from_base_to_composite_glyph": 0,
+        "dont_automatically_reorder_glyphs": 1,
+        "subrize": 1,
+        "decompose": 1,
+        "export_ot": 1,
+        "export_volt": 0,
+        "write_kern_feature": 1,
+        "ot_write_gdef": 1,
+        "t1_terminal": 0,
+        "t1_pfm": 1,
+        "t1_afm": 1,
+        "t1_fs_type": 0,
+        "t1_autohint": 1,
+        "t1_unicode": 1,
+        "optimize_align": 2,
+        "optimize_reduce": 2,
+        "t1_encoding": 2,
+        "t1_use_os2": 0,
+        "t1_sort": 1,
+        "export_kern_table": 1,
+        "expand_kern_flags": {
+          "limit_action": 0,
+          "limit_codepage": 1,
+          "limit_cmap_10": 1,
+          "limit_font_window": 0,
+          "limit_count": 1,
+          "limit_keep": 1,
+          "apply_to_assistance": 1
+        },
+        "expand_kern_count": 2048,
+        "expand_kern_codepage": 0
+      }
+    },
+    {
+      "key": "Export Options",
+      "decompiled": []
+    },
+    {
+      "key": "Mapping Mode",
+      "decompiled": {
+        "mapping_mode": "names_or_index",
+        "m2": 152,
+        "m3": 54,
+        "mapping_id": 0
+      }
+    },
+    {
+      "key": "Block Font End",
+      "decompiled": ""
+    },
+    {
+      "key": "Block File Data End",
+      "decompiled": ""
+    }
+  ]
+}
