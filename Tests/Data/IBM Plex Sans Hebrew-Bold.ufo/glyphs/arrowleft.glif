@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowleft" format="2">
+	<unicode hex="2190"/>
+	<advance width="900"/>
+	<outline>
+		<contour>
+			<point name="hr00" x="334" y="588" type="line"/>
+			<point x="414" y="508" type="line"/>
+			<point x="354" y="448" type="line"/>
+			<point x="310" y="410" type="line"/>
+			<point x="311" y="406" type="line"/>
+			<point name="av01" x="391" y="410" type="line"/>
+			<point x="805" y="410" type="line"/>
+			<point x="805" y="288" type="line"/>
+			<point name="sv01" x="391" y="288" type="line"/>
+			<point x="311" y="292" type="line"/>
+			<point x="310" y="288" type="line"/>
+			<point x="354" y="250" type="line"/>
+			<point name="ih01" x="414" y="190" type="line"/>
+			<point x="334" y="110" type="line"/>
+			<point x="95" y="349" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="0" y="349" angle="0"/>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hr00</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 288 122</string>
+							<string>vstem 95 710</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv01" stem="lc-hstem"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>com.fontlab.v5.userData</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+	&lt;key&gt;com.type-invaders.name.final&lt;/key&gt;
+	&lt;string&gt;uni2190&lt;/string&gt;
+	&lt;key&gt;com.type-invaders.name.production&lt;/key&gt;
+	&lt;string&gt;arrowleft&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

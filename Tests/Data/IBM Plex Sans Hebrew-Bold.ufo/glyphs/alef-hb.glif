@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alef-hb" format="2">
+	<unicode hex="05D0"/>
+	<advance width="681"/>
+	<outline>
+		<contour>
+			<point x="70" y="218" type="line"/>
+			<point x="70" y="251"/>
+			<point x="83" y="299"/>
+			<point x="110" y="335"/>
+			<point x="150" y="362"/>
+			<point x="177" y="374" type="qcurve"/>
+			<point name="iv01" x="197" y="383" type="line"/>
+			<point name="at02" x="60" y="610" type="line"/>
+			<point x="238" y="610" type="line"/>
+			<point name="iv02" x="409" y="321" type="line"/>
+			<point x="462" y="346" type="line"/>
+			<point name="at01" x="462" y="610" type="line"/>
+			<point x="610" y="610" type="line"/>
+			<point x="610" y="392" type="line"/>
+			<point x="610" y="359"/>
+			<point x="597" y="311"/>
+			<point x="570" y="275"/>
+			<point x="530" y="248"/>
+			<point x="503" y="236" type="qcurve"/>
+			<point name="iv03" x="484" y="227" type="line"/>
+			<point x="621" y="0" type="line"/>
+			<point name="ab01" x="443" y="0" type="line"/>
+			<point name="ih01" x="272" y="289" type="line"/>
+			<point x="218" y="264" type="line"/>
+			<point x="218" y="0" type="line"/>
+			<point name="ab02" x="70" y="0" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom_hebr" x="331" y="0"/>
+	<anchor name="center_hebr" x="291" y="110"/>
+	<anchor name="topleft_hebr" x="25" y="525"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="hebr_height"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="hebr_height"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="baseline"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="baseline"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="at02" point2="ab02"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="at01" point2="ab01"/&gt;
+    &lt;ttc code="interpolatev" point="iv03" point1="at01" point2="ab01"/&gt;
+    &lt;ttc code="interpolatev" point="ih01" point1="at02" point2="ab02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>com.fontlab.v5.userData</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+	&lt;key&gt;com.type-invaders.name.final&lt;/key&gt;
+	&lt;string&gt;uni05D0&lt;/string&gt;
+	&lt;key&gt;com.type-invaders.name.production&lt;/key&gt;
+	&lt;string&gt;alef-hb&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

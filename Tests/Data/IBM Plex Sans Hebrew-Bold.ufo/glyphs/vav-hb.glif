@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vav-hb" format="2">
+	<unicode hex="05D5"/>
+	<advance width="296"/>
+	<outline>
+		<contour>
+			<point name="at01" x="73" y="610" type="line"/>
+			<point x="223" y="610" type="line"/>
+			<point x="223" y="0" type="line"/>
+			<point name="ih01" x="73" y="0" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom_hebr" x="148" y="0"/>
+	<anchor name="center_hebr" x="1" y="315"/>
+	<anchor name="topleft_hebr" x="7" y="525"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="hebr_height"/&gt;
+    &lt;ttc code="alignb" point="ih01" zone="baseline"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>com.fontlab.v5.userData</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+	&lt;key&gt;com.type-invaders.name.final&lt;/key&gt;
+	&lt;string&gt;uni05D5&lt;/string&gt;
+	&lt;key&gt;com.type-invaders.name.production&lt;/key&gt;
+	&lt;string&gt;vav-hb&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

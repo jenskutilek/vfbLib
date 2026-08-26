@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ograve" format="2">
+	<unicode hex="00F2"/>
+	<advance width="564"/>
+	<outline>
+		<component base="o"/>
+		<component base="grave" xOffset="-19"/>
+	</outline>
+	<anchor name="bottom" x="281" y="0"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

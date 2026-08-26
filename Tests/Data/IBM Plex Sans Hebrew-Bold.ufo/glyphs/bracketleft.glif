@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketleft" format="2">
+	<unicode hex="005B"/>
+	<advance width="334"/>
+	<outline>
+		<contour>
+			<point name="av02" x="77" y="-138" type="line"/>
+			<point name="av01" x="77" y="760" type="line"/>
+			<point x="284" y="760" type="line"/>
+			<point x="284" y="656" type="line"/>
+			<point name="sv01" x="214" y="656" type="line"/>
+			<point name="ih01" x="214" y="-34" type="line"/>
+			<point x="284" y="-34" type="line"/>
+			<point x="284" y="-138" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>av02</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -138 104</string>
+							<string>hstem 656 104</string>
+							<string>vstem 77 137</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv01" stem="lc-mid"/&gt;
+    &lt;ttc code="singlev" point1="av02" point2="ih01" stem="lc-mid"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

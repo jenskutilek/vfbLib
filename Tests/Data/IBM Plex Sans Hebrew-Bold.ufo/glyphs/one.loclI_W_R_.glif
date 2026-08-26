@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.loclIWR" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="sv01" x="104" y="119" type="line"/>
+			<point name="ih01" x="287" y="119" type="line"/>
+			<point x="287" y="502" type="line"/>
+			<point name="sv02" x="279" y="502" type="line"/>
+			<point x="141" y="334" type="line"/>
+			<point x="45" y="407" type="line"/>
+			<point name="at01" x="208" y="610" type="line"/>
+			<point x="437" y="610" type="line"/>
+			<point name="sv03" x="437" y="119" type="line"/>
+			<point x="581" y="119" type="line"/>
+			<point x="581" y="0" type="line"/>
+			<point name="ab01" x="104" y="0" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="hebr_height"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="baseline"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="lc-hstem"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv03"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

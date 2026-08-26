@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="trademark" format="2">
+	<unicode hex="2122"/>
+	<advance width="614"/>
+	<outline>
+		<contour>
+			<point name="sv02" x="91" y="409" type="line"/>
+			<point x="91" y="637" type="line"/>
+			<point name="sv01" x="24" y="637" type="line"/>
+			<point name="at01" x="24" y="698" type="line"/>
+			<point x="243" y="698" type="line"/>
+			<point name="sh01" x="243" y="637" type="line"/>
+			<point name="sv03" x="177" y="637" type="line"/>
+			<point x="177" y="409" type="line"/>
+		</contour>
+		<contour>
+			<point name="sv04" x="273" y="409" type="line"/>
+			<point name="at02" x="273" y="698" type="line"/>
+			<point x="363" y="698" type="line"/>
+			<point x="418" y="591" type="line"/>
+			<point x="424" y="591" type="line"/>
+			<point name="at03" x="478" y="698" type="line"/>
+			<point x="562" y="698" type="line"/>
+			<point x="562" y="409" type="line"/>
+			<point name="sv05" x="491" y="409" type="line"/>
+			<point x="491" y="504" type="line"/>
+			<point x="499" y="598" type="line"/>
+			<point name="sv06" x="495" y="598" type="line"/>
+			<point x="418" y="453" type="line"/>
+			<point x="340" y="598" type="line"/>
+			<point name="ih01" x="336" y="598" type="line"/>
+			<point x="345" y="504" type="line"/>
+			<point x="345" y="409" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>sv02</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 637 61</string>
+							<string>vstem 91 86</string>
+							<string>vstem 273 72</string>
+							<string>vstem 491 71</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="singleh" point1="ih01" point2="sh01"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="capheight"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="capheight"/&gt;
+    &lt;ttc code="alignt" point="at03" zone="capheight"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv01" stem="registered"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02" round="true"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="8" ppm1="34" ppm2="36"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="-8" ppm1="24" ppm2="24"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv03"/&gt;
+    &lt;ttc code="singlev" point1="sv02" point2="sv04"/&gt;
+    &lt;ttc code="singlev" point1="sv04" point2="sv05"/&gt;
+    &lt;ttc code="singlev" point1="at03" point2="sv06"/&gt;
+    &lt;ttc code="singlev" point1="at02" point2="ih01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

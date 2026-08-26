@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ydieresis" format="2">
+	<unicode hex="0178"/>
+	<advance width="649"/>
+	<outline>
+		<component base="Y"/>
+		<component base="dieresis.case" xOffset="25"/>
+	</outline>
+	<anchor name="bottom" x="323" y="0"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

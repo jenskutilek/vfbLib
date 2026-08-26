@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notequal" format="2">
+	<unicode hex="2260"/>
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="hr00" x="93" y="37" type="line"/>
+			<point x="143" y="130" type="line"/>
+			<point name="dv04" x="67" y="130" type="line"/>
+			<point name="dv03" x="67" y="246" type="line"/>
+			<point x="205" y="246" type="line"/>
+			<point x="266" y="364" type="line"/>
+			<point name="dv02" x="67" y="364" type="line"/>
+			<point name="dv01" x="67" y="480" type="line"/>
+			<point name="ih01" x="327" y="480" type="line"/>
+			<point x="378" y="575" type="line"/>
+			<point x="504" y="575" type="line"/>
+			<point name="sv01" x="453" y="480" type="line"/>
+			<point x="533" y="480" type="line"/>
+			<point x="533" y="364" type="line"/>
+			<point name="sv02" x="392" y="364" type="line"/>
+			<point name="sv03" x="330" y="246" type="line"/>
+			<point x="533" y="246" type="line"/>
+			<point x="533" y="130" type="line"/>
+			<point name="sv04" x="268" y="130" type="line"/>
+			<point x="218" y="37" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hr00</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 130 116</string>
+							<string>hstem 364 116</string>
+							<string>vstem 67 466</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="lc-hstem"/&gt;
+    &lt;ttc code="doublev" point1="dv03" point2="dv04" stem="lc-hstem"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv01"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="dv03" point2="sv03"/&gt;
+    &lt;ttc code="singlev" point1="dv04" point2="sv04"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

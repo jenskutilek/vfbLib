@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ruble" format="2">
+	<unicode hex="20BD"/>
+	<advance width="661"/>
+	<outline>
+		<contour>
+			<point name="sv02" x="256" y="103" type="line"/>
+			<point name="sh01" x="256" y="0" type="line"/>
+			<point name="ab01" x="104" y="0" type="line"/>
+			<point x="104" y="103" type="line"/>
+			<point name="sv01" x="16" y="103" type="line"/>
+			<point name="sv03" x="16" y="208" type="line"/>
+			<point x="104" y="208" type="line"/>
+			<point x="104" y="290" type="line"/>
+			<point name="sv04" x="16" y="290" type="line"/>
+			<point name="sv05" x="16" y="395" type="line"/>
+			<point x="104" y="395" type="line"/>
+			<point name="at01" x="104" y="698" type="line"/>
+			<point x="415" y="698" type="line"/>
+			<point x="513" y="698"/>
+			<point x="625" y="592"/>
+			<point x="625" y="494" type="qcurve"/>
+			<point x="625" y="396"/>
+			<point x="513" y="290"/>
+			<point name="sv06" x="415" y="290" type="qcurve"/>
+			<point x="256" y="290" type="line"/>
+			<point name="sv07" x="256" y="208" type="line"/>
+			<point x="470" y="208" type="line"/>
+			<point x="470" y="103" type="line"/>
+		</contour>
+		<contour>
+			<point x="256" y="395" type="line"/>
+			<point name="ih01" x="396" y="395" type="line"/>
+			<point x="431" y="395"/>
+			<point x="469" y="432"/>
+			<point x="469" y="466" type="qcurve"/>
+			<point x="469" y="510" type="line"/>
+			<point x="469" y="544"/>
+			<point x="430" y="575"/>
+			<point x="396" y="575" type="qcurve"/>
+			<point name="sv08" x="256" y="575" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>sv02</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 21 -21</string>
+							<string>hstem 103 105</string>
+							<string>hstem 290 105</string>
+							<string>hstem 575 123</string>
+							<string>vstem 104 152</string>
+							<string>vstem 469 156</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="singleh" point1="ih01" point2="sh01"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="capheight"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="baseline"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" round="true"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="8" ppm1="14" ppm2="14"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv03" stem="currency_stroke"/&gt;
+    &lt;ttc code="singlev" point1="sv03" point2="sv04" stem="currency_white"/&gt;
+    &lt;ttc code="singlev" point1="sv04" point2="sv05" stem="lc-hstem"/&gt;
+    &lt;ttc code="singlev" point1="sv04" point2="sv06"/&gt;
+    &lt;ttc code="singlev" point1="sv03" point2="sv07"/&gt;
+    &lt;ttc code="singlev" point1="sv05" point2="ih01"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv08" stem="lc-hstem"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>com.fontlab.v5.userData</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+	&lt;key&gt;com.type-invaders.name.final&lt;/key&gt;
+	&lt;string&gt;uni20BD&lt;/string&gt;
+	&lt;key&gt;com.type-invaders.name.production&lt;/key&gt;
+	&lt;string&gt;ruble&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowupleftcounterclock" format="2">
+	<unicode hex="21BA"/>
+	<advance width="900"/>
+	<outline>
+		<contour>
+			<point name="hr00" x="776" y="698" type="line"/>
+			<point x="776" y="585" type="line"/>
+			<point name="sv01" x="691" y="585" type="line"/>
+			<point x="633" y="589" type="line"/>
+			<point x="631" y="586" type="line"/>
+			<point x="655" y="564" type="line"/>
+			<point x="680" y="542"/>
+			<point x="729" y="493"/>
+			<point x="767" y="431"/>
+			<point x="791" y="353"/>
+			<point x="791" y="304" type="qcurve"/>
+			<point x="791" y="233"/>
+			<point x="737" y="117"/>
+			<point x="645" y="35"/>
+			<point x="521" y="-11"/>
+			<point name="ih01" x="451" y="-11" type="qcurve"/>
+			<point x="380" y="-11"/>
+			<point x="256" y="40"/>
+			<point x="163" y="129"/>
+			<point x="109" y="247"/>
+			<point x="109" y="314" type="qcurve"/>
+			<point x="109" y="403"/>
+			<point x="177" y="541"/>
+			<point x="255" y="606" type="qcurve"/>
+			<point x="333" y="521" type="line"/>
+			<point x="279" y="477"/>
+			<point x="233" y="379"/>
+			<point x="233" y="314" type="qcurve"/>
+			<point x="233" y="270"/>
+			<point x="267" y="193"/>
+			<point x="326" y="136"/>
+			<point x="406" y="103"/>
+			<point name="sv02" x="451" y="103" type="qcurve"/>
+			<point x="499" y="103"/>
+			<point x="578" y="132"/>
+			<point x="635" y="185"/>
+			<point x="667" y="259"/>
+			<point x="667" y="304" type="qcurve"/>
+			<point x="667" y="331"/>
+			<point x="655" y="377"/>
+			<point x="632" y="418"/>
+			<point x="599" y="456"/>
+			<point x="578" y="477" type="qcurve"/>
+			<point x="550" y="505" type="line"/>
+			<point x="547" y="503" type="line"/>
+			<point x="551" y="445" type="line"/>
+			<point x="551" y="360" type="line"/>
+			<point x="438" y="360" type="line"/>
+			<point name="at01" x="438" y="698" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hr00</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -11 114</string>
+							<string>hstem 585 113</string>
+							<string>vstem 109 124</string>
+							<string>vstem 438 113</string>
+							<string>vstem 667 124</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="capheight"/&gt;
+    &lt;ttc code="alignb" point="ih01" zone="baseline"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv01" round="true"/&gt;
+    &lt;ttc code="singlev" point1="ih01" point2="sv02" stem="lc-hstem"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>com.fontlab.v5.userData</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+	&lt;key&gt;com.type-invaders.name.final&lt;/key&gt;
+	&lt;string&gt;uni21BA&lt;/string&gt;
+	&lt;key&gt;com.type-invaders.name.production&lt;/key&gt;
+	&lt;string&gt;arrowupleftcounterclock&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

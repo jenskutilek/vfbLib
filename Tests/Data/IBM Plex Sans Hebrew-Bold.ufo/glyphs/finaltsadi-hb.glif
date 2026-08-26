@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="finaltsadi-hb" format="2">
+	<unicode hex="05E5"/>
+	<advance width="583"/>
+	<outline>
+		<contour>
+			<point name="at01" x="10" y="610" type="line"/>
+			<point x="160" y="610" type="line"/>
+			<point name="iv01" x="275" y="261" type="line"/>
+			<point x="380" y="311" type="line"/>
+			<point name="at02" x="380" y="610" type="line"/>
+			<point x="528" y="610" type="line"/>
+			<point x="528" y="354" type="line"/>
+			<point x="528" y="321"/>
+			<point x="515" y="273"/>
+			<point x="488" y="237"/>
+			<point x="448" y="210"/>
+			<point x="421" y="198" type="qcurve"/>
+			<point name="iv02" x="313" y="147" type="line"/>
+			<point x="427" y="-200" type="line"/>
+			<point name="ih01" x="277" y="-200" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="hebr_height"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="hebr_height"/&gt;
+    &lt;ttc code="alignb" point="ih01" zone="descender"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="at02" point2="ih01"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="at02" point2="ih01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>com.fontlab.v5.userData</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+	&lt;key&gt;com.type-invaders.name.final&lt;/key&gt;
+	&lt;string&gt;uni05E5&lt;/string&gt;
+	&lt;key&gt;com.type-invaders.name.production&lt;/key&gt;
+	&lt;string&gt;finaltsadi-hb&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

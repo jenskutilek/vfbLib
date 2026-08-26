@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis" format="2">
+	<unicode hex="00A8"/>
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point name="av01" x="190" y="600" type="qcurve"/>
+			<point x="145" y="600"/>
+			<point x="110" y="637"/>
+			<point x="110" y="663" type="qcurve"/>
+			<point x="110" y="688" type="line"/>
+			<point x="110" y="714"/>
+			<point x="145" y="751"/>
+			<point name="sv01" x="190" y="751" type="qcurve"/>
+			<point x="235" y="751"/>
+			<point x="270" y="714"/>
+			<point x="270" y="688" type="qcurve"/>
+			<point name="ih01" x="270" y="663" type="line"/>
+			<point x="270" y="637"/>
+			<point x="235" y="600"/>
+		</contour>
+		<contour>
+			<point name="sv02" x="410" y="600" type="qcurve"/>
+			<point x="365" y="600"/>
+			<point x="330" y="637"/>
+			<point name="sh01" x="330" y="663" type="qcurve"/>
+			<point x="330" y="688" type="line"/>
+			<point x="330" y="714"/>
+			<point x="365" y="751"/>
+			<point name="sv03" x="410" y="751" type="qcurve"/>
+			<point x="455" y="751"/>
+			<point x="490" y="714"/>
+			<point x="490" y="688" type="qcurve"/>
+			<point x="490" y="663" type="line"/>
+			<point x="490" y="637"/>
+			<point x="455" y="600"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="300" y="540"/>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>av01</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 600 151</string>
+							<string>vstem 110 160</string>
+							<string>vstem 330 160</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="singleh" point1="ih01" point2="sh01"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="-8" ppm1="16" ppm2="16"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="8" ppm1="9" ppm2="9"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="-8" ppm1="20" ppm2="20"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="-8" ppm1="18" ppm2="18"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv01" round="true"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv03"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

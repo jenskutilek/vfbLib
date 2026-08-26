@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tav-hb" format="2">
+	<unicode hex="05EA"/>
+	<advance width="666"/>
+	<outline>
+		<contour>
+			<point name="sv01" x="50" y="133" type="line"/>
+			<point x="126" y="133" type="line"/>
+			<point x="115" y="236" type="line"/>
+			<point x="112" y="261"/>
+			<point x="112" y="283" type="qcurve"/>
+			<point x="112" y="352"/>
+			<point x="161" y="438"/>
+			<point x="209" y="462" type="qcurve"/>
+			<point x="227" y="471" type="line"/>
+			<point x="227" y="477" type="line"/>
+			<point name="sv02" x="50" y="477" type="line"/>
+			<point name="at01" x="50" y="610" type="line"/>
+			<point x="368" y="610" type="line"/>
+			<point x="483" y="610"/>
+			<point x="599" y="509"/>
+			<point x="599" y="412" type="qcurve"/>
+			<point x="599" y="0" type="line"/>
+			<point name="ab02" x="449" y="0" type="line"/>
+			<point x="449" y="391" type="line"/>
+			<point x="449" y="431"/>
+			<point x="407" y="477"/>
+			<point name="ih01" x="359" y="477" type="qcurve"/>
+			<point name="sv03" x="287" y="477" type="line"/>
+			<point x="283" y="470" type="line"/>
+			<point x="269" y="445"/>
+			<point x="254" y="388"/>
+			<point x="254" y="349" type="qcurve"/>
+			<point x="254" y="324"/>
+			<point x="259" y="264"/>
+			<point x="262" y="233" type="qcurve"/>
+			<point x="285" y="0" type="line"/>
+			<point name="ab01" x="50" y="0" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom_hebr" x="367" y="0"/>
+	<anchor name="center_hebr" x="352" y="315"/>
+	<anchor name="topleft_hebr" x="0" y="525"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="hebr_height"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="baseline"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="baseline"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="uc-hstem"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv02" stem="uc-hstem"/&gt;
+    &lt;ttc code="singlev" point1="sv02" point2="sv03"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>com.fontlab.v5.userData</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+	&lt;key&gt;com.type-invaders.name.final&lt;/key&gt;
+	&lt;string&gt;uni05EA&lt;/string&gt;
+	&lt;key&gt;com.type-invaders.name.production&lt;/key&gt;
+	&lt;string&gt;tav-hb&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

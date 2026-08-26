@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peso" format="2">
+	<unicode hex="20B1"/>
+	<advance width="698"/>
+	<outline>
+		<contour>
+			<point name="hr00" x="257" y="0" type="line"/>
+			<point name="ab01" x="105" y="0" type="line"/>
+			<point x="105" y="311" type="line"/>
+			<point name="sv05" x="16" y="311" type="line"/>
+			<point name="sv04" x="16" y="391" type="line"/>
+			<point x="105" y="391" type="line"/>
+			<point x="105" y="459" type="line"/>
+			<point name="sv03" x="16" y="459" type="line"/>
+			<point name="sv02" x="16" y="539" type="line"/>
+			<point x="105" y="539" type="line"/>
+			<point name="at01" x="105" y="698" type="line"/>
+			<point x="387" y="698" type="line"/>
+			<point x="463" y="698"/>
+			<point x="564" y="625"/>
+			<point name="sv07" x="583" y="539" type="qcurve"/>
+			<point x="682" y="539" type="line"/>
+			<point x="682" y="459" type="line"/>
+			<point name="sv09" x="592" y="459" type="line"/>
+			<point x="593" y="451"/>
+			<point x="593" y="436"/>
+			<point x="593" y="428" type="qcurve"/>
+			<point x="593" y="418"/>
+			<point x="593" y="400"/>
+			<point name="sv10" x="592" y="391" type="qcurve"/>
+			<point x="682" y="391" type="line"/>
+			<point x="682" y="311" type="line"/>
+			<point name="sv12" x="580" y="311" type="line"/>
+			<point x="560" y="230"/>
+			<point x="461" y="151"/>
+			<point name="sh01" x="386" y="151" type="qcurve"/>
+			<point name="sv14" x="257" y="151" type="line"/>
+		</contour>
+		<contour>
+			<point name="sv06" x="257" y="533" type="line"/>
+			<point x="439" y="533" type="line"/>
+			<point x="434" y="562"/>
+			<point x="397" y="596"/>
+			<point name="sh02" x="368" y="596" type="qcurve"/>
+			<point name="sv01" x="257" y="596" type="line"/>
+		</contour>
+		<contour>
+			<point x="441" y="387" type="line"/>
+			<point x="441" y="463" type="line"/>
+			<point name="sv08" x="257" y="463" type="line"/>
+			<point name="sh03" x="257" y="387" type="line"/>
+		</contour>
+		<contour>
+			<point name="ih01" x="368" y="251" type="line"/>
+			<point x="397" y="251"/>
+			<point x="434" y="286"/>
+			<point x="439" y="317" type="qcurve"/>
+			<point name="sv11" x="257" y="317" type="line"/>
+			<point name="sv13" x="257" y="251" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hr00</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 21 -21</string>
+							<string>hstem 151 100</string>
+							<string>hstem 311 80</string>
+							<string>hstem 459 80</string>
+							<string>hstem 596 102</string>
+							<string>vstem 105 152</string>
+							<string>vstem 441 152</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="singleh" point1="ih01" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="ih01" point2="sh02"/&gt;
+    &lt;ttc code="singleh" point1="ih01" point2="sh03"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="capheight"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="baseline"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv01" stem="lc-hstem"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02" round="true"/&gt;
+    &lt;ttc code="singlev" point1="sv02" point2="sv03" stem="currency_stroke"/&gt;
+    &lt;ttc code="singlev" point1="sv03" point2="sv04" stem="currency_white"/&gt;
+    &lt;ttc code="mdeltav" point="sv04" delta="8" ppm1="8" ppm2="12"/&gt;
+    &lt;ttc code="singlev" point1="sv04" point2="sv05" stem="currency_stroke"/&gt;
+    &lt;ttc code="mdeltav" point="sv05" delta="8" ppm1="7" ppm2="12"/&gt;
+    &lt;ttc code="singlev" point1="sv02" point2="sv06"/&gt;
+    &lt;ttc code="singlev" point1="sv06" point2="sv07"/&gt;
+    &lt;ttc code="singlev" point1="sv03" point2="sv08"/&gt;
+    &lt;ttc code="singlev" point1="sv08" point2="sv09"/&gt;
+    &lt;ttc code="singlev" point1="sv04" point2="sh03"/&gt;
+    &lt;ttc code="singlev" point1="sh03" point2="sv10"/&gt;
+    &lt;ttc code="singlev" point1="sv05" point2="sv11"/&gt;
+    &lt;ttc code="singlev" point1="sv11" point2="sv12"/&gt;
+    &lt;ttc code="singlev" point1="sv05" point2="sv13" round="true"/&gt;
+    &lt;ttc code="mdeltav" point="sv13" delta="8" ppm1="42" ppm2="43"/&gt;
+    &lt;ttc code="mdeltav" point="sv13" delta="8" ppm1="25" ppm2="26"/&gt;
+    &lt;ttc code="singlev" point1="sv13" point2="sv14" stem="lc-hstem"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>com.fontlab.v5.userData</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+	&lt;key&gt;com.type-invaders.name.final&lt;/key&gt;
+	&lt;string&gt;uni20B1&lt;/string&gt;
+	&lt;key&gt;com.type-invaders.name.production&lt;/key&gt;
+	&lt;string&gt;peso&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

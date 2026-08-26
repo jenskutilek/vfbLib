@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.loclIWR" format="2">
+	<advance width="600"/>
+	<outline>
+		<contour>
+			<point x="333" y="118" type="line"/>
+			<point name="iv01" x="33" y="118" type="line"/>
+			<point name="sv02" x="33" y="244" type="line"/>
+			<point name="ih01" x="298" y="610" type="line"/>
+			<point x="475" y="610" type="line"/>
+			<point name="sv03" x="475" y="231" type="line"/>
+			<point x="561" y="231" type="line"/>
+			<point x="561" y="118" type="line"/>
+			<point name="sv04" x="475" y="118" type="line"/>
+			<point x="475" y="0" type="line"/>
+			<point name="ab01" x="333" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="333" y="231" type="line"/>
+			<point x="333" y="464" type="line"/>
+			<point name="sh01" x="325" y="464" type="line"/>
+			<point name="sv01" x="152" y="231" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="singleh" point1="ih01" point2="sh01"/&gt;
+    &lt;ttc code="alignt" point="ih01" zone="hebr_height"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="baseline"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="ih01" point2="ab01" align="round"/&gt;
+    &lt;ttc code="singlev" point1="iv01" point2="sv01" stem="lc-hstem"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv03"/&gt;
+    &lt;ttc code="singlev" point1="iv01" point2="sv04"/&gt;
+    &lt;ttc code="singlev" point1="ih01" point2="sh01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

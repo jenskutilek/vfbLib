@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name=".notdef" format="2">
+	<advance width="472"/>
+	<outline>
+		<contour>
+			<point name="sh01" x="32" y="0" type="line"/>
+			<point name="sv01" x="32" y="780" type="line"/>
+			<point x="440" y="780" type="line"/>
+			<point x="440" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point name="ih01" x="132" y="100" type="line"/>
+			<point x="340" y="100" type="line"/>
+			<point x="340" y="680" type="line"/>
+			<point name="sv02" x="132" y="680" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="singleh" point1="ih01" point2="sh01"/&gt;
+    &lt;ttc code="alignb" point="sh01" zone="baseline"/&gt;
+    &lt;ttc code="singlev" point1="sh01" point2="sv01" round="true"/&gt;
+    &lt;ttc code="singlev" point1="sh01" point2="ih01" round="true"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02" round="true"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

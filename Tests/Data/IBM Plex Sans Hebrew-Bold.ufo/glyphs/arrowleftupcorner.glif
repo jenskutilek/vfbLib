@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowleftupcorner" format="2">
+	<unicode hex="2B11"/>
+	<advance width="900"/>
+	<outline>
+		<contour>
+			<point name="hr00" x="573" y="398" type="line"/>
+			<point x="493" y="318" type="line"/>
+			<point name="ih01" x="433" y="378" type="line"/>
+			<point x="395" y="422" type="line"/>
+			<point x="391" y="421" type="line"/>
+			<point x="395" y="341" type="line"/>
+			<point name="av02" x="395" y="226" type="line"/>
+			<point x="805" y="226" type="line"/>
+			<point x="805" y="104" type="line"/>
+			<point name="sv01" x="273" y="104" type="line"/>
+			<point x="273" y="341" type="line"/>
+			<point x="277" y="421" type="line"/>
+			<point x="273" y="422" type="line"/>
+			<point x="235" y="378" type="line"/>
+			<point x="175" y="318" type="line"/>
+			<point x="95" y="398" type="line"/>
+			<point name="av01" x="334" y="637" type="line"/>
+		</contour>
+	</outline>
+	<guideline x="0" y="637" angle="0"/>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hr00</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 104 122</string>
+							<string>vstem 273 122</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="singlev" point1="av02" point2="sv01" stem="lc-hstem"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>com.fontlab.v5.userData</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+	&lt;key&gt;com.type-invaders.name.final&lt;/key&gt;
+	&lt;string&gt;uni2B11&lt;/string&gt;
+	&lt;key&gt;com.type-invaders.name.production&lt;/key&gt;
+	&lt;string&gt;arrowleftupcorner&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

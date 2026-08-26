@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk" format="2">
+	<unicode hex="002A"/>
+	<advance width="601"/>
+	<outline>
+		<contour>
+			<point name="hr00" x="192" y="238" type="line"/>
+			<point x="88" y="308" type="line"/>
+			<point x="215" y="461" type="line"/>
+			<point x="32" y="516" type="line"/>
+			<point x="71" y="630" type="line"/>
+			<point x="245" y="557" type="line"/>
+			<point name="at01" x="236" y="747" type="line"/>
+			<point x="365" y="747" type="line"/>
+			<point x="356" y="557" type="line"/>
+			<point x="530" y="630" type="line"/>
+			<point x="569" y="516" type="line"/>
+			<point x="386" y="461" type="line"/>
+			<point x="512" y="308" type="line"/>
+			<point x="408" y="239" type="line"/>
+			<point name="ih01" x="300" y="401" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hr00</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 239 508</string>
+							<string>vstem 32 537</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="ascender"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

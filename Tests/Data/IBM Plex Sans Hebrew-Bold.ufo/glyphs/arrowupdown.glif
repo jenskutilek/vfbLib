@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowupdown" format="2">
+	<unicode hex="2195"/>
+	<advance width="900"/>
+	<outline>
+		<contour>
+			<point name="hr00" x="211" y="227" type="line"/>
+			<point x="291" y="307" type="line"/>
+			<point x="351" y="247" type="line"/>
+			<point x="389" y="203" type="line"/>
+			<point x="393" y="204" type="line"/>
+			<point x="389" y="284" type="line"/>
+			<point x="389" y="414" type="line"/>
+			<point x="393" y="494" type="line"/>
+			<point x="389" y="495" type="line"/>
+			<point x="351" y="451" type="line"/>
+			<point x="291" y="391" type="line"/>
+			<point x="211" y="471" type="line"/>
+			<point name="at01" x="450" y="710" type="line"/>
+			<point x="689" y="471" type="line"/>
+			<point x="609" y="391" type="line"/>
+			<point x="549" y="451" type="line"/>
+			<point x="511" y="495" type="line"/>
+			<point x="507" y="494" type="line"/>
+			<point x="511" y="414" type="line"/>
+			<point x="511" y="284" type="line"/>
+			<point x="507" y="204" type="line"/>
+			<point x="511" y="203" type="line"/>
+			<point x="549" y="247" type="line"/>
+			<point x="609" y="307" type="line"/>
+			<point x="689" y="227" type="line"/>
+			<point name="ih01" x="450" y="-12" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hr00</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 9 -21</string>
+							<string>hstem 710 -20</string>
+							<string>vstem 389 122</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="capheight"/&gt;
+    &lt;ttc code="alignb" point="ih01" zone="baseline"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>com.fontlab.v5.userData</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+	&lt;key&gt;com.type-invaders.name.final&lt;/key&gt;
+	&lt;string&gt;uni2195&lt;/string&gt;
+	&lt;key&gt;com.type-invaders.name.production&lt;/key&gt;
+	&lt;string&gt;arrowupdown&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="g.alt01" format="2">
+	<advance width="608"/>
+	<outline>
+		<contour>
+			<point name="hr00" x="539" y="32" type="line"/>
+			<point x="539" y="-84"/>
+			<point x="411" y="-212"/>
+			<point name="sh01" x="282" y="-212" type="qcurve"/>
+			<point x="205" y="-212"/>
+			<point x="105" y="-169"/>
+			<point x="75" y="-137" type="qcurve"/>
+			<point x="154" y="-43" type="line"/>
+			<point x="204" y="-96"/>
+			<point name="sv01" x="278" y="-96" type="qcurve"/>
+			<point x="336" y="-96"/>
+			<point x="391" y="-35"/>
+			<point x="391" y="18" type="qcurve"/>
+			<point x="391" y="102" type="line"/>
+			<point name="iv01" x="386" y="102" type="line"/>
+			<point x="380" y="81"/>
+			<point x="354" y="44"/>
+			<point x="317" y="17"/>
+			<point x="270" y="2"/>
+			<point name="av01" x="245" y="2" type="qcurve"/>
+			<point x="145" y="2"/>
+			<point x="43" y="139"/>
+			<point x="43" y="269" type="qcurve"/>
+			<point x="43" y="399"/>
+			<point x="145" y="537"/>
+			<point name="at01" x="245" y="537" type="qcurve"/>
+			<point x="296" y="537"/>
+			<point x="375" y="480"/>
+			<point name="iv02" x="386" y="436" type="qcurve"/>
+			<point x="391" y="436" type="line"/>
+			<point name="at02" x="391" y="525" type="line"/>
+			<point x="539" y="525" type="line"/>
+		</contour>
+		<contour>
+			<point name="ih01" x="294" y="122" type="qcurve"/>
+			<point x="336" y="122"/>
+			<point x="391" y="163"/>
+			<point x="391" y="199" type="qcurve"/>
+			<point x="391" y="340" type="line"/>
+			<point x="391" y="376"/>
+			<point x="336" y="417"/>
+			<point name="sv02" x="294" y="417" type="qcurve"/>
+			<point x="252" y="417"/>
+			<point x="197" y="357"/>
+			<point x="197" y="307" type="qcurve"/>
+			<point x="197" y="232" type="line"/>
+			<point x="197" y="182"/>
+			<point x="252" y="122"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="298" y="540"/>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hr00</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -212 116</string>
+							<string>hstem 2 120</string>
+							<string>hstem 525 -20</string>
+							<string>vstem 43 154</string>
+							<string>vstem 391 148</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>at01</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -212 116</string>
+							<string>hstem 2 120</string>
+							<string>hstem 417 120</string>
+							<string>vstem 43 154</string>
+							<string>vstem 391 148</string>
+						</array>
+					</dict>
+					<dict>
+						<key>pointTag</key>
+						<string>sv02</string>
+						<key>stems</key>
+						<array>
+							<string>hstem -212 116</string>
+							<string>hstem 2 120</string>
+							<string>hstem 417 120</string>
+							<string>vstem 43 154</string>
+							<string>vstem 391 148</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="singleh" point1="ih01" point2="sh01"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="xheight"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="xheight"/&gt;
+    &lt;ttc code="alignb" point="sh01" zone="descender"/&gt;
+    &lt;ttc code="singlev" point1="sh01" point2="sv01" stem="lc-hstem"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="ih01" stem="lc-hstem"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="ih01" point2="av01"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv02" stem="lc-hstem"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="at01" point2="sv02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tugrik" format="2">
+	<unicode hex="20AE"/>
+	<advance width="604"/>
+	<outline>
+		<contour>
+			<point name="hr00" x="378" y="208" type="line"/>
+			<point x="378" y="0" type="line"/>
+			<point name="ih01" x="226" y="0" type="line"/>
+			<point x="226" y="136" type="line"/>
+			<point x="106" y="79" type="line"/>
+			<point x="106" y="169" type="line"/>
+			<point x="226" y="226" type="line"/>
+			<point x="226" y="293" type="line"/>
+			<point x="106" y="237" type="line"/>
+			<point x="106" y="326" type="line"/>
+			<point x="226" y="383" type="line"/>
+			<point x="226" y="575" type="line"/>
+			<point name="sv01" x="37" y="575" type="line"/>
+			<point name="at01" x="37" y="698" type="line"/>
+			<point x="567" y="698" type="line"/>
+			<point x="567" y="575" type="line"/>
+			<point name="sv02" x="378" y="575" type="line"/>
+			<point x="378" y="455" type="line"/>
+			<point x="499" y="512" type="line"/>
+			<point x="499" y="422" type="line"/>
+			<point x="378" y="365" type="line"/>
+			<point x="378" y="298" type="line"/>
+			<point x="499" y="355" type="line"/>
+			<point x="499" y="265" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.adobe.type.autohint.v2</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>pointTag</key>
+						<string>hr00</string>
+						<key>stems</key>
+						<array>
+							<string>hstem 21 -21</string>
+							<string>hstem 575 123</string>
+							<string>vstem 226 152</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<key>com.fontlab.ttprogram</key>
+			<string>  &lt;ttProgram&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="lsb" point2="rsb"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="capheight"/&gt;
+    &lt;ttc code="alignb" point="ih01" zone="baseline"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv01" stem="uc-hstem"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+			<key>com.fontlab.v5.userData</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+	&lt;key&gt;com.type-invaders.name.final&lt;/key&gt;
+	&lt;string&gt;uni20AE&lt;/string&gt;
+	&lt;key&gt;com.type-invaders.name.production&lt;/key&gt;
+	&lt;string&gt;tugrik&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</string>
+			<key>public.markColor</key>
+			<string>0.9341,0.952,0.648,1</string>
+		</dict>
+	</lib>
+</glyph>
