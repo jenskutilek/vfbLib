@@ -426,4 +426,4 @@ class MaskMetricsMMCompiler(BaseCompiler):
 
 class PickleCompiler(BaseCompiler):
     def _compile(self, data: dict) -> None:
-        pickle.dump(data, self.stream)
+        pickle.dump(data, self.stream, protocol=0)
