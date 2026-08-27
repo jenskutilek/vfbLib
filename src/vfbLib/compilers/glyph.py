@@ -1,4 +1,5 @@
 import logging
+import pickle
 from io import BytesIO
 from struct import pack
 from typing import TYPE_CHECKING, Any
@@ -433,3 +434,8 @@ class MaskMetricsMMCompiler(BaseCompiler):
             x, y = value
             self.write_value(x)
             self.write_value(y)
+
+
+class PickleCompiler(BaseCompiler):
+    def _compile(self, data: dict) -> None:
+        pickle.dump(data, self.stream, protocol=0)

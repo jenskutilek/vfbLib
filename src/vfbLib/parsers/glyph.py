@@ -1,4 +1,5 @@
 import logging
+import pickle
 from enum import Enum
 from struct import unpack
 from typing import TYPE_CHECKING, Any
@@ -521,3 +522,8 @@ class MaskMetricsMMParser(BaseParser):
             y = self.read_value()
             values.append((x, y))
         return values
+
+
+class PickleParser(BaseParser):
+    def _parse(self) -> dict:
+        return pickle.load(self.stream)

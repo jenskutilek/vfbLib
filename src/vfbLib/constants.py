@@ -26,6 +26,7 @@ from vfbLib.compilers.glyph import (
     MaskCompiler,
     MaskMetricsCompiler,
     MaskMetricsMMCompiler,
+    PickleCompiler,
 )
 from vfbLib.compilers.guides import GuidePropertiesCompiler, GuidesCompiler
 from vfbLib.compilers.mm import (
@@ -101,6 +102,7 @@ from vfbLib.parsers.glyph import (
     MaskMetricsMMParser,
     MaskMetricsParser,
     MaskParser,
+    PickleParser,
 )
 from vfbLib.parsers.guides import GlobalGuidesParser, GuidePropertiesParser
 from vfbLib.parsers.mm import (
@@ -298,7 +300,7 @@ parser_classes = {
     G.MaskMetricsMM: ("mask.metrics_mm", MaskMetricsMMParser, MaskMetricsMMCompiler),  # Mask metrics master 2 to 16
     G.Origin: ("Glyph Origin", GlyphOriginParser, GlyphOriginCompiler),
     G.unicodes: ("unicodes", GlyphUnicodeParser, GlyphUnicodesCompiler),  # Glyph Unicode
-    G.CustomDict: ("Custom Dict", StringParser, StringCompiler),
+    G.CustomDict: ("Custom Dict", PickleParser, PickleCompiler),
     G.UnicodesNonBMP: ("Glyph Unicode Non-BMP", GlyphUnicodeSuppParser, GlyphUnicodesSuppCompiler),
     G.mark: ("mark", Int16Parser, Int16Compiler),  # Mark Color
     G.customdata: ("glyph.customdata", StringParser, StringCompiler),
