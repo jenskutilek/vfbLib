@@ -239,6 +239,8 @@ def get_master_hints(
 ) -> "dict[str, list[HintTuple]]":
     hints: dict[str, list[HintTuple]] = {"h": [], "v": []}
 
+    # FIXME: Duplicate of vfb.glyph.resolve_hints, vfb.glyph.resolve_links
+
     # Hints
     for direction in DIRECTIONS:
         dh = mmglyph.mm_hints[direction]
