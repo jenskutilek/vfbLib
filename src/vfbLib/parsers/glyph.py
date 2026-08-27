@@ -352,8 +352,12 @@ class GlyphParser(BaseParser):
             for _ in range(num_hintmasks):
                 state = self.read_uint8()
                 index = self.read_value()
-                if index < 0:
-                    index = -index - 1
+                # Node index for replacement points is sometimes stored as a negative
+                # number, but I don't know if it holds a special meaning, so we preserve
+                # it here, and consumers (e.g. build_ps_hints) are required to handle
+                # it.
+                # if index < 0:
+                #     index = -index - 1
                 hintmasks.append((replace_types.get(state, hex(state)), index))
             if hintmasks:
                 hints["hintmasks"] = hintmasks
