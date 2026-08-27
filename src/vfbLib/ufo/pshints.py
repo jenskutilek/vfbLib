@@ -151,32 +151,41 @@ def build_ps_glyph_hints(
     stems: list[HintTuple] = []
     hint_set: HintSet = HintSet(pointTag="0", stems=stems)
     if mmglyph.hintmasks:
-        for mask in mmglyph.hintmasks:
-            for direction in DIRECTIONS:
-                dd, hint_index = mask
-                if direction == dd:
-                    master_direction_hints = master_hints[direction]
-                    if hint_index < len(master_direction_hints):
-                        hint: HintTuple = master_direction_hints[hint_index]
-                        hint_set["stems"].append(hint)
-                    else:
-                        logger.debug(
-                            f"Hint mask '{direction}' with index {hint_index} found in "
-                            f"glyph {glyph.name}, but hint list is empty."
-                        )
-            if mask[0] == "r":
+        unhandled = 0
+        for state, index in mmglyph.hintmasks:
+            if state in DIRECTIONS:
+                master_direction_hints = master_hints[state]
+                if index < len(master_direction_hints):
+                    hint: HintTuple = master_direction_hints[index]
+                    hint_set["stems"].append(hint)
+                elif len(master_direction_hints) > 0:
+                    logger.warning(
+                        f"Hint mask '{state}' with index {index} found in glyph "
+                        f"{glyph.name}, but hint list is too short "
+                        f"({len(master_direction_hints)} entries)."
+                    )
+            elif state == "r":
                 hint_set["pointTag"] = mmglyph.get_point_label(
                     index=int(hint_set["pointTag"]),
                     code="PSHintReplacement",
                     start_count=0,
                 )
                 hint_sets.append(hint_set)
-                node_index = mask[1]
-                # FIXME: What do negative values mean?
-                if node_index < 0:
-                    node_index = abs(node_index) - 1
+                # Node index is sometimes stored as a negative number; convert it to the
+                # actual index
+                if index < 0:
+                    index = abs(index) - 1
                 stems = []
-                hint_set = HintSet(pointTag=str(node_index), stems=stems)
+                hint_set = HintSet(pointTag=str(index), stems=stems)
+            else:
+                unhandled += 1
+
+        if unhandled > 0:
+            logger.warning(
+                f"Unhandled hint mask state(s) found in glyph '{glyph.name}', please "
+                f"check hints in the original VFB file."
+            )
+            logger.info(mmglyph.hintmasks)
 
         if hint_set["stems"]:
             # Append the last hint set
