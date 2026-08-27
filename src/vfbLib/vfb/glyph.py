@@ -159,7 +159,7 @@ class VfbGlyph:
     def resolve_links(self) -> "dict[str, list[HintTuple]]":
         # Convert the links to hints
 
-        hints = {"h": [], "v": []}
+        hints: dict[str, list[HintTuple]] = {"h": [], "v": []}
 
         if self.links_entry is None:
             return hints
