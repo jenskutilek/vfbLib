@@ -198,7 +198,14 @@ class VfbEntry(StreamReader):
 
         self.merge_masters_data()
 
-        self.data = self.compiler().compile(self.data, vfb=self.vfb)
+        try:
+            self.data = self.compiler().compile(self.data, vfb=self.vfb)
+        except Exception:
+            logger.error(
+                f"Compilation failed for entry '{self.key}' ({self.id}) with "
+                f"{self.compiler.__name__}:\nData: {self.data}"
+            )
+            raise
 
         # TODO: Return False here if compilation has failed. How to tell?
 
