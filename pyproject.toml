@@ -1,6 +1,6 @@
 [project]
 name = "vfbLib"
-version = "0.11.7"
+version = "0.12.0-dev"
 description = "Tools for converting FontLab Studio 5 (VFB) files."
 keywords = ["fonttools", "vfb", "vfbLib"]
 
