@@ -24,10 +24,10 @@ class VfbHeader:
         # The compiler which can convert the decompiled representation to bytes
         self.compiler = VfbHeaderCompiler
 
-    def as_dict(self) -> dict[str, Any]:
+    def as_dict(self) -> "bytes | VfbHeaderDict | None":
         if isinstance(self.data, bytes):
-            return {"decompiled": hexStr(self.data)}
-        return {"decompiled": self.data}
+            return self.data
+        return self.data
 
     @property
     def data(self) -> "bytes | VfbHeaderDict | None":

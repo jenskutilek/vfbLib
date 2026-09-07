@@ -55,17 +55,6 @@ class CustomCmap(TypedDict):
     page_name: str
 
 
-EntryDecompiled = dict[str, Any] | int | list[Any] | str | tuple[int, str] | None
-
-
-class EntryDict(TypedDict):
-    key: str
-    size: NotRequired[int]
-    data: bytes | EntryDecompiled
-    parser: NotRequired[str]
-    compiler: NotRequired[str]
-
-
 class ExpandKernFlagsDict(TypedDict):
     limit_action: int
     limit_codepage: int
@@ -409,8 +398,8 @@ class VdmxRecDict(TypedDict):
 
 
 class VfbDict(TypedDict):
-    header: "VfbHeaderDict"
-    entries: list[dict[str, Any]]
+    header: "VfbHeaderDict | str | bytes"
+    entries: list["VfbEntryDict"]
 
 
 class VfbHeaderDict(TypedDict):
@@ -419,3 +408,159 @@ class VfbHeaderDict(TypedDict):
     file_version: int
     version_major: int
     version_minor: int
+
+
+class VfbEntryDict(TypedDict):
+    """
+    The typed dict to represent all VFB entries.
+    Each one must have "bytes" as an alternative type to represent the compiled state.
+    Entries starting with an uppercase letter are not part of the FontLab Python API.
+    """
+
+    BlockFileDataStart: NotRequired[str | bytes]
+    BlockFontStart: NotRequired[str | bytes]
+    FLVersion: NotRequired[FLVersionDict | bytes]
+    BlockNamesStart: NotRequired[str | bytes]
+    EncodingDefault: NotRequired[tuple[int, str] | bytes]
+    Encoding: NotRequired[tuple[int, str] | bytes]
+    MMEncType: NotRequired[int | bytes]
+    BlockNamesEnd: NotRequired[str | bytes]
+    BlockFontInfoStart: NotRequired[str | bytes]
+    font_name: NotRequired[str | bytes]
+    MasterCount: NotRequired[int | bytes]
+    weight_vector: NotRequired[list[float] | bytes]
+    unique_id: NotRequired[int | bytes]
+    version: NotRequired[str | bytes]
+    notice: NotRequired[str | bytes]
+    full_name: NotRequired[str | bytes]
+    family_name: NotRequired[str | bytes]
+    pref_family_name: NotRequired[str | bytes]
+    menu_name: NotRequired[str | bytes]
+    apple_name: NotRequired[str | bytes]
+    weight: NotRequired[str | bytes]
+    width: NotRequired[str | bytes]
+    License: NotRequired[str | bytes]
+    LicenseURL: NotRequired[str | bytes]
+    copyright: NotRequired[str | bytes]
+    trademark: NotRequired[str | bytes]
+    designer: NotRequired[str | bytes]
+    designer_url: NotRequired[str | bytes]
+    vendor_url: NotRequired[str | bytes]
+    source: NotRequired[str | bytes]
+    is_fixed_pitch: NotRequired[int | bytes]
+    weight_code: NotRequired[int | bytes]
+    italic_angle: NotRequired[float | bytes]
+    slant_angle: NotRequired[float | bytes]
+    underline_position: NotRequired[int | bytes]
+    underline_thickness: NotRequired[int | bytes]
+    ms_charset: NotRequired[int | bytes]
+    panose: NotRequired[list[int] | bytes]
+    tt_version: NotRequired[str | bytes]
+    tt_u_id: NotRequired[str | bytes]
+    style_name: NotRequired[str | bytes]
+    pref_style_name: NotRequired[str | bytes]
+    mac_compatible: NotRequired[str | bytes]
+    SampleText: NotRequired[str | bytes]
+    vendor: NotRequired[str | bytes]
+    xuid: NotRequired[list[int] | bytes]
+    xuid_num: NotRequired[int | bytes]
+    year: NotRequired[int | bytes]
+    version_major: NotRequired[int | bytes]
+    version_minor: NotRequired[int | bytes]
+    upm: NotRequired[int | bytes]
+    fond_id: NotRequired[int | bytes]
+    PostScriptHintingOptions: NotRequired[dict[str, int | list[int]] | bytes]
+    Collection: NotRequired[list[int] | bytes]
+    blue_values_num: NotRequired[int | bytes]
+    other_blues_num: NotRequired[int | bytes]
+    family_blues_num: NotRequired[int | bytes]
+    family_other_blues_num: NotRequired[int | bytes]
+    stem_snap_h_num: NotRequired[int | bytes]
+    stem_snap_v_num: NotRequired[int | bytes]
+    font_style: NotRequired[int | bytes]
+    pcl_id: NotRequired[int | bytes]
+    vp_id: NotRequired[int | bytes]
+    ms_id: NotRequired[int | bytes]
+    pcl_chars_set: NotRequired[str | bytes]
+    # TrueType info
+    cvt: NotRequired[bytes]
+    prep: NotRequired[bytes]
+    fpgm: NotRequired[bytes]
+    gasp: NotRequired[GaspList | bytes]
+    ttinfo: NotRequired[TrueTypeInfoDict | bytes]
+    vdmx: NotRequired[list[VdmxRecDict] | bytes]
+    hhea_line_gap: NotRequired[int | bytes]
+    hhea_ascender: NotRequired[int | bytes]
+    hhea_descender: NotRequired[int | bytes]
+    TrueTypeStemPPEMs2And3: NotRequired[TTStemsDict | bytes]
+    TrueTypeStemPPEMs: NotRequired[TTStemsDict | bytes]
+    TrueTypeStems: NotRequired[TTStemsDict | bytes]
+    TrueTypeStemPPEMs1: NotRequired[TTStemsDict | bytes]
+    TrueTypeZones: NotRequired[TTZonesDict | bytes]
+    unicoderanges: NotRequired[list[int] | bytes]
+    stemsnaplimit: NotRequired[int | bytes]
+    zoneppm: NotRequired[int | bytes]
+    codeppm: NotRequired[int | bytes]
+    dropoutppm: NotRequired[int | bytes]
+    MeasurementLine: NotRequired[int | bytes]
+    TrueTypeZoneDeltas: NotRequired[dict[int, dict[int, int]] | bytes]
+    fontnames: NotRequired[list[tuple[int, int, int, int, str]] | bytes]
+    CustomCMAPs: NotRequired[list[CustomCmap] | bytes]
+    PCLTTable: NotRequired[PCLTDict | bytes]
+    ExportPCLTTable: NotRequired[int | bytes]
+    note: NotRequired[str | bytes]
+    FontFlags: NotRequired[bytes]  # FIXME
+    customdata: NotRequired[str | bytes]
+    MetricsClassFlags: NotRequired[MetricsClassFlagDict | bytes]
+    KerningClassFlags: NotRequired[KerningClassFlagDict | bytes]
+    TrueTypeTable: NotRequired[dict[str, str] | bytes]
+    features: NotRequired[list[str] | bytes]
+    GlyphClass: NotRequired[str | bytes]
+    BlockFontInfoEnd: NotRequired[str | bytes]
+    BlockMMFontInfoStart: NotRequired[str | bytes]
+    AxisCount: NotRequired[int | bytes]
+    AxisName: NotRequired[str | bytes]
+    AnisotropicInterpolationMappings: NotRequired[list[list[tuple[int, int]]] | bytes]
+    AxisMappingsCount: NotRequired[list[int] | bytes]
+    AxisMappings: NotRequired[list[tuple[float, float]] | bytes]
+    MasterName: NotRequired[str | bytes]
+    MasterLocation: NotRequired[tuple[int, tuple[float, float, float, float]] | bytes]
+    PrimaryInstanceLocations: NotRequired[list[float] | bytes]
+    PrimaryInstances: NotRequired[list[PrimaryInstanceDict] | bytes]
+    PostScriptInfo: NotRequired[PSInfoDict | bytes]
+    BlockMMFontInfoEnd: NotRequired[str | bytes]
+    GlobalGuides: NotRequired[MMGuidesDict | bytes]
+    GlobalGuideProperties: NotRequired[GuidePropertiesDict | bytes]
+    GlobalMask: NotRequired[dict[str, Any] | bytes]  # FIXME
+    default_character: NotRequired[str | bytes]
+    # Begin: Repeat for each glyph
+    Glyph: NotRequired[dict[str, Any] | bytes]  # FIXME
+    Links: NotRequired[LinkDict | bytes]
+    image: NotRequired[BackgroundImageDict | bytes]
+    Bitmaps: NotRequired[list[GlyphBitmapDict] | bytes]
+    VSB: NotRequired[list[int] | bytes]
+    Sketch: NotRequired[list[tuple[int, int, int]] | bytes]
+    HintingOptions: NotRequired[GlyphHintingOptionsDict | bytes]
+    mask: NotRequired[dict[str, Any] | bytes]  # FIXME
+    MaskMetrics: NotRequired[tuple[int, int] | bytes]
+    MaskMetricsMM: NotRequired[list[tuple[int, int]] | bytes]
+    Origin: NotRequired[dict[str, Any] | bytes]  # FIXME
+    unicodes: NotRequired[list[int] | bytes]
+    CustomDict: NotRequired[dict | bytes]  # FIXME
+    UnicodesNonBMP: NotRequired[list[int] | bytes]
+    mark: NotRequired[int | bytes]
+    # customdata: NotRequired[str | bytes]  # Duplicate
+    # note: NotRequired[str | bytes]  # Duplicate
+    GDEFData: NotRequired[GdefDict | bytes]
+    AnchorsProperties: NotRequired[list[AnchorPropertiesDict] | bytes]
+    AnchorsMM: NotRequired[list[MMAnchorDict] | bytes]
+    GuideProperties: NotRequired[GuidePropertiesDict | bytes]
+    # End: Repeat for each glyph
+    FontOptions: NotRequired[FontOptionsDict | bytes]
+    ExportOptions: NotRequired[list[str | int] | bytes]
+    MappingMode: NotRequired[MappingModeDict | bytes]
+    BlockMMKerningStart: NotRequired[str | bytes]
+    MMKernPair: NotRequired[dict[str, int | list[int]] | bytes]
+    BlockMMKerningEnd: NotRequired[str | bytes]
+    BlockFontEnd: NotRequired[str | bytes]
+    BlockFileDataEnd: NotRequired[str | bytes]

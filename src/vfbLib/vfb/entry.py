@@ -9,12 +9,11 @@ from vfbLib.constants import parser_classes
 from vfbLib.enum import F
 from vfbLib.helpers import hexStr, int32_size
 from vfbLib.parsers.base import BaseParser, StreamReader
-from vfbLib.typing import EntryDict
+from vfbLib.typing import VfbEntryDict
 
 if TYPE_CHECKING:
     from io import BufferedIOBase
 
-    from vfbLib.typing import EntryDecompiled
     from vfbLib.vfb.vfb import Vfb
 
 
@@ -35,7 +34,7 @@ class VfbEntry(StreamReader):
         # The parent object, Vfb
         self.vfb = parent
         # The original or decompiled data
-        self._data: bytes | EntryDecompiled | None = None
+        self._data: VfbEntryDict | None = None
         # Temporary data for additional master, must be merged when compiling
         self.temp_masters: list[list] | None = None
         self.parser = None
@@ -86,22 +85,6 @@ class VfbEntry(StreamReader):
         return header.getvalue()
 
     @property
-    def decompiled(self) -> "EntryDecompiled | None":
-        """
-        Deprecated, use VfbEntry.data
-        """
-        import warnings
-
-        warnings.warn(
-            "VfbEntry.decompiled is deprecated, use VfbEntry.data instead",
-            DeprecationWarning,
-        )
-        if isinstance(self._data, bytes):
-            return None
-
-        return self._data
-
-    @property
     def size(self) -> int:
         """The size of the compiled data.
 
@@ -117,11 +100,11 @@ class VfbEntry(StreamReader):
         raise RuntimeError
 
     @property
-    def data(self) -> "bytes | EntryDecompiled | None":
+    def data(self) -> VfbEntryDict | None:
         return self._data
 
     @data.setter
-    def data(self, value: "bytes | EntryDecompiled | None") -> None:
+    def data(self, value: VfbEntryDict | None) -> None:
         self._data = value
 
     @property
@@ -164,18 +147,9 @@ class VfbEntry(StreamReader):
 
         return num_bytes
 
-    def as_dict(self, minimize=True) -> EntryDict:
-        d = EntryDict(key=str(self.key))
-        if isinstance(self.data, bytes):
-            d["size"] = self.size
-            d["decompiled"] = hexStr(self.data)
-        else:
-            d["decompiled"] = self.data
-        if not minimize:
-            if self.parser is not None:
-                d["parser"] = self.parser.__name__
-            if self.compiler is not None:
-                d["compiler"] = self.compiler.__name__
+    def as_dict(self) -> VfbEntryDict:
+        d = VfbEntryDict()
+        d[self.key] = self.data
         return d
 
     def compile(self) -> bool:
