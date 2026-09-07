@@ -118,6 +118,6 @@ class UnicodeRangesParser(BaseParser):
     A parser that reads data as uint64 and returns it as a list of bit numbers.
     """
 
-    def _parse(self):
+    def _parse(self) -> list[int]:
         result = int.from_bytes(self.stream.read(64), byteorder="little", signed=False)
         return binaryToIntList(result)

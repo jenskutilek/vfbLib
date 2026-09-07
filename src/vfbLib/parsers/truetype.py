@@ -156,7 +156,7 @@ class TrueTypeInfoParser(BaseParser):
 
 
 class TrueTypeStemsParser(BaseParser):
-    def _parse(self):
+    def _parse(self) -> TTStemsDict:
         names = ("ttStemsV", "ttStemsH")
         result = TTStemsDict(ttStemsV=[], ttStemsH=[])
         for i in range(2):
