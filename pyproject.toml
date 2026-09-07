@@ -24,7 +24,7 @@ classifiers = [
 requires-python = ">=3.11"
 dependencies = [
   "fonttools[ufo] >= 4.63.0",
-  "orjson >= 3.11.9, < 4",
+  "orjson >= 3.12.0, < 4",
   "typing_extensions >= 4.15.0",
   "ufoLib2[json] >= 0.18.1",
   "ufonormalizer >= 0.6.3",
@@ -72,7 +72,7 @@ test = [
 ]
 
 [build-system]
-requires = ["uv_build>=0.12.1,<0.13"]
+requires = ["uv_build>=0.12.10,<0.13"]
 build-backend = "uv_build"
 
 [tool.coverage.paths]
