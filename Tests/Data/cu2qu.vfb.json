@@ -1,25 +1,20 @@
 {
   "header": {
-    "decompiled": {
-      "signature": 1179408154,
-      "app_version": 49,
-      "file_version": 48,
-      "version_major": 3,
-      "version_minor": 0
-    }
+    "signature": 1179408154,
+    "app_version": 49,
+    "file_version": 48,
+    "version_major": 3,
+    "version_minor": 0
   },
   "entries": [
     {
-      "key": "Block File Data Start",
-      "decompiled": ""
+      "Block File Data Start": ""
     },
     {
-      "key": "Block Font Start",
-      "decompiled": ""
+      "Block Font Start": ""
     },
     {
-      "key": "FL Version",
-      "decompiled": {
+      "FL Version": {
         "platform": "macos",
         "version": [
           5,
@@ -31,1930 +26,1641 @@
       }
     },
     {
-      "key": "Block Names Start",
-      "decompiled": ""
+      "Block Names Start": ""
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         0,
         "a"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         1,
         "_0001"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         2,
         "_0002"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         3,
         "_0003"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         4,
         "_0004"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         5,
         "_0005"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         6,
         "_0006"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         7,
         "_0007"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         8,
         "_0008"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         9,
         "_0009"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         10,
         "_0010"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         11,
         "_0011"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         12,
         "_0012"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         13,
         "_0013"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         14,
         "_0014"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         15,
         "_0015"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         16,
         "_0016"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         17,
         "_0017"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         18,
         "_0018"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         19,
         "_0019"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         20,
         "_0020"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         21,
         "_0021"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         22,
         "_0022"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         23,
         "_0023"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         24,
         "_0024"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         25,
         "_0025"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         26,
         "_0026"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         27,
         "_0027"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         28,
         "_0028"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         29,
         "_0029"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         30,
         "_0030"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         31,
         "_0031"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         32,
         "_0032"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         33,
         "_0033"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         34,
         "_0034"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         35,
         "_0035"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         36,
         "_0036"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         37,
         "_0037"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         38,
         "_0038"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         39,
         "_0039"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         40,
         "_0040"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         41,
         "_0041"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         42,
         "_0042"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         43,
         "_0043"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         44,
         "_0044"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         45,
         "_0045"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         46,
         "_0046"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         47,
         "_0047"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         48,
         "_0048"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         49,
         "_0049"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         50,
         "_0050"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         51,
         "_0051"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         52,
         "_0052"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         53,
         "_0053"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         54,
         "_0054"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         55,
         "_0055"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         56,
         "_0056"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         57,
         "_0057"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         58,
         "_0058"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         59,
         "_0059"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         60,
         "_0060"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         61,
         "_0061"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         62,
         "_0062"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         63,
         "_0063"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         64,
         "_0064"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         65,
         "_0065"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         66,
         "_0066"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         67,
         "_0067"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         68,
         "_0068"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         69,
         "_0069"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         70,
         "_0070"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         71,
         "_0071"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         72,
         "_0072"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         73,
         "_0073"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         74,
         "_0074"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         75,
         "_0075"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         76,
         "_0076"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         77,
         "_0077"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         78,
         "_0078"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         79,
         "_0079"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         80,
         "_0080"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         81,
         "_0081"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         82,
         "_0082"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         83,
         "_0083"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         84,
         "_0084"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         85,
         "_0085"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         86,
         "_0086"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         87,
         "_0087"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         88,
         "_0088"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         89,
         "_0089"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         90,
         "_0090"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         91,
         "_0091"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         92,
         "_0092"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         93,
         "_0093"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         94,
         "_0094"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         95,
         "_0095"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         96,
         "_0096"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         97,
         "_0097"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         98,
         "_0098"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         99,
         "_0099"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         100,
         "_0100"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         101,
         "_0101"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         102,
         "_0102"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         103,
         "_0103"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         104,
         "_0104"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         105,
         "_0105"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         106,
         "_0106"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         107,
         "_0107"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         108,
         "_0108"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         109,
         "_0109"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         110,
         "_0110"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         111,
         "_0111"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         112,
         "_0112"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         113,
         "_0113"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         114,
         "_0114"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         115,
         "_0115"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         116,
         "_0116"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         117,
         "_0117"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         118,
         "_0118"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         119,
         "_0119"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         120,
         "_0120"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         121,
         "_0121"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         122,
         "_0122"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         123,
         "_0123"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         124,
         "_0124"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         125,
         "_0125"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         126,
         "_0126"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         127,
         "_0127"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         128,
         "_0128"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         129,
         "_0129"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         130,
         "_0130"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         131,
         "_0131"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         132,
         "_0132"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         133,
         "_0133"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         134,
         "_0134"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         135,
         "_0135"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         136,
         "_0136"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         137,
         "_0137"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         138,
         "_0138"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         139,
         "_0139"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         140,
         "_0140"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         141,
         "_0141"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         142,
         "_0142"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         143,
         "_0143"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         144,
         "_0144"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         145,
         "_0145"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         146,
         "_0146"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         147,
         "_0147"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         148,
         "_0148"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         149,
         "_0149"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         150,
         "_0150"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         151,
         "_0151"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         152,
         "_0152"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         153,
         "_0153"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         154,
         "_0154"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         155,
         "_0155"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         156,
         "_0156"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         157,
         "_0157"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         158,
         "_0158"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         159,
         "_0159"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         160,
         "_0160"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         161,
         "_0161"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         162,
         "_0162"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         163,
         "_0163"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         164,
         "_0164"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         165,
         "_0165"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         166,
         "_0166"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         167,
         "_0167"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         168,
         "_0168"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         169,
         "_0169"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         170,
         "_0170"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         171,
         "_0171"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         172,
         "_0172"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         173,
         "_0173"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         174,
         "_0174"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         175,
         "_0175"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         176,
         "_0176"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         177,
         "_0177"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         178,
         "_0178"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         179,
         "_0179"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         180,
         "_0180"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         181,
         "_0181"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         182,
         "_0182"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         183,
         "_0183"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         184,
         "_0184"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         185,
         "_0185"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         186,
         "_0186"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         187,
         "_0187"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         188,
         "_0188"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         189,
         "_0189"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         190,
         "_0190"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         191,
         "_0191"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         192,
         "_0192"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         193,
         "_0193"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         194,
         "_0194"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         195,
         "_0195"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         196,
         "_0196"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         197,
         "_0197"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         198,
         "_0198"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         199,
         "_0199"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         200,
         "_0200"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         201,
         "_0201"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         202,
         "_0202"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         203,
         "_0203"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         204,
         "_0204"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         205,
         "_0205"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         206,
         "_0206"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         207,
         "_0207"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         208,
         "_0208"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         209,
         "_0209"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         210,
         "_0210"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         211,
         "_0211"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         212,
         "_0212"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         213,
         "_0213"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         214,
         "_0214"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         215,
         "_0215"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         216,
         "_0216"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         217,
         "_0217"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         218,
         "_0218"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         219,
         "_0219"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         220,
         "_0220"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         221,
         "_0221"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         222,
         "_0222"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         223,
         "_0223"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         224,
         "_0224"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         225,
         "_0225"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         226,
         "_0226"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         227,
         "_0227"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         228,
         "_0228"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         229,
         "_0229"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         230,
         "_0230"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         231,
         "_0231"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         232,
         "_0232"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         233,
         "_0233"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         234,
         "_0234"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         235,
         "_0235"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         236,
         "_0236"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         237,
         "_0237"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         238,
         "_0238"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         239,
         "_0239"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         240,
         "_0240"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         241,
         "_0241"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         242,
         "_0242"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         243,
         "_0243"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         244,
         "_0244"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         245,
         "_0245"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         246,
         "_0246"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         247,
         "_0247"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         248,
         "_0248"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         249,
         "_0249"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         250,
         "_0250"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         251,
         "_0251"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         252,
         "_0252"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         253,
         "_0253"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         254,
         "_0254"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         255,
         "_0255"
       ]
     },
     {
-      "key": "MM Encoding Type",
-      "decompiled": 0
+      "MM Encoding Type": 0
     },
     {
-      "key": "Block Names End",
-      "decompiled": ""
+      "Block Names End": ""
     },
     {
-      "key": "Block Font Info Start",
-      "decompiled": ""
+      "Block Font Info Start": ""
     },
     {
-      "key": "font_name",
-      "decompiled": ""
+      "font_name": ""
     },
     {
-      "key": "Master Count",
-      "decompiled": 1
+      "Master Count": 1
     },
     {
-      "key": "weight_vector",
-      "decompiled": [
+      "weight_vector": [
         1.0
       ]
     },
     {
-      "key": "unique_id",
-      "decompiled": -1
+      "unique_id": -1
     },
     {
-      "key": "version",
-      "decompiled": ""
+      "version": ""
     },
     {
-      "key": "notice",
-      "decompiled": ""
+      "notice": ""
     },
     {
-      "key": "full_name",
-      "decompiled": ""
+      "full_name": ""
     },
     {
-      "key": "family_name",
-      "decompiled": ""
+      "family_name": ""
     },
     {
-      "key": "pref_family_name",
-      "decompiled": ""
+      "pref_family_name": ""
     },
     {
-      "key": "menu_name",
-      "decompiled": ""
+      "menu_name": ""
     },
     {
-      "key": "apple_name",
-      "decompiled": ""
+      "apple_name": ""
     },
     {
-      "key": "weight",
-      "decompiled": ""
+      "weight": ""
     },
     {
-      "key": "width",
-      "decompiled": "Normal"
+      "width": "Normal"
     },
     {
-      "key": "License",
-      "decompiled": ""
+      "License": ""
     },
     {
-      "key": "License URL",
-      "decompiled": ""
+      "License URL": ""
     },
     {
-      "key": "copyright",
-      "decompiled": ""
+      "copyright": ""
     },
     {
-      "key": "trademark",
-      "decompiled": ""
+      "trademark": ""
     },
     {
-      "key": "designer",
-      "decompiled": ""
+      "designer": ""
     },
     {
-      "key": "designer_url",
-      "decompiled": ""
+      "designer_url": ""
     },
     {
-      "key": "vendor_url",
-      "decompiled": ""
+      "vendor_url": ""
     },
     {
-      "key": "source",
-      "decompiled": ""
+      "source": ""
     },
     {
-      "key": "is_fixed_pitch",
-      "decompiled": 0
+      "is_fixed_pitch": 0
     },
     {
-      "key": "weight_code",
-      "decompiled": -1
+      "weight_code": -1
     },
     {
-      "key": "italic_angle",
-      "decompiled": 0.0
+      "italic_angle": 0.0
     },
     {
-      "key": "slant_angle",
-      "decompiled": 0.0
+      "slant_angle": 0.0
     },
     {
-      "key": "underline_position",
-      "decompiled": -100
+      "underline_position": -100
     },
     {
-      "key": "underline_thickness",
-      "decompiled": 50
+      "underline_thickness": 50
     },
     {
-      "key": "ms_charset",
-      "decompiled": 0
+      "ms_charset": 0
     },
     {
-      "key": "panose",
-      "decompiled": [
+      "panose": [
         0,
         0,
         0,
@@ -1968,36 +1674,28 @@
       ]
     },
     {
-      "key": "tt_version",
-      "decompiled": ""
+      "tt_version": ""
     },
     {
-      "key": "tt_u_id",
-      "decompiled": ""
+      "tt_u_id": ""
     },
     {
-      "key": "style_name",
-      "decompiled": ""
+      "style_name": ""
     },
     {
-      "key": "pref_style_name",
-      "decompiled": ""
+      "pref_style_name": ""
     },
     {
-      "key": "mac_compatible",
-      "decompiled": ""
+      "mac_compatible": ""
     },
     {
-      "key": "Sample Text",
-      "decompiled": ""
+      "Sample Text": ""
     },
     {
-      "key": "vendor",
-      "decompiled": "pyrs"
+      "vendor": "pyrs"
     },
     {
-      "key": "xuid",
-      "decompiled": [
+      "xuid": [
         0,
         0,
         0,
@@ -2021,78 +1719,60 @@
       ]
     },
     {
-      "key": "xuid_num",
-      "decompiled": 0
+      "xuid_num": 0
     },
     {
-      "key": "year",
-      "decompiled": 0
+      "year": 0
     },
     {
-      "key": "version_major",
-      "decompiled": 1
+      "version_major": 1
     },
     {
-      "key": "version_minor",
-      "decompiled": 0
+      "version_minor": 0
     },
     {
-      "key": "upm",
-      "decompiled": 1000
+      "upm": 1000
     },
     {
-      "key": "fond_id",
-      "decompiled": 128
+      "fond_id": 128
     },
     {
-      "key": "PostScript Hinting Options",
-      "decompiled": {
+      "PostScript Hinting Options": {
         "other": []
       }
     },
     {
-      "key": "Collection",
-      "decompiled": []
+      "Collection": []
     },
     {
-      "key": "blue_values_num",
-      "decompiled": 0
+      "blue_values_num": 0
     },
     {
-      "key": "other_blues_num",
-      "decompiled": 0
+      "other_blues_num": 0
     },
     {
-      "key": "family_blues_num",
-      "decompiled": 0
+      "family_blues_num": 0
     },
     {
-      "key": "family_other_blues_num",
-      "decompiled": 0
+      "family_other_blues_num": 0
     },
     {
-      "key": "stem_snap_h_num",
-      "decompiled": 0
+      "stem_snap_h_num": 0
     },
     {
-      "key": "stem_snap_v_num",
-      "decompiled": 0
+      "stem_snap_v_num": 0
     },
     {
-      "key": "font_style",
-      "decompiled": 64
+      "font_style": 64
     },
     {
-      "key": "ms_id",
-      "decompiled": 0
+      "ms_id": 0
     },
     {
-      "key": "pcl_chars_set",
-      "decompiled": " 9U"
+      "pcl_chars_set": " 9U"
     },
     {
-      "key": "ttinfo",
-      "decompiled": {
+      "ttinfo": {
         "max_zones": 0,
         "max_twilight_points": 0,
         "max_storage": 0,
@@ -2201,88 +1881,70 @@
       }
     },
     {
-      "key": "vdmx",
-      "decompiled": []
+      "vdmx": []
     },
     {
-      "key": "hhea_line_gap",
-      "decompiled": 9
+      "hhea_line_gap": 9
     },
     {
-      "key": "hhea_ascender",
-      "decompiled": 750
+      "hhea_ascender": 750
     },
     {
-      "key": "hhea_descender",
-      "decompiled": -250
+      "hhea_descender": -250
     },
     {
-      "key": "TrueType Stem PPEMs",
-      "decompiled": {
+      "TrueType Stem PPEMs": {
         "ttStemsV": [],
         "ttStemsH": []
       }
     },
     {
-      "key": "TrueType Stems",
-      "decompiled": {
+      "TrueType Stems": {
         "ttStemsV": [],
         "ttStemsH": []
       }
     },
     {
-      "key": "TrueType Stem PPEMs 1",
-      "decompiled": {
+      "TrueType Stem PPEMs 1": {
         "ttStemsV": [],
         "ttStemsH": []
       }
     },
     {
-      "key": "TrueType Zones",
-      "decompiled": {
+      "TrueType Zones": {
         "ttZonesT": [],
         "ttZonesB": []
       }
     },
     {
-      "key": "unicoderanges",
-      "decompiled": []
+      "unicoderanges": []
     },
     {
-      "key": "stemsnaplimit",
-      "decompiled": 68
+      "stemsnaplimit": 68
     },
     {
-      "key": "zoneppm",
-      "decompiled": 48
+      "zoneppm": 48
     },
     {
-      "key": "codeppm",
-      "decompiled": 0
+      "codeppm": 0
     },
     {
-      "key": "dropoutppm",
-      "decompiled": 255
+      "dropoutppm": 255
     },
     {
-      "key": "Measurement Line",
-      "decompiled": 300
+      "Measurement Line": 300
     },
     {
-      "key": "TrueType Zone Deltas",
-      "decompiled": {}
+      "TrueType Zone Deltas": {}
     },
     {
-      "key": "fontnames",
-      "decompiled": []
+      "fontnames": []
     },
     {
-      "key": "Custom CMAPs",
-      "decompiled": []
+      "Custom CMAPs": []
     },
     {
-      "key": "PCLT Table",
-      "decompiled": {
+      "PCLT Table": {
         "font_number": 0,
         "pitch": 0,
         "x_height": 0,
@@ -2308,32 +1970,25 @@
       }
     },
     {
-      "key": "Export PCLT Table",
-      "decompiled": 0
+      "Export PCLT Table": 0
     },
     {
-      "key": "Font Flags",
-      "decompiled": "00000000"
+      "Font Flags": "00000000"
     },
     {
-      "key": "Block Font Info End",
-      "decompiled": ""
+      "Block Font Info End": ""
     },
     {
-      "key": "Block MM Font Info Start",
-      "decompiled": ""
+      "Block MM Font Info Start": ""
     },
     {
-      "key": "Axis Count",
-      "decompiled": 0
+      "Axis Count": 0
     },
     {
-      "key": "Anisotropic Interpolation Mappings",
-      "decompiled": []
+      "Anisotropic Interpolation Mappings": []
     },
     {
-      "key": "Axis Mappings Count",
-      "decompiled": [
+      "Axis Mappings Count": [
         0,
         0,
         0,
@@ -2341,8 +1996,7 @@
       ]
     },
     {
-      "key": "Axis Mappings",
-      "decompiled": [
+      "Axis Mappings": [
         [
           0.0,
           0.0
@@ -2506,12 +2160,10 @@
       ]
     },
     {
-      "key": "Master Name",
-      "decompiled": "Untitled"
+      "Master Name": "Untitled"
     },
     {
-      "key": "Master Location",
-      "decompiled": [
+      "Master Location": [
         1,
         [
           0.0,
@@ -2522,8 +2174,7 @@
       ]
     },
     {
-      "key": "PostScript Info",
-      "decompiled": {
+      "PostScript Info": {
         "font_matrix": [
           0.001,
           0.0,
@@ -2638,12 +2289,10 @@
       }
     },
     {
-      "key": "Block MM Font Info End",
-      "decompiled": ""
+      "Block MM Font Info End": ""
     },
     {
-      "key": "Glyph",
-      "decompiled": {
+      "Glyph": {
         "name": "a",
         "num_masters": 1,
         "nodes": [
@@ -3109,21 +2758,18 @@
       }
     },
     {
-      "key": "Links",
-      "decompiled": {
+      "Links": {
         "x": [],
         "y": []
       }
     },
     {
-      "key": "VSB",
-      "decompiled": [
+      "VSB": [
         0
       ]
     },
     {
-      "key": "Glyph Hinting Options",
-      "decompiled": {
+      "Glyph Hinting Options": {
         "horizontal_3_stem": 1,
         "vertical_3_stem": 1,
         "other": [
@@ -3132,8 +2778,7 @@
       }
     },
     {
-      "key": "mask",
-      "decompiled": {
+      "mask": {
         "weight_vector": [
           1.0
         ],
@@ -3142,36 +2787,30 @@
       }
     },
     {
-      "key": "mask.metrics",
-      "decompiled": [
+      "mask.metrics": [
         -5,
         0
       ]
     },
     {
-      "key": "Glyph Origin",
-      "decompiled": {
+      "Glyph Origin": {
         "x": 0,
         "y": 0
       }
     },
     {
-      "key": "unicodes",
-      "decompiled": [
+      "unicodes": [
         97
       ]
     },
     {
-      "key": "Glyph GDEF Data",
-      "decompiled": {}
+      "Glyph GDEF Data": {}
     },
     {
-      "key": "Glyph Anchors Supplemental",
-      "decompiled": []
+      "Glyph Anchors Supplemental": []
     },
     {
-      "key": "Mapping Mode",
-      "decompiled": {
+      "Mapping Mode": {
         "mapping_mode": "names_or_index",
         "m2": 152,
         "m3": 78,
@@ -3179,12 +2818,10 @@
       }
     },
     {
-      "key": "Block Font End",
-      "decompiled": ""
+      "Block Font End": ""
     },
     {
-      "key": "Block File Data End",
-      "decompiled": ""
+      "Block File Data End": ""
     }
   ]
 }

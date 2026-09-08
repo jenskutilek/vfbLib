@@ -1,25 +1,20 @@
 {
   "header": {
-    "decompiled": {
-      "signature": 1179408154,
-      "app_version": 49,
-      "file_version": 48,
-      "version_major": 3,
-      "version_minor": 0
-    }
+    "signature": 1179408154,
+    "app_version": 49,
+    "file_version": 48,
+    "version_major": 3,
+    "version_minor": 0
   },
   "entries": [
     {
-      "key": "Block File Data Start",
-      "decompiled": ""
+      "Block File Data Start": ""
     },
     {
-      "key": "Block Font Start",
-      "decompiled": ""
+      "Block Font Start": ""
     },
     {
-      "key": "FL Version",
-      "decompiled": {
+      "FL Version": {
         "platform": "macos",
         "version": [
           5,
@@ -31,1951 +26,1659 @@
       }
     },
     {
-      "key": "Block Names Start",
-      "decompiled": ""
+      "Block Names Start": ""
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         0,
         "_0000"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         1,
         "_0001"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         2,
         "_0002"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         3,
         "_0003"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         4,
         "_0004"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         5,
         "_0005"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         6,
         "_0006"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         7,
         "_0007"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         8,
         "_0008"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         9,
         "_0009"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         10,
         "_0010"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         11,
         "_0011"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         12,
         "_0012"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         13,
         "_0013"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         14,
         "_0014"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         15,
         "_0015"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         16,
         "_0016"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         17,
         "_0017"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         18,
         "_0018"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         19,
         "_0019"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         20,
         "_0020"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         21,
         "_0021"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         22,
         "_0022"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         23,
         "_0023"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         24,
         "_0024"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         25,
         "_0025"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         26,
         "_0026"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         27,
         "_0027"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         28,
         "_0028"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         29,
         "_0029"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         30,
         "_0030"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         31,
         "_0031"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         32,
         "space"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         33,
         "_0033"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         34,
         "_0034"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         35,
         "_0035"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         36,
         "_0036"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         37,
         "_0037"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         38,
         "_0038"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         39,
         "_0039"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         40,
         "_0040"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         41,
         "_0041"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         42,
         "_0042"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         43,
         "_0043"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         44,
         "_0044"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         45,
         "_0045"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         46,
         "_0046"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         47,
         "_0047"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         48,
         "_0048"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         49,
         "_0049"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         50,
         "_0050"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         51,
         "_0051"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         52,
         "_0052"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         53,
         "_0053"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         54,
         "_0054"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         55,
         "_0055"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         56,
         "_0056"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         57,
         "_0057"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         58,
         "_0058"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         59,
         "_0059"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         60,
         "_0060"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         61,
         "_0061"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         62,
         "_0062"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         63,
         "_0063"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         64,
         "_0064"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         65,
         "_0065"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         66,
         "_0066"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         67,
         "_0067"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         68,
         "_0068"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         69,
         "_0069"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         70,
         "_0070"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         71,
         "_0071"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         72,
         "_0072"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         73,
         "_0073"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         74,
         "_0074"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         75,
         "_0075"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         76,
         "_0076"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         77,
         "_0077"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         78,
         "_0078"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         79,
         "_0079"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         80,
         "_0080"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         81,
         "_0081"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         82,
         "_0082"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         83,
         "_0083"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         84,
         "_0084"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         85,
         "_0085"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         86,
         "_0086"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         87,
         "_0087"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         88,
         "_0088"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         89,
         "_0089"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         90,
         "_0090"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         91,
         "_0091"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         92,
         "_0092"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         93,
         "_0093"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         94,
         "_0094"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         95,
         "_0095"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         96,
         "_0096"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         97,
         "_0097"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         98,
         "b"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         99,
         "_0099"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         100,
         "_0100"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         101,
         "_0101"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         102,
         "_0102"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         103,
         "_0103"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         104,
         "_0104"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         105,
         "_0105"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         106,
         "_0106"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         107,
         "_0107"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         108,
         "_0108"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         109,
         "_0109"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         110,
         "_0110"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         111,
         "_0111"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         112,
         "_0112"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         113,
         "_0113"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         114,
         "_0114"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         115,
         "_0115"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         116,
         "_0116"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         117,
         "_0117"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         118,
         "_0118"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         119,
         "_0119"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         120,
         "_0120"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         121,
         "_0121"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         122,
         "_0122"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         123,
         "_0123"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         124,
         "_0124"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         125,
         "_0125"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         126,
         "_0126"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         127,
         "_0127"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         128,
         "_0128"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         129,
         "_0129"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         130,
         "_0130"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         131,
         "_0131"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         132,
         "_0132"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         133,
         "_0133"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         134,
         "_0134"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         135,
         "_0135"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         136,
         "_0136"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         137,
         "_0137"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         138,
         "_0138"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         139,
         "_0139"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         140,
         "_0140"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         141,
         "_0141"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         142,
         "_0142"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         143,
         "_0143"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         144,
         "_0144"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         145,
         "_0145"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         146,
         "_0146"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         147,
         "_0147"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         148,
         "_0148"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         149,
         "_0149"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         150,
         "_0150"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         151,
         "_0151"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         152,
         "_0152"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         153,
         "_0153"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         154,
         "_0154"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         155,
         "_0155"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         156,
         "_0156"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         157,
         "_0157"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         158,
         "_0158"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         159,
         "_0159"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         160,
         "space"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         161,
         "_0161"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         162,
         "_0162"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         163,
         "_0163"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         164,
         "_0164"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         165,
         "_0165"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         166,
         "_0166"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         167,
         "_0167"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         168,
         "_0168"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         169,
         "_0169"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         170,
         "_0170"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         171,
         "_0171"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         172,
         "_0172"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         173,
         "_0173"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         174,
         "_0174"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         175,
         "_0175"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         176,
         "_0176"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         177,
         "_0177"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         178,
         "_0178"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         179,
         "_0179"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         180,
         "_0180"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         181,
         "_0181"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         182,
         "_0182"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         183,
         "_0183"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         184,
         "_0184"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         185,
         "_0185"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         186,
         "_0186"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         187,
         "_0187"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         188,
         "_0188"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         189,
         "_0189"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         190,
         "_0190"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         191,
         "_0191"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         192,
         "_0192"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         193,
         "_0193"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         194,
         "_0194"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         195,
         "_0195"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         196,
         "_0196"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         197,
         "_0197"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         198,
         "_0198"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         199,
         "_0199"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         200,
         "_0200"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         201,
         "_0201"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         202,
         "_0202"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         203,
         "_0203"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         204,
         "_0204"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         205,
         "_0205"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         206,
         "_0206"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         207,
         "_0207"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         208,
         "_0208"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         209,
         "_0209"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         210,
         "_0210"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         211,
         "_0211"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         212,
         "_0212"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         213,
         "_0213"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         214,
         "_0214"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         215,
         "_0215"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         216,
         "_0216"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         217,
         "_0217"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         218,
         "_0218"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         219,
         "_0219"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         220,
         "_0220"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         221,
         "_0221"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         222,
         "_0222"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         223,
         "_0223"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         224,
         "_0224"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         225,
         "_0225"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         226,
         "_0226"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         227,
         "_0227"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         228,
         "_0228"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         229,
         "_0229"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         230,
         "_0230"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         231,
         "_0231"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         232,
         "_0232"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         233,
         "_0233"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         234,
         "_0234"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         235,
         "_0235"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         236,
         "_0236"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         237,
         "_0237"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         238,
         "_0238"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         239,
         "_0239"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         240,
         "_0240"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         241,
         "_0241"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         242,
         "_0242"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         243,
         "_0243"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         244,
         "_0244"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         245,
         "_0245"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         246,
         "_0246"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         247,
         "_0247"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         248,
         "_0248"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         249,
         "_0249"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         250,
         "_0250"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         251,
         "_0251"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         252,
         "_0252"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         253,
         "_0253"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         254,
         "_0254"
       ]
     },
     {
-      "key": "Encoding Default",
-      "decompiled": [
+      "Encoding Default": [
         255,
         "_0255"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         32,
         "space"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         98,
         "b"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         160,
         "space"
       ]
     },
     {
-      "key": "MM Encoding Type",
-      "decompiled": 0
+      "MM Encoding Type": 0
     },
     {
-      "key": "Block Names End",
-      "decompiled": ""
+      "Block Names End": ""
     },
     {
-      "key": "Block Font Info Start",
-      "decompiled": ""
+      "Block Font Info Start": ""
     },
     {
-      "key": "font_name",
-      "decompiled": "ComicJensFreePro-Regular"
+      "font_name": "ComicJensFreePro-Regular"
     },
     {
-      "key": "Master Count",
-      "decompiled": 1
+      "Master Count": 1
     },
     {
-      "key": "weight_vector",
-      "decompiled": [
+      "weight_vector": [
         1.0
       ]
     },
     {
-      "key": "unique_id",
-      "decompiled": -1
+      "unique_id": -1
     },
     {
-      "key": "version",
-      "decompiled": ""
+      "version": ""
     },
     {
-      "key": "notice",
-      "decompiled": "A wonderful font based on the handwriting of Jens Kutilek and destined to conquer the world."
+      "notice": "A wonderful font based on the handwriting of Jens Kutilek and destined to conquer the world."
     },
     {
-      "key": "full_name",
-      "decompiled": "Comic Jens Free Pro Regular"
+      "full_name": "Comic Jens Free Pro Regular"
     },
     {
-      "key": "family_name",
-      "decompiled": "Comic Jens Free Pro"
+      "family_name": "Comic Jens Free Pro"
     },
     {
-      "key": "pref_family_name",
-      "decompiled": "Comic Jens Free Pro"
+      "pref_family_name": "Comic Jens Free Pro"
     },
     {
-      "key": "menu_name",
-      "decompiled": "Comic Jens Free Pro"
+      "menu_name": "Comic Jens Free Pro"
     },
     {
-      "key": "apple_name",
-      "decompiled": "Comic Jens Free Pro"
+      "apple_name": "Comic Jens Free Pro"
     },
     {
-      "key": "weight",
-      "decompiled": "Normal"
+      "weight": "Normal"
     },
     {
-      "key": "width",
-      "decompiled": "Normal"
+      "width": "Normal"
     },
     {
-      "key": "License",
-      "decompiled": "This font is subject to the Creativ Commons \"Attribution-No Derivative Works\" licence."
+      "License": "This font is subject to the Creativ Commons \"Attribution-No Derivative Works\" licence."
     },
     {
-      "key": "License URL",
-      "decompiled": "http://creativecommons.org/licenses/by-nd/3.0/"
+      "License URL": "http://creativecommons.org/licenses/by-nd/3.0/"
     },
     {
-      "key": "copyright",
-      "decompiled": "Copyright 2007 - 2024 by Jens Kutilek. All rights reserved."
+      "copyright": "Copyright 2007 - 2024 by Jens Kutilek. All rights reserved."
     },
     {
-      "key": "trademark",
-      "decompiled": "Comic Jens is a trademark of Jens Kutilek."
+      "trademark": "Comic Jens is a trademark of Jens Kutilek."
     },
     {
-      "key": "designer",
-      "decompiled": "Jens Kutilek"
+      "designer": "Jens Kutilek"
     },
     {
-      "key": "designer_url",
-      "decompiled": "https://www.kutilek.de/"
+      "designer_url": "https://www.kutilek.de/"
     },
     {
-      "key": "vendor_url",
-      "decompiled": "https://www.kutilek.de/comic-jens/free/"
+      "vendor_url": "https://www.kutilek.de/comic-jens/free/"
     },
     {
-      "key": "source",
-      "decompiled": "Jens Kutilek"
+      "source": "Jens Kutilek"
     },
     {
-      "key": "is_fixed_pitch",
-      "decompiled": 0
+      "is_fixed_pitch": 0
     },
     {
-      "key": "weight_code",
-      "decompiled": 400
+      "weight_code": 400
     },
     {
-      "key": "italic_angle",
-      "decompiled": 0.0
+      "italic_angle": 0.0
     },
     {
-      "key": "slant_angle",
-      "decompiled": 0.0
+      "slant_angle": 0.0
     },
     {
-      "key": "underline_position",
-      "decompiled": -143
+      "underline_position": -143
     },
     {
-      "key": "underline_thickness",
-      "decompiled": 100
+      "underline_thickness": 100
     },
     {
-      "key": "ms_charset",
-      "decompiled": 0
+      "ms_charset": 0
     },
     {
-      "key": "panose",
-      "decompiled": [
+      "panose": [
         3,
         5,
         5,
@@ -1989,36 +1692,28 @@
       ]
     },
     {
-      "key": "tt_version",
-      "decompiled": "Version 3.000"
+      "tt_version": "Version 3.000"
     },
     {
-      "key": "tt_u_id",
-      "decompiled": "3.000;JENS;ComicJensFreePro-Regular"
+      "tt_u_id": "3.000;JENS;ComicJensFreePro-Regular"
     },
     {
-      "key": "style_name",
-      "decompiled": "Regular"
+      "style_name": "Regular"
     },
     {
-      "key": "pref_style_name",
-      "decompiled": "Regular"
+      "pref_style_name": "Regular"
     },
     {
-      "key": "mac_compatible",
-      "decompiled": ""
+      "mac_compatible": ""
     },
     {
-      "key": "Sample Text",
-      "decompiled": ""
+      "Sample Text": ""
     },
     {
-      "key": "vendor",
-      "decompiled": "JENS"
+      "vendor": "JENS"
     },
     {
-      "key": "xuid",
-      "decompiled": [
+      "xuid": [
         0,
         0,
         0,
@@ -2042,90 +1737,69 @@
       ]
     },
     {
-      "key": "xuid_num",
-      "decompiled": 0
+      "xuid_num": 0
     },
     {
-      "key": "year",
-      "decompiled": 2024
+      "year": 2024
     },
     {
-      "key": "version_major",
-      "decompiled": 3
+      "version_major": 3
     },
     {
-      "key": "version_minor",
-      "decompiled": 0
+      "version_minor": 0
     },
     {
-      "key": "upm",
-      "decompiled": 1024
+      "upm": 1024
     },
     {
-      "key": "fond_id",
-      "decompiled": 128
+      "fond_id": 128
     },
     {
-      "key": "PostScript Hinting Options",
-      "decompiled": {
+      "PostScript Hinting Options": {
         "other": []
       }
     },
     {
-      "key": "Collection",
-      "decompiled": []
+      "Collection": []
     },
     {
-      "key": "blue_values_num",
-      "decompiled": 0
+      "blue_values_num": 0
     },
     {
-      "key": "other_blues_num",
-      "decompiled": 0
+      "other_blues_num": 0
     },
     {
-      "key": "family_blues_num",
-      "decompiled": 0
+      "family_blues_num": 0
     },
     {
-      "key": "family_other_blues_num",
-      "decompiled": 0
+      "family_other_blues_num": 0
     },
     {
-      "key": "stem_snap_h_num",
-      "decompiled": 0
+      "stem_snap_h_num": 0
     },
     {
-      "key": "stem_snap_v_num",
-      "decompiled": 0
+      "stem_snap_v_num": 0
     },
     {
-      "key": "font_style",
-      "decompiled": 192
+      "font_style": 192
     },
     {
-      "key": "ms_id",
-      "decompiled": 0
+      "ms_id": 0
     },
     {
-      "key": "pcl_chars_set",
-      "decompiled": " 9U"
+      "pcl_chars_set": " 9U"
     },
     {
-      "key": "cvt",
-      "decompiled": "00000000ff021603d102ed02ee010c020600d3ffb8fea2febbfebbfe200320034f016d0100006400640088000000"
+      "cvt": "00000000ff021603d102ed02ee010c020600d3ffb8fea2febbfebbfe200320034f016d0100006400640088000000"
     },
     {
-      "key": "prep",
-      "decompiled": "00b60209060a2805024242422bb60209060a2805044242422bb60209060a2805064242422bb60209000a2805084242422bb60209000a28050a4242422bb60209000a28050c4242422bb60209060a28050e4242422bb60209060a2805104242422bb546070701064042884243b02353b00743b040515a79b009b81000b20808208842435479b13006b80100421cb009b904204000b008b81860884263b008435479b11406b80140421cb007b90c20400063b008435479b006b8010042b636400605130106434442435479b12e0543b0165079b30709090543454243b05d5079b20a0940421cb1090943b006616942b8ffccb30501050543b00943444360421cb12c0643b0405279b1240543b0165079b8ffd6b7050105050a0a0a0543454243b006436369b00643624243b00a43444360421c4bb810006365b83a9860b8190062b00a2342b1000a435258b0001bb00a43591db00d1ab0095e"
+      "prep": "00b60209060a2805024242422bb60209060a2805044242422bb60209060a2805064242422bb60209000a2805084242422bb60209000a28050a4242422bb60209000a28050c4242422bb60209060a28050e4242422bb60209060a2805104242422bb546070701064042884243b02353b00743b040515a79b009b81000b20808208842435479b13006b80100421cb009b904204000b008b81860884263b008435479b11406b80140421cb007b90c20400063b008435479b006b8010042b636400605130106434442435479b12e0543b0165079b30709090543454243b05d5079b20a0940421cb1090943b006616942b8ffccb30501050543b00943444360421cb12c0643b0405279b1240543b0165079b8ffd6b7050105050a0a0a0543454243b006436369b00643624243b00a43444360421c4bb810006365b83a9860b8190062b00a2342b1000a435258b0001bb00a43591db00d1ab0095e"
     },
     {
-      "key": "fpgm",
-      "decompiled": "b0002c400e0506070d0609140e130b1208111043b0011546b00943466164424345424345424345424346b00c43466164b012436169424346b01043466164b0144361694243b0405079b1064042b1050743b0405079b1074042b31005051243b0134360b0144360b0064360b0074360b020614243b0114352b00743b046525a79b30505070743b040614243b0406142b1100543b0114352b00643b046525a79b30505060643b040614243b0406142b1090543b0114352b01243b046525a79b1121243b0406142b1080543b01143b040615079b2064006436042b30d0f0c0a43b01243b2010109431014133a43b00643b00a43103a43b0144365b01043103a43b0074365b00f43103a2db0012cb6030004010000024370454243454243b00043b0014360b00115482db0022cb40a080804054345424b4243b0105079b1040443b009436042400a1108030505010505070443694243b007434443604243454243b00a435279b206060743b00343b00443616a60421cb106074342b00543b00643442db0032c4013110606000202010202040a0a080900000501024345424370454243454243b00143b00943616a604243b00443444360424345424b4243b007435279b206030443b00043b00143616a60421cb103044342b00243b00343442db0042cb208400145547918b10507432f1cb007432e2db0052cb0022342b0052342b0082342400e410806010107070503000004040243b00115464243694243b00443614243464243697a4243b00743614243b0005279b11b034364b00643645079b219050243b00043b001154843b00843b201010243101413ed1cb1020543b00143b001154843b00843b201010543101413edb0361cb117034364b00643645079b215050243b00043b001154843b00743b0034360481cb1020543b00143b001154843b00443b0064360482d"
+      "fpgm": "b0002c400e0506070d0609140e130b1208111043b0011546b00943466164424345424345424345424346b00c43466164b012436169424346b01043466164b0144361694243b0405079b1064042b1050743b0405079b1074042b31005051243b0134360b0144360b0064360b0074360b020614243b0114352b00743b046525a79b30505070743b040614243b0406142b1100543b0114352b00643b046525a79b30505060643b040614243b0406142b1090543b0114352b01243b046525a79b1121243b0406142b1080543b01143b040615079b2064006436042b30d0f0c0a43b01243b2010109431014133a43b00643b00a43103a43b0144365b01043103a43b0074365b00f43103a2db0012cb6030004010000024370454243454243b00043b0014360b00115482db0022cb40a080804054345424b4243b0105079b1040443b009436042400a1108030505010505070443694243b007434443604243454243b00a435279b206060743b00343b00443616a60421cb106074342b00543b00643442db0032c4013110606000202010202040a0a080900000501024345424370454243454243b00143b00943616a604243b00443444360424345424b4243b007435279b206030443b00043b00143616a60421cb103044342b00243b00343442db0042cb208400145547918b10507432f1cb007432e2db0052cb0022342b0052342b0082342400e410806010107070503000004040243b00115464243694243b00443614243464243697a4243b00743614243b0005279b11b034364b00643645079b219050243b00043b001154843b00843b201010243101413ed1cb1020543b00143b001154843b00843b201010543101413edb0361cb117034364b00643645079b215050243b00043b001154843b00743b0034360481cb1020543b00143b001154843b00443b0064360482d"
     },
     {
-      "key": "gasp",
-      "decompiled": [
+      "gasp": [
         {
           "maxPpem": 7,
           "flags": 10
@@ -2137,8 +1811,7 @@
       ]
     },
     {
-      "key": "ttinfo",
-      "decompiled": {
+      "ttinfo": {
         "max_zones": 2,
         "max_twilight_points": 2,
         "max_storage": 22,
@@ -2254,52 +1927,43 @@
       }
     },
     {
-      "key": "vdmx",
-      "decompiled": []
+      "vdmx": []
     },
     {
-      "key": "hhea_line_gap",
-      "decompiled": 0
+      "hhea_line_gap": 0
     },
     {
-      "key": "hhea_ascender",
-      "decompiled": 820
+      "hhea_ascender": 820
     },
     {
-      "key": "hhea_descender",
-      "decompiled": -424
+      "hhea_descender": -424
     },
     {
-      "key": "TrueType Stem PPEMs",
-      "decompiled": {
+      "TrueType Stem PPEMs": {
         "ttStemsV": [],
         "ttStemsH": []
       }
     },
     {
-      "key": "TrueType Stems",
-      "decompiled": {
+      "TrueType Stems": {
         "ttStemsV": [],
         "ttStemsH": []
       }
     },
     {
-      "key": "TrueType Stem PPEMs 1",
-      "decompiled": {
+      "TrueType Stem PPEMs 1": {
         "ttStemsV": [],
         "ttStemsH": []
       }
     },
     {
-      "key": "TrueType Zones",
-      "decompiled": {
+      "TrueType Zones": {
         "ttZonesT": [],
         "ttZonesB": []
       }
     },
     {
-      "key": "unicoderanges",
-      "decompiled": [
+      "unicoderanges": [
         0,
         1,
         6,
@@ -2307,32 +1971,25 @@
       ]
     },
     {
-      "key": "stemsnaplimit",
-      "decompiled": 68
+      "stemsnaplimit": 68
     },
     {
-      "key": "zoneppm",
-      "decompiled": 48
+      "zoneppm": 48
     },
     {
-      "key": "codeppm",
-      "decompiled": 0
+      "codeppm": 0
     },
     {
-      "key": "dropoutppm",
-      "decompiled": 255
+      "dropoutppm": 255
     },
     {
-      "key": "Measurement Line",
-      "decompiled": 300
+      "Measurement Line": 300
     },
     {
-      "key": "TrueType Zone Deltas",
-      "decompiled": {}
+      "TrueType Zone Deltas": {}
     },
     {
-      "key": "fontnames",
-      "decompiled": [
+      "fontnames": [
         [
           1,
           1,
@@ -2511,12 +2168,10 @@
       ]
     },
     {
-      "key": "Custom CMAPs",
-      "decompiled": []
+      "Custom CMAPs": []
     },
     {
-      "key": "PCLT Table",
-      "decompiled": {
+      "PCLT Table": {
         "font_number": 0,
         "pitch": 0,
         "x_height": 0,
@@ -2542,30 +2197,25 @@
       }
     },
     {
-      "key": "Export PCLT Table",
-      "decompiled": 0
+      "Export PCLT Table": 0
     },
     {
-      "key": "Font Flags",
-      "decompiled": "00000000"
+      "Font Flags": "00000000"
     },
     {
-      "key": "TrueTypeTable",
-      "decompiled": {
+      "TrueTypeTable": {
         "tag": "GDEF",
         "data": "00010000000c000000000000000100020003000100010003"
       }
     },
     {
-      "key": "TrueTypeTable",
-      "decompiled": {
+      "TrueTypeTable": {
         "tag": "GPOS",
         "data": "00010000000a00300044000244464c54000e6c61746e001a000400000000ffff00010000000400000000ffff0001000100026d61726b000e6d61726b000e0000000100000001000400040000000100080001000c00120001001a002600010001000400010002000200030001000000060001018c0208000200060006000100b402d5"
       }
     },
     {
-      "key": "features",
-      "decompiled": [
+      "features": [
         "languagesystem DFLT dflt;",
         "languagesystem latn dflt;",
         "",
@@ -2584,24 +2234,19 @@
       ]
     },
     {
-      "key": "Block Font Info End",
-      "decompiled": ""
+      "Block Font Info End": ""
     },
     {
-      "key": "Block MM Font Info Start",
-      "decompiled": ""
+      "Block MM Font Info Start": ""
     },
     {
-      "key": "Axis Count",
-      "decompiled": 0
+      "Axis Count": 0
     },
     {
-      "key": "Anisotropic Interpolation Mappings",
-      "decompiled": []
+      "Anisotropic Interpolation Mappings": []
     },
     {
-      "key": "Axis Mappings Count",
-      "decompiled": [
+      "Axis Mappings Count": [
         0,
         0,
         0,
@@ -2609,8 +2254,7 @@
       ]
     },
     {
-      "key": "Axis Mappings",
-      "decompiled": [
+      "Axis Mappings": [
         [
           0.0,
           0.0
@@ -2774,12 +2418,10 @@
       ]
     },
     {
-      "key": "Master Name",
-      "decompiled": "Untitled"
+      "Master Name": "Untitled"
     },
     {
-      "key": "Master Location",
-      "decompiled": [
+      "Master Location": [
         1,
         [
           0.0,
@@ -2790,8 +2432,7 @@
       ]
     },
     {
-      "key": "PostScript Info",
-      "decompiled": {
+      "PostScript Info": {
         "font_matrix": [
           0.001,
           0.0,
@@ -2906,12 +2547,10 @@
       }
     },
     {
-      "key": "Block MM Font Info End",
-      "decompiled": ""
+      "Block MM Font Info End": ""
     },
     {
-      "key": "Glyph",
-      "decompiled": {
+      "Glyph": {
         "name": ".notdef",
         "num_masters": 1,
         "nodes": [
@@ -4415,29 +4054,25 @@
       }
     },
     {
-      "key": "VSB",
-      "decompiled": [
+      "VSB": [
         0
       ]
     },
     {
-      "key": "Glyph Hinting Options",
-      "decompiled": {
+      "Glyph Hinting Options": {
         "horizontal_3_stem": 1,
         "vertical_3_stem": 1,
         "other": []
       }
     },
     {
-      "key": "Glyph Origin",
-      "decompiled": {
+      "Glyph Origin": {
         "x": 0,
         "y": 0
       }
     },
     {
-      "key": "Glyph",
-      "decompiled": {
+      "Glyph": {
         "name": "space",
         "num_masters": 1,
         "nodes": [],
@@ -4450,14 +4085,12 @@
       }
     },
     {
-      "key": "VSB",
-      "decompiled": [
+      "VSB": [
         0
       ]
     },
     {
-      "key": "Glyph Hinting Options",
-      "decompiled": {
+      "Glyph Hinting Options": {
         "horizontal_3_stem": 1,
         "vertical_3_stem": 1,
         "other": [
@@ -4466,22 +4099,19 @@
       }
     },
     {
-      "key": "Glyph Origin",
-      "decompiled": {
+      "Glyph Origin": {
         "x": 0,
         "y": 0
       }
     },
     {
-      "key": "unicodes",
-      "decompiled": [
+      "unicodes": [
         32,
         160
       ]
     },
     {
-      "key": "Glyph",
-      "decompiled": {
+      "Glyph": {
         "name": "b",
         "num_masters": 1,
         "nodes": [
@@ -5422,35 +5052,30 @@
       }
     },
     {
-      "key": "VSB",
-      "decompiled": [
+      "VSB": [
         0
       ]
     },
     {
-      "key": "Glyph Hinting Options",
-      "decompiled": {
+      "Glyph Hinting Options": {
         "horizontal_3_stem": 1,
         "vertical_3_stem": 1,
         "other": []
       }
     },
     {
-      "key": "Glyph Origin",
-      "decompiled": {
+      "Glyph Origin": {
         "x": 0,
         "y": 0
       }
     },
     {
-      "key": "unicodes",
-      "decompiled": [
+      "unicodes": [
         98
       ]
     },
     {
-      "key": "Glyph GDEF Data",
-      "decompiled": {
+      "Glyph GDEF Data": {
         "glyph_class": "base",
         "anchors": [
           {
@@ -5462,8 +5087,7 @@
       }
     },
     {
-      "key": "Glyph Anchors Supplemental",
-      "decompiled": [
+      "Glyph Anchors Supplemental": [
         {
           "hue": 1,
           "data": 0
@@ -5471,8 +5095,7 @@
       ]
     },
     {
-      "key": "Glyph",
-      "decompiled": {
+      "Glyph": {
         "name": "uni1E03",
         "num_masters": 1,
         "nodes": [],
@@ -5534,35 +5157,30 @@
       }
     },
     {
-      "key": "VSB",
-      "decompiled": [
+      "VSB": [
         0
       ]
     },
     {
-      "key": "Glyph Hinting Options",
-      "decompiled": {
+      "Glyph Hinting Options": {
         "horizontal_3_stem": 1,
         "vertical_3_stem": 1,
         "other": []
       }
     },
     {
-      "key": "Glyph Origin",
-      "decompiled": {
+      "Glyph Origin": {
         "x": 0,
         "y": 0
       }
     },
     {
-      "key": "unicodes",
-      "decompiled": [
+      "unicodes": [
         7683
       ]
     },
     {
-      "key": "Glyph GDEF Data",
-      "decompiled": {
+      "Glyph GDEF Data": {
         "glyph_class": "base",
         "anchors": [
           {
@@ -5574,8 +5192,7 @@
       }
     },
     {
-      "key": "Glyph Anchors Supplemental",
-      "decompiled": [
+      "Glyph Anchors Supplemental": [
         {
           "hue": 1,
           "data": 0
@@ -5583,8 +5200,7 @@
       ]
     },
     {
-      "key": "Glyph",
-      "decompiled": {
+      "Glyph": {
         "name": "uni0307",
         "num_masters": 1,
         "nodes": [
@@ -5882,35 +5498,30 @@
       }
     },
     {
-      "key": "VSB",
-      "decompiled": [
+      "VSB": [
         0
       ]
     },
     {
-      "key": "Glyph Hinting Options",
-      "decompiled": {
+      "Glyph Hinting Options": {
         "horizontal_3_stem": 1,
         "vertical_3_stem": 1,
         "other": []
       }
     },
     {
-      "key": "Glyph Origin",
-      "decompiled": {
+      "Glyph Origin": {
         "x": 0,
         "y": 0
       }
     },
     {
-      "key": "unicodes",
-      "decompiled": [
+      "unicodes": [
         775
       ]
     },
     {
-      "key": "Glyph GDEF Data",
-      "decompiled": {
+      "Glyph GDEF Data": {
         "glyph_class": "mark",
         "anchors": [
           {
@@ -5922,8 +5533,7 @@
       }
     },
     {
-      "key": "Glyph Anchors Supplemental",
-      "decompiled": [
+      "Glyph Anchors Supplemental": [
         {
           "hue": 1,
           "data": 0
@@ -5931,8 +5541,7 @@
       ]
     },
     {
-      "key": "Mapping Mode",
-      "decompiled": {
+      "Mapping Mode": {
         "mapping_mode": "names_or_index",
         "m2": 152,
         "m3": 328,
@@ -5940,12 +5549,10 @@
       }
     },
     {
-      "key": "Block Font End",
-      "decompiled": ""
+      "Block Font End": ""
     },
     {
-      "key": "Block File Data End",
-      "decompiled": ""
+      "Block File Data End": ""
     }
   ]
 }

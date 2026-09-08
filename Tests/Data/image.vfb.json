@@ -1,25 +1,20 @@
 {
   "header": {
-    "decompiled": {
-      "signature": 1179408154,
-      "app_version": 49,
-      "file_version": 48,
-      "version_major": 3,
-      "version_minor": 0
-    }
+    "signature": 1179408154,
+    "app_version": 49,
+    "file_version": 48,
+    "version_major": 3,
+    "version_minor": 0
   },
   "entries": [
     {
-      "key": "Block File Data Start",
-      "decompiled": ""
+      "Block File Data Start": ""
     },
     {
-      "key": "Block Font Start",
-      "decompiled": ""
+      "Block Font Start": ""
     },
     {
-      "key": "FL Version",
-      "decompiled": {
+      "FL Version": {
         "platform": "macos",
         "version": [
           5,
@@ -31,1930 +26,1641 @@
       }
     },
     {
-      "key": "Block Names Start",
-      "decompiled": ""
+      "Block Names Start": ""
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         0,
         "_0000"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         1,
         "_0001"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         2,
         "_0002"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         3,
         "_0003"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         4,
         "_0004"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         5,
         "breve"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         6,
         "dotaccent"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         7,
         "_0007"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         8,
         "ring"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         9,
         "_0009"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         10,
         "hungarumlaut"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         11,
         "ogonek"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         12,
         "caron"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         13,
         "dotlessi"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         14,
         "_0014"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         15,
         "_0015"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         16,
         "_0016"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         17,
         "_0017"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         18,
         "_0018"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         19,
         "_0019"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         20,
         "_0020"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         21,
         "_0021"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         22,
         "_0022"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         23,
         "_0023"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         24,
         "_0024"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         25,
         "fraction"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         26,
         "fi"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         27,
         "fl"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         28,
         "Lslash"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         29,
         "lslash"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         30,
         "Zcaron"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         31,
         "zcaron"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         32,
         "space"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         33,
         "exclam"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         34,
         "quotedbl"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         35,
         "numbersign"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         36,
         "dollar"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         37,
         "percent"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         38,
         "ampersand"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         39,
         "quotesingle"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         40,
         "parenleft"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         41,
         "parenright"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         42,
         "asterisk"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         43,
         "plus"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         44,
         "comma"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         45,
         "hyphen"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         46,
         "period"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         47,
         "slash"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         48,
         "zero"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         49,
         "one"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         50,
         "two"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         51,
         "three"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         52,
         "four"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         53,
         "five"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         54,
         "six"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         55,
         "seven"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         56,
         "eight"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         57,
         "nine"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         58,
         "colon"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         59,
         "semicolon"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         60,
         "less"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         61,
         "equal"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         62,
         "greater"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         63,
         "question"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         64,
         "at"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         65,
         "A"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         66,
         "B"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         67,
         "C"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         68,
         "D"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         69,
         "E"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         70,
         "F"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         71,
         "G"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         72,
         "H"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         73,
         "I"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         74,
         "J"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         75,
         "K"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         76,
         "L"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         77,
         "M"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         78,
         "N"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         79,
         "O"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         80,
         "P"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         81,
         "Q"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         82,
         "R"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         83,
         "S"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         84,
         "T"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         85,
         "U"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         86,
         "V"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         87,
         "W"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         88,
         "X"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         89,
         "Y"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         90,
         "Z"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         91,
         "bracketleft"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         92,
         "backslash"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         93,
         "bracketright"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         94,
         "asciicircum"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         95,
         "underscore"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         96,
         "grave"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         97,
         "a"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         98,
         "b"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         99,
         "c"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         100,
         "d"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         101,
         "e"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         102,
         "f"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         103,
         "g"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         104,
         "h"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         105,
         "i"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         106,
         "j"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         107,
         "k"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         108,
         "l"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         109,
         "m"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         110,
         "n"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         111,
         "o"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         112,
         "p"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         113,
         "q"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         114,
         "r"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         115,
         "s"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         116,
         "t"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         117,
         "u"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         118,
         "v"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         119,
         "w"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         120,
         "x"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         121,
         "y"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         122,
         "z"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         123,
         "braceleft"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         124,
         "bar"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         125,
         "braceright"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         126,
         "asciitilde"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         127,
         "_0127"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         128,
         "Euro"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         129,
         "_0129"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         130,
         "quotesinglbase"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         131,
         "florin"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         132,
         "quotedblbase"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         133,
         "ellipsis"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         134,
         "dagger"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         135,
         "daggerdbl"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         136,
         "circumflex"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         137,
         "perthousand"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         138,
         "Scaron"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         139,
         "guilsinglleft"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         140,
         "OE"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         141,
         "_0141"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         142,
         "_0142"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         143,
         "_0143"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         144,
         "_0144"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         145,
         "quoteleft"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         146,
         "quoteright"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         147,
         "quotedblleft"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         148,
         "quotedblright"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         149,
         "bullet"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         150,
         "endash"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         151,
         "emdash"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         152,
         "tilde"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         153,
         "trademark"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         154,
         "scaron"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         155,
         "guilsinglright"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         156,
         "oe"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         157,
         "_0157"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         158,
         "_0158"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         159,
         "Ydieresis"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         160,
         "uni00A0"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         161,
         "exclamdown"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         162,
         "cent"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         163,
         "sterling"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         164,
         "currency"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         165,
         "yen"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         166,
         "brokenbar"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         167,
         "section"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         168,
         "dieresis"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         169,
         "copyright"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         170,
         "ordfeminine"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         171,
         "guillemotleft"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         172,
         "logicalnot"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         173,
         "minus"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         174,
         "registered"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         175,
         "macron"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         176,
         "degree"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         177,
         "plusminus"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         178,
         "twosuperior"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         179,
         "threesuperior"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         180,
         "acute"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         181,
         "mu"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         182,
         "paragraph"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         183,
         "periodcentered"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         184,
         "cedilla"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         185,
         "onesuperior"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         186,
         "ordmasculine"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         187,
         "guillemotright"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         188,
         "onequarter"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         189,
         "onehalf"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         190,
         "threequarters"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         191,
         "questiondown"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         192,
         "Agrave"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         193,
         "Aacute"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         194,
         "Acircumflex"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         195,
         "Atilde"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         196,
         "Adieresis"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         197,
         "Aring"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         198,
         "AE"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         199,
         "Ccedilla"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         200,
         "Egrave"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         201,
         "Eacute"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         202,
         "Ecircumflex"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         203,
         "Edieresis"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         204,
         "Igrave"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         205,
         "Iacute"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         206,
         "Icircumflex"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         207,
         "Idieresis"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         208,
         "Eth"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         209,
         "Ntilde"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         210,
         "Ograve"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         211,
         "Oacute"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         212,
         "Ocircumflex"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         213,
         "Otilde"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         214,
         "Odieresis"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         215,
         "multiply"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         216,
         "Oslash"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         217,
         "Ugrave"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         218,
         "Uacute"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         219,
         "Ucircumflex"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         220,
         "Udieresis"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         221,
         "Yacute"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         222,
         "Thorn"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         223,
         "germandbls"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         224,
         "agrave"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         225,
         "aacute"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         226,
         "acircumflex"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         227,
         "atilde"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         228,
         "adieresis"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         229,
         "aring"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         230,
         "ae"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         231,
         "ccedilla"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         232,
         "egrave"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         233,
         "eacute"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         234,
         "ecircumflex"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         235,
         "edieresis"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         236,
         "igrave"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         237,
         "iacute"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         238,
         "icircumflex"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         239,
         "idieresis"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         240,
         "eth"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         241,
         "ntilde"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         242,
         "ograve"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         243,
         "oacute"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         244,
         "ocircumflex"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         245,
         "otilde"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         246,
         "odieresis"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         247,
         "divide"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         248,
         "oslash"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         249,
         "ugrave"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         250,
         "uacute"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         251,
         "ucircumflex"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         252,
         "udieresis"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         253,
         "yacute"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         254,
         "thorn"
       ]
     },
     {
-      "key": "Encoding",
-      "decompiled": [
+      "Encoding": [
         255,
         "ydieresis"
       ]
     },
     {
-      "key": "MM Encoding Type",
-      "decompiled": 1
+      "MM Encoding Type": 1
     },
     {
-      "key": "Block Names End",
-      "decompiled": ""
+      "Block Names End": ""
     },
     {
-      "key": "Block Font Info Start",
-      "decompiled": ""
+      "Block Font Info Start": ""
     },
     {
-      "key": "font_name",
-      "decompiled": ""
+      "font_name": ""
     },
     {
-      "key": "Master Count",
-      "decompiled": 1
+      "Master Count": 1
     },
     {
-      "key": "weight_vector",
-      "decompiled": [
+      "weight_vector": [
         1.0
       ]
     },
     {
-      "key": "unique_id",
-      "decompiled": -1
+      "unique_id": -1
     },
     {
-      "key": "version",
-      "decompiled": ""
+      "version": ""
     },
     {
-      "key": "notice",
-      "decompiled": ""
+      "notice": ""
     },
     {
-      "key": "full_name",
-      "decompiled": ""
+      "full_name": ""
     },
     {
-      "key": "family_name",
-      "decompiled": ""
+      "family_name": ""
     },
     {
-      "key": "pref_family_name",
-      "decompiled": ""
+      "pref_family_name": ""
     },
     {
-      "key": "menu_name",
-      "decompiled": ""
+      "menu_name": ""
     },
     {
-      "key": "apple_name",
-      "decompiled": ""
+      "apple_name": ""
     },
     {
-      "key": "weight",
-      "decompiled": ""
+      "weight": ""
     },
     {
-      "key": "width",
-      "decompiled": "Normal"
+      "width": "Normal"
     },
     {
-      "key": "License",
-      "decompiled": ""
+      "License": ""
     },
     {
-      "key": "License URL",
-      "decompiled": ""
+      "License URL": ""
     },
     {
-      "key": "copyright",
-      "decompiled": ""
+      "copyright": ""
     },
     {
-      "key": "trademark",
-      "decompiled": ""
+      "trademark": ""
     },
     {
-      "key": "designer",
-      "decompiled": ""
+      "designer": ""
     },
     {
-      "key": "designer_url",
-      "decompiled": ""
+      "designer_url": ""
     },
     {
-      "key": "vendor_url",
-      "decompiled": ""
+      "vendor_url": ""
     },
     {
-      "key": "source",
-      "decompiled": ""
+      "source": ""
     },
     {
-      "key": "is_fixed_pitch",
-      "decompiled": 0
+      "is_fixed_pitch": 0
     },
     {
-      "key": "weight_code",
-      "decompiled": -1
+      "weight_code": -1
     },
     {
-      "key": "italic_angle",
-      "decompiled": 0.0
+      "italic_angle": 0.0
     },
     {
-      "key": "slant_angle",
-      "decompiled": 0.0
+      "slant_angle": 0.0
     },
     {
-      "key": "underline_position",
-      "decompiled": -100
+      "underline_position": -100
     },
     {
-      "key": "underline_thickness",
-      "decompiled": 50
+      "underline_thickness": 50
     },
     {
-      "key": "ms_charset",
-      "decompiled": 0
+      "ms_charset": 0
     },
     {
-      "key": "panose",
-      "decompiled": [
+      "panose": [
         0,
         0,
         0,
@@ -1968,36 +1674,28 @@
       ]
     },
     {
-      "key": "tt_version",
-      "decompiled": ""
+      "tt_version": ""
     },
     {
-      "key": "tt_u_id",
-      "decompiled": ""
+      "tt_u_id": ""
     },
     {
-      "key": "style_name",
-      "decompiled": ""
+      "style_name": ""
     },
     {
-      "key": "pref_style_name",
-      "decompiled": ""
+      "pref_style_name": ""
     },
     {
-      "key": "mac_compatible",
-      "decompiled": ""
+      "mac_compatible": ""
     },
     {
-      "key": "Sample Text",
-      "decompiled": ""
+      "Sample Text": ""
     },
     {
-      "key": "vendor",
-      "decompiled": "pyrs"
+      "vendor": "pyrs"
     },
     {
-      "key": "xuid",
-      "decompiled": [
+      "xuid": [
         0,
         0,
         0,
@@ -2021,78 +1719,60 @@
       ]
     },
     {
-      "key": "xuid_num",
-      "decompiled": 0
+      "xuid_num": 0
     },
     {
-      "key": "year",
-      "decompiled": 0
+      "year": 0
     },
     {
-      "key": "version_major",
-      "decompiled": 1
+      "version_major": 1
     },
     {
-      "key": "version_minor",
-      "decompiled": 0
+      "version_minor": 0
     },
     {
-      "key": "upm",
-      "decompiled": 1000
+      "upm": 1000
     },
     {
-      "key": "fond_id",
-      "decompiled": 128
+      "fond_id": 128
     },
     {
-      "key": "PostScript Hinting Options",
-      "decompiled": {
+      "PostScript Hinting Options": {
         "other": []
       }
     },
     {
-      "key": "Collection",
-      "decompiled": []
+      "Collection": []
     },
     {
-      "key": "blue_values_num",
-      "decompiled": 0
+      "blue_values_num": 0
     },
     {
-      "key": "other_blues_num",
-      "decompiled": 0
+      "other_blues_num": 0
     },
     {
-      "key": "family_blues_num",
-      "decompiled": 0
+      "family_blues_num": 0
     },
     {
-      "key": "family_other_blues_num",
-      "decompiled": 0
+      "family_other_blues_num": 0
     },
     {
-      "key": "stem_snap_h_num",
-      "decompiled": 0
+      "stem_snap_h_num": 0
     },
     {
-      "key": "stem_snap_v_num",
-      "decompiled": 0
+      "stem_snap_v_num": 0
     },
     {
-      "key": "font_style",
-      "decompiled": 64
+      "font_style": 64
     },
     {
-      "key": "ms_id",
-      "decompiled": 0
+      "ms_id": 0
     },
     {
-      "key": "pcl_chars_set",
-      "decompiled": " 9U"
+      "pcl_chars_set": " 9U"
     },
     {
-      "key": "ttinfo",
-      "decompiled": {
+      "ttinfo": {
         "max_zones": 0,
         "max_twilight_points": 0,
         "max_storage": 0,
@@ -2201,88 +1881,70 @@
       }
     },
     {
-      "key": "vdmx",
-      "decompiled": []
+      "vdmx": []
     },
     {
-      "key": "hhea_line_gap",
-      "decompiled": 9
+      "hhea_line_gap": 9
     },
     {
-      "key": "hhea_ascender",
-      "decompiled": 750
+      "hhea_ascender": 750
     },
     {
-      "key": "hhea_descender",
-      "decompiled": -250
+      "hhea_descender": -250
     },
     {
-      "key": "TrueType Stem PPEMs",
-      "decompiled": {
+      "TrueType Stem PPEMs": {
         "ttStemsV": [],
         "ttStemsH": []
       }
     },
     {
-      "key": "TrueType Stems",
-      "decompiled": {
+      "TrueType Stems": {
         "ttStemsV": [],
         "ttStemsH": []
       }
     },
     {
-      "key": "TrueType Stem PPEMs 1",
-      "decompiled": {
+      "TrueType Stem PPEMs 1": {
         "ttStemsV": [],
         "ttStemsH": []
       }
     },
     {
-      "key": "TrueType Zones",
-      "decompiled": {
+      "TrueType Zones": {
         "ttZonesT": [],
         "ttZonesB": []
       }
     },
     {
-      "key": "unicoderanges",
-      "decompiled": []
+      "unicoderanges": []
     },
     {
-      "key": "stemsnaplimit",
-      "decompiled": 68
+      "stemsnaplimit": 68
     },
     {
-      "key": "zoneppm",
-      "decompiled": 48
+      "zoneppm": 48
     },
     {
-      "key": "codeppm",
-      "decompiled": 0
+      "codeppm": 0
     },
     {
-      "key": "dropoutppm",
-      "decompiled": 255
+      "dropoutppm": 255
     },
     {
-      "key": "Measurement Line",
-      "decompiled": 300
+      "Measurement Line": 300
     },
     {
-      "key": "TrueType Zone Deltas",
-      "decompiled": {}
+      "TrueType Zone Deltas": {}
     },
     {
-      "key": "fontnames",
-      "decompiled": []
+      "fontnames": []
     },
     {
-      "key": "Custom CMAPs",
-      "decompiled": []
+      "Custom CMAPs": []
     },
     {
-      "key": "PCLT Table",
-      "decompiled": {
+      "PCLT Table": {
         "font_number": 0,
         "pitch": 0,
         "x_height": 0,
@@ -2308,32 +1970,25 @@
       }
     },
     {
-      "key": "Export PCLT Table",
-      "decompiled": 0
+      "Export PCLT Table": 0
     },
     {
-      "key": "Font Flags",
-      "decompiled": "00000000"
+      "Font Flags": "00000000"
     },
     {
-      "key": "Block Font Info End",
-      "decompiled": ""
+      "Block Font Info End": ""
     },
     {
-      "key": "Block MM Font Info Start",
-      "decompiled": ""
+      "Block MM Font Info Start": ""
     },
     {
-      "key": "Axis Count",
-      "decompiled": 0
+      "Axis Count": 0
     },
     {
-      "key": "Anisotropic Interpolation Mappings",
-      "decompiled": []
+      "Anisotropic Interpolation Mappings": []
     },
     {
-      "key": "Axis Mappings Count",
-      "decompiled": [
+      "Axis Mappings Count": [
         0,
         0,
         0,
@@ -2341,8 +1996,7 @@
       ]
     },
     {
-      "key": "Axis Mappings",
-      "decompiled": [
+      "Axis Mappings": [
         [
           0.0,
           0.0
@@ -2506,12 +2160,10 @@
       ]
     },
     {
-      "key": "Master Name",
-      "decompiled": "Untitled"
+      "Master Name": "Untitled"
     },
     {
-      "key": "Master Location",
-      "decompiled": [
+      "Master Location": [
         1,
         [
           0.0,
@@ -2522,8 +2174,7 @@
       ]
     },
     {
-      "key": "PostScript Info",
-      "decompiled": {
+      "PostScript Info": {
         "font_matrix": [
           0.001,
           0.0,
@@ -2638,12 +2289,10 @@
       }
     },
     {
-      "key": "Block MM Font Info End",
-      "decompiled": ""
+      "Block MM Font Info End": ""
     },
     {
-      "key": "Glyph",
-      "decompiled": {
+      "Glyph": {
         "name": "a",
         "num_masters": 1,
         "nodes": [
@@ -2856,8 +2505,7 @@
       }
     },
     {
-      "key": "image",
-      "decompiled": {
+      "image": {
         "origin": [
           22,
           -329
@@ -13253,14 +12901,12 @@
       }
     },
     {
-      "key": "VSB",
-      "decompiled": [
+      "VSB": [
         0
       ]
     },
     {
-      "key": "Glyph Hinting Options",
-      "decompiled": {
+      "Glyph Hinting Options": {
         "horizontal_3_stem": 1,
         "vertical_3_stem": 1,
         "other": [
@@ -13269,8 +12915,7 @@
       }
     },
     {
-      "key": "mask",
-      "decompiled": {
+      "mask": {
         "weight_vector": [
           1.0
         ],
@@ -13279,35 +12924,30 @@
       }
     },
     {
-      "key": "mask.metrics",
-      "decompiled": [
+      "mask.metrics": [
         833,
         0
       ]
     },
     {
-      "key": "Glyph Origin",
-      "decompiled": {
+      "Glyph Origin": {
         "x": 0,
         "y": 0
       }
     },
     {
-      "key": "unicodes",
-      "decompiled": [
+      "unicodes": [
         97
       ]
     },
     {
-      "key": "Glyph Guide Properties",
-      "decompiled": {
+      "Glyph Guide Properties": {
         "h": [],
         "v": []
       }
     },
     {
-      "key": "Font Options",
-      "decompiled": {
+      "Font Options": {
         "fit_ascender": 1000,
         "fit_descender": -400,
         "auto_metrics_left": 30,
@@ -13380,12 +13020,10 @@
       }
     },
     {
-      "key": "Export Options",
-      "decompiled": []
+      "Export Options": []
     },
     {
-      "key": "Mapping Mode",
-      "decompiled": {
+      "Mapping Mode": {
         "mapping_mode": "names_or_index",
         "m2": 152,
         "m3": 57,
@@ -13393,12 +13031,10 @@
       }
     },
     {
-      "key": "Block Font End",
-      "decompiled": ""
+      "Block Font End": ""
     },
     {
-      "key": "Block File Data End",
-      "decompiled": ""
+      "Block File Data End": ""
     }
   ]
 }
