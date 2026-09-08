@@ -269,21 +269,21 @@ class GlyphEncodingCompiler(BaseCompiler):
         self.write_str(name)  # XXX: Does it have to be cp1252?
 
 
-class HexStringCompiler(BaseCompiler):
-    def _compile(self, data: str | None) -> None:
-        """
-        Compile the data given in hex string format to the stream as bytes.
+# class HexStringCompiler(BaseCompiler):
+#     def _compile(self, data: str | None) -> None:
+#         """
+#         Compile the data given in hex string format to the stream as bytes.
 
-        This can be used as a fallback for unsupported entries as long as the hex data
-        is known, e.g. for end markers or constants.
+#         This can be used as a fallback for unsupported entries as long as the hex data
+#         is known, e.g. for end markers or constants.
 
-        Args:
-            data (str | None): The hex string data, e.g. "203955", or None.
-        """
-        if not data:
-            return
+#         Args:
+#             data (str | None): The hex string data, e.g. "203955", or None.
+#         """
+#         if not data:
+#             return
 
-        self.write_bytes(deHexStr(data))
+#         self.write_bytes(deHexStr(data))
 
 
 mapping_modes = {
