@@ -8,10 +8,14 @@
   },
   "entries": [
     {
-      "Block File Data Start": ""
+      "Block File Data Start": {
+        "data": ""
+      }
     },
     {
-      "Block Font Start": ""
+      "Block Font Start": {
+        "data": ""
+      }
     },
     {
       "FL Version": {
@@ -26,7 +30,9 @@
       }
     },
     {
-      "Block Names Start": ""
+      "Block Names Start": {
+        "data": ""
+      }
     },
     {
       "Encoding Default": [
@@ -3758,16 +3764,22 @@
       "note": "Italic\r\n10.78065° voor glijkbreedblijvende letters\r\n11° -48 98% ?H (ExtraLight aan R abgemeten in juni 1998)\r\n11° -40 98% ?H (Stond in dit document, wellicht Black?)\r\n\r\nSyntSmallCaps\r\nSC ExtraLight\r\nBlend Light & Black 10.3077% scale x 80.12% y 77.037%, LSB RSB + 29\r\nSC Black \r\nMM Wt 1041, scale x 80.12 y 77, LSB RSB + 27\r\n\r\n\r\n722 changes: /ampersand.sc/ampersand.alt6/ampersand.alt7/three.LinTab/three.lowTab/ampersand.mix/ampersand.sc.mix/eight.LinTab/eight.oldstyle/eight.OnumTab/eight.lowTab/zero.OnumTab/one.OnumTab/one.OnumTab.alt1/two.OnumTab/three.OnumTab/four.OnumTab/five.OnumTab/six.OnumTab/seven.OnumTab/nine.OnumTab/eight.nom\r\n723 changes:\r\n/two.OnumTab/three.OnumTab/nine.OnumTab/two.oldstyle\r\n\r\n773 Changes (Jens) monospace nut fraction Zahlen, mehr Bars und Nutso Feature code"
     },
     {
-      "Font Flags": "01000000"
+      "Font Flags": {
+        "data": "01000000"
+      }
     },
     {
       "OpenType Kerning Class Flags": {}
     },
     {
-      "Block Font Info End": ""
+      "Block Font Info End": {
+        "data": ""
+      }
     },
     {
-      "Block MM Font Info Start": ""
+      "Block MM Font Info Start": {
+        "data": ""
+      }
     },
     {
       "Axis Count": 1
@@ -4358,7 +4370,9 @@
       }
     },
     {
-      "Block MM Font Info End": ""
+      "Block MM Font Info End": {
+        "data": ""
+      }
     },
     {
       "Global Guides": {
@@ -6551,10 +6565,14 @@
       }
     },
     {
-      "Block Font End": ""
+      "Block Font End": {
+        "data": ""
+      }
     },
     {
-      "Block File Data End": ""
+      "Block File Data End": {
+        "data": ""
+      }
     }
   ]
 }

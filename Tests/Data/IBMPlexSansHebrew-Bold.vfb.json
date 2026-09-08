@@ -8,10 +8,14 @@
   },
   "entries": [
     {
-      "Block File Data Start": ""
+      "Block File Data Start": {
+        "data": ""
+      }
     },
     {
-      "Block Font Start": ""
+      "Block Font Start": {
+        "data": ""
+      }
     },
     {
       "FL Version": {
@@ -26,7 +30,9 @@
       }
     },
     {
-      "Block Names Start": ""
+      "Block Names Start": {
+        "data": ""
+      }
     },
     {
       "Encoding": [
@@ -4025,7 +4031,9 @@
       "note": "How razorback-jumping frogs can level six piqued gymnasts!"
     },
     {
-      "Font Flags": "00000000"
+      "Font Flags": {
+        "data": "00000000"
+      }
     },
     {
       "customdata": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n\t<key>com.type-invaders.fontnaming.macfam</key>\n\t<string>IBM Plex Sans Hebrew</string>\n\t<key>com.type-invaders.fontnaming.macstyle</key>\n\t<string>Bold</string>\n\t<key>com.type-invaders.fontnaming.winfam</key>\n\t<string>IBM Plex Sans Hebrew</string>\n\t<key>com.type-invaders.fontnaming.winstyle</key>\n\t<string>Bold</string>\n\t<key>com.type-invaders.interpolation.value</key>\n\t<integer>100</integer>\n</dict>\n</plist>\n"
@@ -7617,10 +7625,14 @@
       ]
     },
     {
-      "Block Font Info End": ""
+      "Block Font Info End": {
+        "data": ""
+      }
     },
     {
-      "Block MM Font Info Start": ""
+      "Block MM Font Info Start": {
+        "data": ""
+      }
     },
     {
       "Axis Count": 0
@@ -7930,7 +7942,9 @@
       }
     },
     {
-      "Block MM Font Info End": ""
+      "Block MM Font Info End": {
+        "data": ""
+      }
     },
     {
       "Global Guides": {
@@ -194686,10 +194700,14 @@
       }
     },
     {
-      "Block Font End": ""
+      "Block Font End": {
+        "data": ""
+      }
     },
     {
-      "Block File Data End": ""
+      "Block File Data End": {
+        "data": ""
+      }
     }
   ]
 }

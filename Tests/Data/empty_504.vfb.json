@@ -8,10 +8,14 @@
   },
   "entries": [
     {
-      "Block File Data Start": ""
+      "Block File Data Start": {
+        "data": ""
+      }
     },
     {
-      "Block Font Start": ""
+      "Block Font Start": {
+        "data": ""
+      }
     },
     {
       "FL Version": {
@@ -26,7 +30,9 @@
       }
     },
     {
-      "Block Names Start": ""
+      "Block Names Start": {
+        "data": ""
+      }
     },
     {
       "Encoding": [
@@ -1974,13 +1980,19 @@
       "Export PCLT Table": 0
     },
     {
-      "Font Flags": "00000000"
+      "Font Flags": {
+        "data": "00000000"
+      }
     },
     {
-      "Block Font Info End": ""
+      "Block Font Info End": {
+        "data": ""
+      }
     },
     {
-      "Block MM Font Info Start": ""
+      "Block MM Font Info Start": {
+        "data": ""
+      }
     },
     {
       "Axis Count": 0
@@ -2290,7 +2302,9 @@
       }
     },
     {
-      "Block MM Font Info End": ""
+      "Block MM Font Info End": {
+        "data": ""
+      }
     },
     {
       "Mapping Mode": {
@@ -2301,10 +2315,14 @@
       }
     },
     {
-      "Block Font End": ""
+      "Block Font End": {
+        "data": ""
+      }
     },
     {
-      "Block File Data End": ""
+      "Block File Data End": {
+        "data": ""
+      }
     }
   ]
 }
