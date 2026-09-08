@@ -19,6 +19,15 @@ KerningClassFlagDict = dict[str, tuple[int, int]]
 MetricsClassFlagDict = dict[str, tuple[int, int, int]]
 
 
+class BinaryTableDict(TypedDict):
+    tag: str
+    data: bytes
+
+
+class BinaryTrueTypeTableDict(TypedDict):
+    data: bytes
+
+
 class BitmapDataDict(TypedDict):
     data: list[list[int]]
     preview: NotRequired[list[str]]

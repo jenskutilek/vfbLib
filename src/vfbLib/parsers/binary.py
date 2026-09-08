@@ -1,13 +1,15 @@
-import logging
-
-from vfbLib.helpers import hexStr
 from vfbLib.parsers.base import BaseParser
-
-logger = logging.getLogger(__name__)
+from vfbLib.typing import BinaryTableDict, BinaryTrueTypeTableDict
 
 
 class BinaryTableParser(BaseParser):
-    def _parse(self) -> dict[str, str]:
+    def _parse(self) -> BinaryTableDict:
         tag = self.read_str(4)
-        data = hexStr(self.stream.read())
+        data = self.stream.read()
         return {"tag": tag, "data": data}
+
+
+class BinaryTrueTypeTableParser(BaseParser):
+    def _parse(self) -> BinaryTrueTypeTableDict:
+        data = self.stream.read()
+        return {"data": data}

@@ -7,7 +7,7 @@ from vfbLib.compilers.base import (
     OpenTypeKerningClassFlagsCompiler,
     OpenTypeMetricsClassFlagsCompiler,
 )
-from vfbLib.compilers.binary import BinaryTableCompiler
+from vfbLib.compilers.binary import BinaryTableCompiler, BinaryTrueTypeTableCompiler
 from vfbLib.compilers.bitmap import BackgroundBitmapCompiler, GlyphBitmapsCompiler
 from vfbLib.compilers.cmap import CustomCmapCompiler
 from vfbLib.compilers.fl3 import MMKernPairCompiler
@@ -83,7 +83,7 @@ from vfbLib.parsers.base import (
     OpenTypeKerningClassFlagsParser,
     OpenTypeMetricsClassFlagsParser,
 )
-from vfbLib.parsers.binary import BinaryTableParser
+from vfbLib.parsers.binary import BinaryTableParser, BinaryTrueTypeTableParser
 from vfbLib.parsers.bitmap import BackgroundBitmapParser, GlyphBitmapsParser
 from vfbLib.parsers.cmap import CustomCmapParser
 from vfbLib.parsers.fl3 import MMKernPairParser
@@ -211,9 +211,9 @@ parser_classes = {
     F.ms_id: ("ms_id", Int16Parser, Int16Compiler),
     F.pcl_chars_set: ("pcl_chars_set", StringParser, StringCompiler),
 
-    T.cvt: ("cvt", BaseParser, HexStringCompiler),  # Binary cvt Table
-    T.prep: ("prep", BaseParser, HexStringCompiler),  # Binary prep Table
-    T.fpgm: ("fpgm", BaseParser, HexStringCompiler),  # Binary fpgm Table
+    T.cvt: ("cvt", BinaryTrueTypeTableParser, BinaryTrueTypeTableCompiler),  # Binary cvt Table
+    T.prep: ("prep", BinaryTrueTypeTableParser, BinaryTrueTypeTableCompiler),  # Binary prep Table
+    T.fpgm: ("fpgm", BinaryTrueTypeTableParser, BinaryTrueTypeTableCompiler),  # Binary fpgm Table
     T.gasp: ("gasp", GaspParser, GaspCompiler),
     F.ttinfo: ("ttinfo", TrueTypeInfoParser, TrueTypeInfoCompiler),
     T.vdmx: ("vdmx", VdmxParser, VdmxCompiler),
