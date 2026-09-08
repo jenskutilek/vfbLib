@@ -1,4 +1,3 @@
-# noqa:N999
 from collections.abc import Sequence
 from enum import IntEnum
 from typing import Literal
