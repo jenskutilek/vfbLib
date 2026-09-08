@@ -18,7 +18,11 @@ from vfbLib.typing import MappingModeDict
 if TYPE_CHECKING:
     from io import BufferedIOBase
 
-    from vfbLib.typing import KerningClassFlagDict, MetricsClassFlagDict
+    from vfbLib.typing import (
+        BinaryEntryDict,
+        KerningClassFlagDict,
+        MetricsClassFlagDict,
+    )
     from vfbLib.vfb.vfb import Vfb
 
 
@@ -227,15 +231,16 @@ class BaseParser(StreamReader):
         data = deHexStr(hexstr)
         return self.parse(BytesIO(data), len(data), vfb)
 
-    def _parse(self) -> Any:
+    def _parse(self) -> BinaryEntryDict | Any:
         """
-        Custom parsing method. By default, it returns a human-readable hex string of the
-        data.
+        Custom parsing method. By default, it returns the bytes of the entry in a dict.
+        The bytes are converted to a a human-readable hex string when serialized to
+        JSON.
 
         Returns:
-            Any: _description_
+            BinaryEntryDict: The dict representing the binary data.
         """
-        return hexStr(self.stream.read())
+        return {"data": self.stream.read()}
 
     def skip_stream(self) -> None:
         """
