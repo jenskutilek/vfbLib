@@ -2,8 +2,8 @@ from vfbLib.compilers.base import (
     EncodedValueListCompiler,
     EncodedValueListWithCountCompiler,
     GlyphEncodingCompiler,
-    HexStringCompiler,
     MappingModeCompiler,
+    NullCompiler,
     OpenTypeKerningClassFlagsCompiler,
     OpenTypeMetricsClassFlagsCompiler,
 )
@@ -145,15 +145,15 @@ from vfbLib.parsers.truetype import (
 # fmt: off
 parser_classes = {
     # Sorted by appearance in the VFB
-    F.BlockFileDataStart: ("Block File Data Start", BaseParser, HexStringCompiler),
-    F.BlockFontStart: ("Block Font Start", BaseParser, HexStringCompiler),
+    F.BlockFileDataStart: ("Block File Data Start", BaseParser, NullCompiler),
+    F.BlockFontStart: ("Block Font Start", BaseParser, NullCompiler),
     F.FLVersion: ("FL Version", FLVersionParser, FLVersionCompiler),
-    F.BlockNamesStart: ("Block Names Start", BaseParser, HexStringCompiler),
+    F.BlockNamesStart: ("Block Names Start", BaseParser, NullCompiler),
     F.EncodingDefault: ("Encoding Default", GlyphEncodingParser, GlyphEncodingCompiler),
     F.Encoding: ("Encoding", GlyphEncodingParser, GlyphEncodingCompiler),
     F.MMEncType: ("MM Encoding Type", Int16Parser, Int16Compiler),
-    F.BlockNamesEnd: ("Block Names End", StringParser, HexStringCompiler),
-    F.BlockFontInfoStart: ("Block Font Info Start", StringParser, HexStringCompiler),
+    F.BlockNamesEnd: ("Block Names End", StringParser, NullCompiler),
+    F.BlockFontInfoStart: ("Block Font Info Start", StringParser, NullCompiler),
     F.font_name: ("font_name", StringParser, StringCompiler),
     F.MasterCount: ("Master Count", Int16Parser, Int16Compiler),
     F.weight_vector: ("weight_vector", DoubleListParser, DoubleListCompiler),
@@ -260,8 +260,8 @@ parser_classes = {
     # Repeat for each OpenType class:
     F.GlyphClass: ("OpenType Class", StringParser, StringCompiler),  # Font.classes
 
-    F.BlockFontInfoEnd: ("Block Font Info End", BaseParser, HexStringCompiler),
-    F.BlockMMFontInfoStart: ("Block MM Font Info Start", BaseParser, HexStringCompiler),
+    F.BlockFontInfoEnd: ("Block Font Info End", BaseParser, NullCompiler),
+    F.BlockMMFontInfoStart: ("Block MM Font Info Start", BaseParser, NullCompiler),
     F.AxisCount: ("Axis Count", Int16Parser, Int16Compiler),
     # Repeat for each axis:
     F.AxisName: ("Axis Name", StringParser, StringCompiler),
@@ -280,7 +280,7 @@ parser_classes = {
     # Repeat PostScript Info for each master:
     M.PostScriptInfo: ("PostScript Info", PostScriptInfoParser, PostScriptInfoCompiler),
 
-    F.BlockMMFontInfoEnd: ("Block MM Font Info End", BaseParser, HexStringCompiler),
+    F.BlockMMFontInfoEnd: ("Block MM Font Info End", BaseParser, NullCompiler),
     F.GlobalGuides: ("Global Guides", GlobalGuidesParser, GuidesCompiler),
     F.GlobalGuideProperties: ("Global Guide Properties", GuidePropertiesParser, GuidePropertiesCompiler),
     F.GlobalMask: ("Global Mask", GlobalMaskParser, GlobalMaskCompiler),
@@ -316,13 +316,13 @@ parser_classes = {
     F.MappingMode: ("Mapping Mode", MappingModeParser, MappingModeCompiler),
 
     # Not seen in FontNames.vfb:
-    F.BlockMMKerningStart: ("Block MM Kerning Start", BaseParser, HexStringCompiler),
+    F.BlockMMKerningStart: ("Block MM Kerning Start", BaseParser, NullCompiler),
     F.MMKernPair: ("MMKernPair", MMKernPairParser, MMKernPairCompiler),
-    F.BlockMMKerningEnd: ("Block MM Kerning End", BaseParser, HexStringCompiler),
+    F.BlockMMKerningEnd: ("Block MM Kerning End", BaseParser, NullCompiler),
 
     # File end
-    F.BlockFontEnd: ("Block Font End", BaseParser, HexStringCompiler),
-    F.BlockFileDataEnd: ("Block File Data End", BaseParser, HexStringCompiler),
+    F.BlockFontEnd: ("Block Font End", BaseParser, NullCompiler),
+    F.BlockFileDataEnd: ("Block File Data End", BaseParser, NullCompiler),
 }
 # fmt: on
 

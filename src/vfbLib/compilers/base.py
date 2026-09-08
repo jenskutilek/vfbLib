@@ -217,6 +217,20 @@ class BaseCompiler(StreamWriter):
         # Must be implemented for compilers that need it, e.g. the GlyphCompiler.
 
 
+class NullCompiler(BaseCompiler):
+    def compile(
+        self, data: "BinaryEntryDict | bytes | Any", vfb: "Vfb | None" = None
+    ) -> bytes:
+        """
+        Compiler for empty entries, e.g. structural markers. Returns empty bytes.
+
+        Args:
+            data (BinaryEntryDict | bytes | Any): Data (ignored).
+            vfb (int, optional): The Vfb that is calling the compiler (ignored).
+        """
+        return b""
+
+
 class EncodedValueListCompiler(BaseCompiler):
     def _compile(self, data: "Any") -> None:
         for value in data:
