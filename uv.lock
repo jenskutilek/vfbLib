@@ -1404,7 +1404,7 @@ wheels = [
 
 [[package]]
 name = "vfblib"
-version = "0.11.7"
+version = "0.12.0.dev0"
 source = { editable = "." }
 dependencies = [
     { name = "fonttools" },
@@ -1451,7 +1451,7 @@ test = [
 [package.metadata]
 requires-dist = [
     { name = "fonttools", extras = ["ufo"], specifier = ">=4.63.0" },
-    { name = "orjson", specifier = ">=3.11.9,<4" },
+    { name = "orjson", specifier = ">=3.12.0,<4" },
     { name = "pyyaml", marker = "extra == 'yaml'", specifier = ">=6.0.3" },
     { name = "sphinx", marker = "extra == 'doc'", specifier = ">=9.0.0" },
     { name = "sphinx-rtd-theme", marker = "extra == 'doc'" },
