@@ -121,20 +121,20 @@ expected_ibm_serif_text = (
 )
 
 raw_short = [
-    [
-        7,
-        1,
-        0,
-        0,
-        "IBM Plex® is a trademark of IBM Corp, registered in many jurisdictions worldwide.",
-    ],
-    [
-        7,
-        3,
-        1,
-        1033,
-        "IBM Plex® is a trademark of IBM Corp, registered in many jurisdictions worldwide.",
-    ],
+    {
+        "name_id": 7,
+        "platform_id": 1,
+        "encoding_id": 0,
+        "language_id": 0,
+        "string": "IBM Plex® is a trademark of IBM Corp, registered in many jurisdictions worldwide.",
+    },
+    {
+        "name_id": 7,
+        "platform_id": 3,
+        "encoding_id": 1,
+        "language_id": 1033,
+        "string": "IBM Plex® is a trademark of IBM Corp, registered in many jurisdictions worldwide.",
+    },
 ]
 
 expected_short = (
@@ -151,15 +151,46 @@ class NameRecordsCompilerTest(TestCase):
         assert result == "8b"
 
     def test_mac(self) -> None:
-        result = NameRecordsCompiler().compile_hex([[0, 1, 0, 0, "Hällo"]])
+        result = NameRecordsCompiler().compile_hex(
+            [
+                {
+                    "name_id": 0,
+                    "platform_id": 1,
+                    "encoding_id": 0,
+                    "language_id": 0,
+                    "string": "Hällo",
+                }
+            ]
+        )
         assert result == hexStr(deHexStr("8c 8b 8c 8b 8b 90 d3 f71e f700 f700 f703"))
 
     def test_unicode(self) -> None:
-        result = NameRecordsCompiler().compile_hex([[0, 3, 1, 1033, "Hällo"]])
+        result = NameRecordsCompiler().compile_hex(
+            [
+                {
+                    "name_id": 0,
+                    "platform_id": 3,
+                    "encoding_id": 1,
+                    "language_id": 1033,
+                    "string": "Hällo",
+                }
+            ]
+        )
         assert result == hexStr(deHexStr("8c 8b 8e 8c fa9d 90 d3 f778 f700 f700 f703"))
 
     def test_ibm_serif_text(self) -> None:
-        result = NameRecordsCompiler().compile_hex(decompiled_ibm_serif_text)
+        # Build a NameRecordDict list
+        decompiled = [
+            {
+                k: v
+                for k, v in zip(
+                    ("name_id", "platform_id", "encoding_id", "language_id", "string"),
+                    entry,
+                )
+            }
+            for entry in decompiled_ibm_serif_text
+        ]
+        result = NameRecordsCompiler().compile_hex(decompiled)
         assert result == expected_ibm_serif_text
 
     def test_mac_utf_encodings(self) -> None:

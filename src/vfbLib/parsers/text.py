@@ -1,11 +1,11 @@
 from re import search
 
 from vfbLib.parsers.base import BaseParser
-from vfbLib.typing import FeaturesDict
+from vfbLib.typing import FeaturesDict, NameRecordDict
 
 
 class NameRecordsParser(BaseParser):
-    def _parse(self) -> list[tuple[int, int, int, int, str]]:
+    def _parse(self) -> list[NameRecordDict]:
         num = self.read_value()
         result = []
         for _ in range(num):
@@ -26,7 +26,15 @@ class NameRecordsParser(BaseParser):
                 except ValueError:
                     char = "\ufeff"
                 name += char
-            result.append((nameID, platID, encID, langID, name))
+            result.append(
+                NameRecordDict(
+                    name_id=nameID,
+                    platform_id=platID,
+                    encoding_id=encID,
+                    language_id=langID,
+                    string=name,
+                )
+            )
 
         return result
 

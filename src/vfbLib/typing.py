@@ -262,6 +262,14 @@ class MMNode(TypedDict):
     type: Literal["move", "line", "curve", "qcurve"]
 
 
+class NameRecordDict(TypedDict):
+    platform_id: int
+    encoding_id: int
+    language_id: int
+    name_id: int
+    string: str
+
+
 class PCLTDict(TypedDict):
     font_number: int
     pitch: int

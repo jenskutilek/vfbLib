@@ -11,7 +11,7 @@ from vfbLib.ufo.typing import TUfoGaspRecDict
 from vfbLib.ufo.vfb2ufo import TT_UFO_LIB_KEY
 
 if TYPE_CHECKING:
-    from vfbLib.typing import GaspList
+    from vfbLib.typing import GaspList, NameRecordDict
     from vfbLib.ufo.typing import UfoGuide
 
 
@@ -236,19 +236,18 @@ class VfbToUfoInfo(Info):
     def set_fixed_pitch(self, data: int) -> None:
         self.postscriptIsFixedPitch = bool(data)
 
-    def set_name_records(self, data: list[tuple[int, int, int, int, str]]) -> None:
+    def set_name_records(self, data: "list[NameRecordDict]") -> None:
         # We need to set the attribute once at the end to be able to write JSON, cf.
         # https://github.com/fonttools/ufoLib2/issues/203
         name_records = []
         for rec in data:
-            nameID, platformID, encodingID, languageID, s = rec
             name_records.append(
                 {
-                    "nameID": nameID,
-                    "platformID": platformID,
-                    "encodingID": encodingID,
-                    "languageID": languageID,
-                    "string": s,
+                    "nameID": rec["name_id"],
+                    "platformID": rec["platform_id"],
+                    "encodingID": rec["encoding_id"],
+                    "languageID": rec["language_id"],
+                    "string": rec["string"],
                 }
             )
         self.openTypeNameRecords = name_records

@@ -1,20 +1,23 @@
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
 from vfbLib.compilers.base import BaseCompiler
 
+if TYPE_CHECKING:
+    from vfbLib.typing import NameRecordDict
+
 
 class NameRecordsCompiler(BaseCompiler):
-    def _compile(self, data: list[tuple[int, int, int, int, str]] | Any) -> None:
+    def _compile(self, data: "list[NameRecordDict] | Any") -> None:
         self.write_value(len(data))  # number of records
         for nr in data:
-            nameID, platID, encID, langID, name = nr
-            self.write_value(nameID)
-            self.write_value(platID)
-            self.write_value(encID)
-            self.write_value(langID)
+            self.write_value(nr["name_id"])
+            self.write_value(nr["platform_id"])
+            self.write_value(nr["encoding_id"])
+            self.write_value(nr["language_id"])
+            name = nr["string"]
             self.write_value(len(name))
             for char in name:
-                if platID == 1 and encID == 0:
+                if nr["platform_id"] == 1 and nr["encoding_id"] == 0:
                     try:
                         char = char.encode("macroman")
                     except ValueError:
