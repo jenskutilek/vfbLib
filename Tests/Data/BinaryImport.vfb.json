@@ -2002,181 +2002,181 @@
     },
     {
       "fontnames": [
-        [
-          1,
-          1,
-          0,
-          0,
-          "Comic Jens Free Pro"
-        ],
-        [
-          2,
-          1,
-          0,
-          0,
-          "Regular"
-        ],
-        [
-          4,
-          1,
-          0,
-          0,
-          "Comic Jens Free Pro Regular"
-        ],
-        [
-          5,
-          1,
-          0,
-          0,
-          "Version 3.000"
-        ],
-        [
-          6,
-          1,
-          0,
-          0,
-          "ComicJensFreePro-Regular"
-        ],
-        [
-          11,
-          1,
-          0,
-          0,
-          "https://www.kutilek.de/comic-jens/free/"
-        ],
-        [
-          12,
-          1,
-          0,
-          0,
-          "https://www.kutilek.de/"
-        ],
-        [
-          14,
-          1,
-          0,
-          0,
-          "http://creativecommons.org/licenses/by-nd/3.0/"
-        ],
-        [
-          0,
-          3,
-          1,
-          1033,
-          "Copyright 2007 - 2024 by Jens Kutilek. All rights reserved."
-        ],
-        [
-          1,
-          3,
-          1,
-          1033,
-          "Comic Jens Free Pro"
-        ],
-        [
-          2,
-          3,
-          1,
-          1033,
-          "Regular"
-        ],
-        [
-          3,
-          3,
-          1,
-          1033,
-          "3.000;JENS;ComicJensFreePro-Regular"
-        ],
-        [
-          4,
-          3,
-          1,
-          1033,
-          "Comic Jens Free Pro Regular"
-        ],
-        [
-          5,
-          3,
-          1,
-          1033,
-          "Version 3.000"
-        ],
-        [
-          6,
-          3,
-          1,
-          1033,
-          "ComicJensFreePro-Regular"
-        ],
-        [
-          7,
-          3,
-          1,
-          1033,
-          "Comic Jens is a trademark of Jens Kutilek."
-        ],
-        [
-          8,
-          3,
-          1,
-          1033,
-          "Jens Kutilek"
-        ],
-        [
-          9,
-          3,
-          1,
-          1033,
-          "Jens Kutilek"
-        ],
-        [
-          10,
-          3,
-          1,
-          1033,
-          "A wonderful font based on the handwriting of Jens Kutilek and destined to conquer the world."
-        ],
-        [
-          11,
-          3,
-          1,
-          1033,
-          "https://www.kutilek.de/comic-jens/free/"
-        ],
-        [
-          12,
-          3,
-          1,
-          1033,
-          "https://www.kutilek.de/"
-        ],
-        [
-          13,
-          3,
-          1,
-          1033,
-          "This font is subject to the Creativ Commons \"Attribution-No Derivative Works\" licence."
-        ],
-        [
-          14,
-          3,
-          1,
-          1033,
-          "http://creativecommons.org/licenses/by-nd/3.0/"
-        ],
-        [
-          16,
-          3,
-          1,
-          1033,
-          "Comic Jens Free Pro"
-        ],
-        [
-          17,
-          3,
-          1,
-          1033,
-          "Regular"
-        ]
+        {
+          "name_id": 1,
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "string": "Comic Jens Free Pro"
+        },
+        {
+          "name_id": 2,
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "string": "Regular"
+        },
+        {
+          "name_id": 4,
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "string": "Comic Jens Free Pro Regular"
+        },
+        {
+          "name_id": 5,
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "string": "Version 3.000"
+        },
+        {
+          "name_id": 6,
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "string": "ComicJensFreePro-Regular"
+        },
+        {
+          "name_id": 11,
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "string": "https://www.kutilek.de/comic-jens/free/"
+        },
+        {
+          "name_id": 12,
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "string": "https://www.kutilek.de/"
+        },
+        {
+          "name_id": 14,
+          "platform_id": 1,
+          "encoding_id": 0,
+          "language_id": 0,
+          "string": "http://creativecommons.org/licenses/by-nd/3.0/"
+        },
+        {
+          "name_id": 0,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "Copyright 2007 - 2024 by Jens Kutilek. All rights reserved."
+        },
+        {
+          "name_id": 1,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "Comic Jens Free Pro"
+        },
+        {
+          "name_id": 2,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "Regular"
+        },
+        {
+          "name_id": 3,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "3.000;JENS;ComicJensFreePro-Regular"
+        },
+        {
+          "name_id": 4,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "Comic Jens Free Pro Regular"
+        },
+        {
+          "name_id": 5,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "Version 3.000"
+        },
+        {
+          "name_id": 6,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "ComicJensFreePro-Regular"
+        },
+        {
+          "name_id": 7,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "Comic Jens is a trademark of Jens Kutilek."
+        },
+        {
+          "name_id": 8,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "Jens Kutilek"
+        },
+        {
+          "name_id": 9,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "Jens Kutilek"
+        },
+        {
+          "name_id": 10,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "A wonderful font based on the handwriting of Jens Kutilek and destined to conquer the world."
+        },
+        {
+          "name_id": 11,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "https://www.kutilek.de/comic-jens/free/"
+        },
+        {
+          "name_id": 12,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "https://www.kutilek.de/"
+        },
+        {
+          "name_id": 13,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "This font is subject to the Creativ Commons \"Attribution-No Derivative Works\" licence."
+        },
+        {
+          "name_id": 14,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "http://creativecommons.org/licenses/by-nd/3.0/"
+        },
+        {
+          "name_id": 16,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "Comic Jens Free Pro"
+        },
+        {
+          "name_id": 17,
+          "platform_id": 3,
+          "encoding_id": 1,
+          "language_id": 1033,
+          "string": "Regular"
+        }
       ]
     },
     {
