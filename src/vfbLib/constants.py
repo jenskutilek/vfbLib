@@ -1,4 +1,5 @@
 from vfbLib.compilers.base import (
+    BaseCompiler,
     EncodedValueListCompiler,
     EncodedValueListWithCountCompiler,
     GlyphEncodingCompiler,
@@ -7,7 +8,7 @@ from vfbLib.compilers.base import (
     OpenTypeKerningClassFlagsCompiler,
     OpenTypeMetricsClassFlagsCompiler,
 )
-from vfbLib.compilers.binary import BinaryTableCompiler, BinaryTrueTypeTableCompiler
+from vfbLib.compilers.binary import BinaryTableCompiler
 from vfbLib.compilers.bitmap import BackgroundBitmapCompiler, GlyphBitmapsCompiler
 from vfbLib.compilers.cmap import CustomCmapCompiler
 from vfbLib.compilers.fl3 import MMKernPairCompiler
@@ -211,9 +212,9 @@ parser_classes = {
     F.ms_id: ("ms_id", Int16Parser, Int16Compiler),
     F.pcl_chars_set: ("pcl_chars_set", StringParser, StringCompiler),
 
-    T.cvt: ("cvt", BaseParser, BinaryTrueTypeTableCompiler),  # Binary cvt Table
-    T.prep: ("prep", BaseParser, BinaryTrueTypeTableCompiler),  # Binary prep Table
-    T.fpgm: ("fpgm", BaseParser, BinaryTrueTypeTableCompiler),  # Binary fpgm Table
+    T.cvt: ("cvt", BaseParser, BaseCompiler),  # Binary cvt Table
+    T.prep: ("prep", BaseParser, BaseCompiler),  # Binary prep Table
+    T.fpgm: ("fpgm", BaseParser, BaseCompiler),  # Binary fpgm Table
     T.gasp: ("gasp", GaspParser, GaspCompiler),
     F.ttinfo: ("ttinfo", TrueTypeInfoParser, TrueTypeInfoCompiler),
     T.vdmx: ("vdmx", VdmxParser, VdmxCompiler),
@@ -246,7 +247,7 @@ parser_classes = {
     F.PCLTTable: ("PCLT Table", PcltParser, PcltCompiler),
     F.ExportPCLTTable: ("Export PCLT Table", Int16Parser, Int16Compiler),
     F.note: ("note", StringParser, StringCompiler),
-    F.FontFlags: ("Font Flags", BaseParser, HexStringCompiler),  # FIXME
+    F.FontFlags: ("Font Flags", BaseParser, BaseCompiler),  # FIXME
     F.customdata: ("customdata", StringParser, StringCompiler),
     F.MetricsClassFlags: ("OpenType Metrics Class Flags", OpenTypeMetricsClassFlagsParser, OpenTypeMetricsClassFlagsCompiler),
     F.KerningClassFlags: ("OpenType Kerning Class Flags", OpenTypeKerningClassFlagsParser, OpenTypeKerningClassFlagsCompiler),

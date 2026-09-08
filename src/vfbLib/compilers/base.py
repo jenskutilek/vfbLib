@@ -1,16 +1,16 @@
 from io import BytesIO
 from struct import pack
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Any
 
 from vfbLib.compilers.value import write_value, write_value_long
-from vfbLib.helpers import deHexStr, hexStr, int8_size, int16_size, int32_size
+from vfbLib.helpers import hexStr, int8_size, int16_size, int32_size
 
 if TYPE_CHECKING:
     from collections.abc import Iterable
     from io import BufferedIOBase
-    from typing import Any
 
     from vfbLib.typing import (
+        BinaryEntryDict,
         KerningClassFlagDict,
         MappingModeDict,
         MetricsClassFlagDict,
@@ -166,7 +166,9 @@ class BaseCompiler(StreamWriter):
     Base class to compile vfb data.
     """
 
-    def compile(self, data: "Any", vfb: "Vfb | None" = None) -> bytes:
+    def compile(
+        self, data: "BinaryEntryDict | bytes | Any", vfb: "Vfb | None" = None
+    ) -> bytes:
         """
         Compile the JSON-like main data structure and return the compiled binary data.
 
@@ -174,7 +176,7 @@ class BaseCompiler(StreamWriter):
         implemented for all specialized compiler subclasses.
 
         Args:
-            data (Any): The main data structure.
+            data (BinaryEntryDict | bytes | Any): The main data structure.
             vfb (int, optional): The Vfb that is calling the compiler.
 
         Returns:
@@ -182,10 +184,13 @@ class BaseCompiler(StreamWriter):
         """
         self.vfb = vfb
         self.stream = BytesIO()
-        self._compile(data)
+        if isinstance(data, bytes):
+            self.stream.write(data)
+        else:
+            self._compile(data)
         return self.stream.getvalue()
 
-    def compile_hex(self, data: "Any", vfb: "Vfb | None" = None) -> str:
+    def compile_hex(self, data: Any, vfb: "Vfb | None" = None) -> str:
         """
         Compile the data given into a hex string format, e.g. "8c 8d 89 8b". Used for
         testing.
@@ -200,8 +205,15 @@ class BaseCompiler(StreamWriter):
         b = self.compile(data, vfb)
         return hexStr(b)
 
-    def _compile(self, data: "Any") -> None:
-        raise NotImplementedError
+    def _compile(self, data: "BinaryEntryDict | Any") -> None:
+        """
+        Compile the entry structure to binary data. Implement this for all entry
+        subclasses.
+
+        Args:
+            data (BinaryEntryDict): The decompiled entry data structure.
+        """
+        self.stream.write(data["data"])
 
     @classmethod
     def merge(cls, masters_data: "list[Any]", data: "Any") -> None:
