@@ -231,7 +231,7 @@ class BaseParser(StreamReader):
         data = deHexStr(hexstr)
         return self.parse(BytesIO(data), len(data), vfb)
 
-    def _parse(self) -> BinaryEntryDict | Any:
+    def _parse(self) -> "BinaryEntryDict | Any":
         """
         Custom parsing method. By default, it returns the bytes of the entry in a dict.
         The bytes are converted to a a human-readable hex string when serialized to
