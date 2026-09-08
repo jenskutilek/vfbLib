@@ -25,6 +25,7 @@ from vfbLib.typing import (
     MMHintsDict,
     MMNode,
     Point,
+    PointDict,
 )
 from vfbLib.value import read_value
 
@@ -127,14 +128,14 @@ class GlyphGDEFParser(BaseParser):
 
 
 class GlyphOriginParser(BaseParser):
-    def _parse(self) -> dict[str, Any]:
+    def _parse(self) -> PointDict:
         x = self.read_int16()
         y = self.read_int16()
         return {"x": x, "y": y}
 
 
 class GlyphParser(BaseParser):
-    def _parse(self) -> dict[str, Any]:
+    def _parse(self) -> GlyphData:
         """
         01090701
         01  92[7]2e 6e 6f 74 64 65 66 # Glyph name
@@ -218,7 +219,7 @@ class GlyphParser(BaseParser):
                     logger.error(hexStr(self.stream.read()))
                     raise ValueError
 
-        return dict(self.glyphdata)
+        return self.glyphdata
 
     def parse_guides(self) -> None:
         # Guidelines
@@ -485,7 +486,7 @@ class LinkParser(BaseParser):
 
 
 class MaskParser(GlyphParser):
-    def _parse(self) -> dict[str, Any]:
+    def _parse(self) -> MaskData:
         num_values = self.read_value()
         weight_vector = []
         for _ in range(num_values):
@@ -494,14 +495,14 @@ class MaskParser(GlyphParser):
 
         # From here, the mask is equal to the outlines
         self.parse_outlines(maskdata)
-        return dict(maskdata)
+        return maskdata
 
 
 class GlobalMaskParser(GlyphParser):
-    def _parse(self) -> dict[str, Any]:
+    def _parse(self) -> GlyphData:
         maskdata = GlyphData()
         self.parse_outlines(maskdata)
-        return dict(maskdata)
+        return maskdata
 
 
 class MaskMetricsParser(BaseParser):

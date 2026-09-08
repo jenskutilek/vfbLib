@@ -1,3 +1,5 @@
+from typing import Any
+
 from vfbLib.helpers import binaryToIntList
 from vfbLib.parsers.base import BaseParser
 from vfbLib.typing import BBoxDict, GlyphHintingOptionsDict, PSInfoDict
@@ -53,7 +55,7 @@ class PostScriptGlobalHintingOptionsParser(BaseParser):
     options.
     """
 
-    def _parse(self):
+    def _parse(self) -> dict[str, Any]:
         bits = set(binaryToIntList(self.read_uint16()))
         d = {}
         for k, bit in global_options:
