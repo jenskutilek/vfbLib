@@ -1,9 +1,8 @@
 import logging
 from io import BytesIO
-from typing import TYPE_CHECKING, Any
+from typing import TYPE_CHECKING
 
 from vfbLib.compilers.header import VfbHeaderCompiler
-from vfbLib.helpers import hexStr
 from vfbLib.parsers.header import VfbHeaderParser
 
 if TYPE_CHECKING:
