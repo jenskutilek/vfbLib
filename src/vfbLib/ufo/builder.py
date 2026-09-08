@@ -44,7 +44,7 @@ from vfbLib.ufo.vfb2ufo import TT_GLYPH_LIB_KEY, TT_LIB_KEY, TT_UFO_LIB_KEY
 if TYPE_CHECKING:
     from fontTools.designspaceLib import DiscreteAxisDescriptor
 
-    from vfbLib.typing import GlyphBitmapDict
+    from vfbLib.typing import BinaryEntryDict, GlyphBitmapDict, TTZoneDict
     from vfbLib.ufo.typing import UfoGroups, UfoMMKerning
     from vfbLib.vfb.vfb import Vfb
 
@@ -249,17 +249,17 @@ class VfbToUfoBuilder:
             bitmaps.append(br)
         self.current_glyph.lib["com.fontlab.v5.bitmaps"] = bitmaps
 
-    def set_tt_cvt(self, data: str) -> None:
+    def set_tt_cvt(self, data: "BinaryEntryDict") -> None:
         from struct import iter_unpack
 
-        values = [v[0] for v in iter_unpack("<h", deHexStr(data))]
+        values = [v[0] for v in iter_unpack("<h", data["data"])]
         self.info.set_tt_instructions(
             "controlValue", {str(i): v for i, v in enumerate(values)}
         )
 
-    def set_tt_program(self, key: str, data: bytes) -> None:
+    def set_tt_program(self, key: str, data: "BinaryEntryDict") -> None:
         # data comes in as a hex string from the VFB
-        asm = format_assembly(deHexStr(data))
+        asm = format_assembly(data["data"])
         self.info.set_tt_instructions(key, asm)
 
     def set_tt_stem_ppms(self, data: TUfoStemPPMsDict) -> None:
@@ -331,7 +331,7 @@ class VfbToUfoBuilder:
 
                 self.stems[d].append(stem)
 
-    def set_tt_zones(self, data: dict[str, list]) -> None:
+    def set_tt_zones(self, data: "dict[str, list[TTZoneDict]]") -> None:
         self.zone_names = {
             "ttZonesT": [],
             "ttZonesB": [],
