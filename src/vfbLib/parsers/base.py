@@ -237,6 +237,8 @@ class BaseParser(StreamReader):
         The bytes are converted to a a human-readable hex string when serialized to
         JSON.
 
+        Implement specific parsing methods in subclasses of all VFB entries to support.
+
         Returns:
             BinaryEntryDict: The dict representing the binary data.
         """
