@@ -2,6 +2,7 @@ from pathlib import Path
 
 import orjson
 
+from vfbLib.helpers import hexStr
 from vfbLib.vfb.vfb import Vfb
 
 
@@ -35,10 +36,18 @@ def save_vfb_json(
     write_vfb_json(vfb, out_path)
 
 
+def custom_serialize(obj):
+    if isinstance(obj, bytes):
+        return hexStr(obj)
+    raise TypeError
+
+
 def write_vfb_json(vfb: Vfb, out_path: Path) -> None:
     with open(str(out_path), "wb") as f:
         f.write(
             orjson.dumps(
-                vfb.as_dict(), option=orjson.OPT_INDENT_2 | orjson.OPT_NON_STR_KEYS
+                vfb.as_dict(),
+                option=orjson.OPT_INDENT_2 | orjson.OPT_NON_STR_KEYS,
+                default=custom_serialize,
             )
         )
