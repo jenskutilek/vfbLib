@@ -1,4 +1,4 @@
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Any
 
 from vfbLib.compilers.base import BaseCompiler
 
@@ -7,7 +7,7 @@ if TYPE_CHECKING:
 
 
 class CustomCmapCompiler(BaseCompiler):
-    def _compile(self, data: "list[CustomCmap]") -> None:
+    def _compile(self, data: "list[CustomCmap] | Any") -> None:
         self.write_value(len(data))
         for cmap in data:
             for k in ("language_id", "platform_id", "encoding_id", "format", "option"):

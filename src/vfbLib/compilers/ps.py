@@ -1,12 +1,14 @@
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
 from vfbLib.compilers.base import BaseCompiler
 from vfbLib.parsers.ps import global_options, glyph_options
-from vfbLib.typing import GlyphHintingOptionsDict
+
+if TYPE_CHECKING:
+    from vfbLib.typing import GlyphHintingOptionsDict, PSInfoDict
 
 
 class PostScriptInfoCompiler(BaseCompiler):
-    def _compile(self, data: Any) -> None:
+    def _compile(self, data: "PSInfoDict | Any") -> None:
         font_matrix = data["font_matrix"]
         assert len(font_matrix) == 6, (
             f"'font_matrix' must have a length of 6, but has {len(font_matrix)}."
@@ -58,7 +60,7 @@ class PostScriptInfoCompiler(BaseCompiler):
 
 
 class PostScriptGlobalHintingOptionsCompiler(BaseCompiler):
-    def _compile(self, data: Any) -> None:
+    def _compile(self, data: dict[str, Any] | Any) -> None:
         value = 0
         for k, bit in global_options:
             if data.get(k, 0):
@@ -69,7 +71,7 @@ class PostScriptGlobalHintingOptionsCompiler(BaseCompiler):
 
 
 class PostScriptGlyphHintingOptionsCompiler(BaseCompiler):
-    def _compile(self, data: GlyphHintingOptionsDict) -> None:
+    def _compile(self, data: "GlyphHintingOptionsDict | Any") -> None:
         value = 0
         for k, bit in glyph_options:
             if data.get(k, 0):

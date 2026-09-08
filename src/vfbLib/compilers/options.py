@@ -1,4 +1,4 @@
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Any
 
 from vfbLib import ExpandKernOptions, TTAutoHintOptions, export_options, font_options
 from vfbLib.compilers.base import BaseCompiler
@@ -9,14 +9,14 @@ if TYPE_CHECKING:
 
 
 class ExportOptionsCompiler(BaseCompiler):
-    def _compile(self, data: list[str]) -> None:
+    def _compile(self, data: list[str] | Any) -> None:
         rev = {v: k for k, v in export_options.items()}
         options = [rev[k] for k in data]
         self.write_uint16(intListToBinary(options))
 
 
 class FontOptionsCompiler(BaseCompiler):
-    def _compile(self, data: "FontOptionsDict") -> None:
+    def _compile(self, data: "FontOptionsDict | Any") -> None:
         rev = {v: k for k, v in font_options.items()}
         for k, v in data.items():
             raw_key = rev.get(k)

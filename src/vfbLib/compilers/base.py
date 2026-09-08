@@ -244,20 +244,20 @@ class NullCompiler(BaseCompiler):
 
 
 class EncodedValueListCompiler(BaseCompiler):
-    def _compile(self, data: "Any") -> None:
+    def _compile(self, data: Any) -> None:
         for value in data:
             self.write_value(value)
 
 
 class EncodedValueListWithCountCompiler(BaseCompiler):
-    def _compile(self, data: list[int]) -> None:
+    def _compile(self, data: list[int] | Any) -> None:
         self.write_value(len(data))
         for value in data:
             self.write_value(value)
 
 
 class GlyphEncodingCompiler(BaseCompiler):
-    def _compile(self, data: "Any") -> None:
+    def _compile(self, data: tuple[int, str] | Any) -> None:
         """
         Compile the data into the format used by a glyph encoding entry.
 
@@ -294,7 +294,7 @@ mapping_modes = {
 
 
 class MappingModeCompiler(BaseCompiler):
-    def _compile(self, data: "MappingModeDict") -> None:
+    def _compile(self, data: "MappingModeDict | Any") -> None:
         rev_map = {v: k for k, v in mapping_modes.items()}
         self.write_uint8(1)
         self.write_value(rev_map[data["mapping_mode"]])
@@ -308,7 +308,7 @@ class MappingModeCompiler(BaseCompiler):
 
 
 class OpenTypeKerningClassFlagsCompiler(BaseCompiler):
-    def _compile(self, data: "KerningClassFlagDict") -> None:
+    def _compile(self, data: "KerningClassFlagDict | Any") -> None:
         self.write_value(len(data), signed=False)
         for name, flags in data.items():
             self.write_str_with_len(name)
@@ -318,7 +318,7 @@ class OpenTypeKerningClassFlagsCompiler(BaseCompiler):
 
 
 class OpenTypeMetricsClassFlagsCompiler(BaseCompiler):
-    def _compile(self, data: "MetricsClassFlagDict") -> None:
+    def _compile(self, data: "MetricsClassFlagDict | Any") -> None:
         self.write_value(len(data), signed=False)
         for name, flags in data.items():
             self.write_str_with_len(name)

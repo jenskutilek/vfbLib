@@ -1,5 +1,5 @@
 import logging
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Any
 
 from vfbLib.compilers.base import BaseCompiler
 from vfbLib.parsers.flversion import END, OWNER, PLATFORM, VERSION, platform_ids
@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 
 class FLVersionCompiler(BaseCompiler):
-    def _compile(self, data: "FLVersionDict") -> None:
+    def _compile(self, data: "FLVersionDict | Any") -> None:
         self.write_uint8(PLATFORM)
         self.write_value(platform_ids[data["platform"]])
 

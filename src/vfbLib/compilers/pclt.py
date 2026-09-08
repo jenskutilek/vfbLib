@@ -1,4 +1,4 @@
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Any
 
 from vfbLib.compilers.base import BaseCompiler
 
@@ -7,7 +7,7 @@ if TYPE_CHECKING:
 
 
 class PcltCompiler(BaseCompiler):
-    def _compile(self, data: "PCLTDict") -> None:
+    def _compile(self, data: "PCLTDict | Any") -> None:
         self.write_value(data["font_number"], signed=False)
         for k in (
             "pitch",

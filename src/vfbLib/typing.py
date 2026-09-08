@@ -3,6 +3,11 @@ from typing import Any, Literal, NotRequired, TypedDict
 Point = tuple[int, int]
 
 
+class PointDict(TypedDict):
+    x: int
+    y: int
+
+
 class AnchorDict(TypedDict):
     name: NotRequired[str]
     x: int

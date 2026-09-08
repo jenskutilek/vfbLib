@@ -17,9 +17,12 @@ if TYPE_CHECKING:
         AnchorPropertiesDict,
         GdefDict,
         GlyphData,
+        Instruction,
         LinkDict,
         MaskData,
         MMAnchorDict,
+        MMNode,
+        PointDict,
     )
 
 
@@ -34,7 +37,7 @@ replace_types_rev = {
 
 
 class GlyphAnchorsCompiler(BaseCompiler):
-    def _compile(self, data: "list[MMAnchorDict]") -> None:
+    def _compile(self, data: "list[MMAnchorDict] | Any") -> None:
         assert self.vfb is not None
         self.write_value(len(data), signed=False)
         self.write_value(self.vfb.num_masters, signed=False)
@@ -45,7 +48,7 @@ class GlyphAnchorsCompiler(BaseCompiler):
 
 
 class GlyphAnchorsSuppCompiler(BaseCompiler):
-    def _compile(self, data: "list[AnchorPropertiesDict]") -> None:
+    def _compile(self, data: "list[AnchorPropertiesDict] | Any") -> None:
         self.write_value(len(data), signed=False)
         for anchor in data:
             self.write_value(anchor.get("hue", 0), signed=False)
@@ -53,7 +56,7 @@ class GlyphAnchorsSuppCompiler(BaseCompiler):
 
 
 class GlyphGDEFCompiler(BaseCompiler):
-    def _compile(self, data: "GdefDict") -> None:
+    def _compile(self, data: "GdefDict | Any") -> None:
         c = data.get("glyph_class", "unassigned")
         if c is None:
             gdef_class = 0
@@ -111,7 +114,7 @@ class GlyphCompiler(BaseCompiler):
                     tgt["scaleX"][m] = src["scaleX"][m]
                     tgt["scaleY"][m] = src["scaleY"][m]
 
-    def _compile(self, data: dict[str, Any]) -> None:
+    def _compile(self, data: "GlyphData | Any") -> None:
         # Constants
         self.write_bytes(pack("<4B", *GLYPH_CONSTANT))
         self.num_masters = data["num_masters"]
@@ -127,7 +130,7 @@ class GlyphCompiler(BaseCompiler):
         self._compile_instructions(data)
         self.write_uint8(15)  # End of glyph
 
-    def _compile_binary(self, data):
+    def _compile_binary(self, data: "GlyphData"):
         # Imported binary data 8-)
         if not (imported := data.get("imported")):
             return
@@ -191,7 +194,7 @@ class GlyphCompiler(BaseCompiler):
 
         self.write_uint8(0x28)  # end
 
-    def _compile_components(self, data):
+    def _compile_components(self, data: "GlyphData"):
         # Components
         if not (components := data.get("components")):
             return
@@ -206,7 +209,7 @@ class GlyphCompiler(BaseCompiler):
                 self.write_double(component["scaleX"][i])
                 self.write_double(component["scaleY"][i])
 
-    def _compile_glyph_name(self, data):
+    def _compile_glyph_name(self, data: "GlyphData"):
         # Glyph name
         if not (name := data.get("name")):
             return
@@ -218,7 +221,7 @@ class GlyphCompiler(BaseCompiler):
         self.write_bytes(glyph_name)
         logger.debug(f"Compiling glyph '{name}'")
 
-    def _compile_guides(self, data):
+    def _compile_guides(self, data: "GlyphData") -> None:
         # Guidelines
         if not (guides := data.get("guides")):
             # TODO: Do we always need to write the guides data?
@@ -234,7 +237,7 @@ class GlyphCompiler(BaseCompiler):
         gc.vfb = self.vfb
         gc._compile(guides)
 
-    def _compile_hints(self, data):
+    def _compile_hints(self, data: "GlyphData") -> None:
         # PostScript hints
         # To minimize diffs, we always write out hint, but it is not necessary
         hints = data.get("hints", {})
@@ -273,7 +276,7 @@ class GlyphCompiler(BaseCompiler):
             self.write_uint8(state_key)
             self.write_value(index)
 
-    def _compile_instructions(self, data):
+    def _compile_instructions(self, data: "GlyphData") -> None:
         # TrueType instructions
         if not (tth := data.get("tth")):
             # self.write_uint8(0x0A)
@@ -285,7 +288,7 @@ class GlyphCompiler(BaseCompiler):
         self.write_value(len(instructions))
         self.stream.write(instructions)
 
-    def _compile_kerning(self, data):
+    def _compile_kerning(self, data: "GlyphData") -> None:
         # Kerning
         if not (kerning := data.get("kerning")):
             return
@@ -297,7 +300,7 @@ class GlyphCompiler(BaseCompiler):
             for value in values:
                 self.write_value(value)
 
-    def _compile_metrics(self, data):
+    def _compile_metrics(self, data: "GlyphData") -> None:
         # Metrics
         if not (metrics := data.get("metrics")):
             return
@@ -308,7 +311,7 @@ class GlyphCompiler(BaseCompiler):
             self.write_value(x)
             self.write_value(y)
 
-    def compile_outlines(self, data, write_key=True):
+    def compile_outlines(self, data: "GlyphData", write_key: bool = True) -> None:
         # Outlines
         # A minimal outlines structure is always written:
         if write_key:
@@ -327,13 +330,13 @@ class GlyphCompiler(BaseCompiler):
 
 
 class GlyphOriginCompiler(BaseCompiler):
-    def _compile(self, data: Any) -> None:
+    def _compile(self, data: "PointDict | Any") -> None:
         self.write_int16(data["x"])
         self.write_int16(data["y"])
 
 
 class GlyphSketchCompiler(BaseCompiler):
-    def _compile(self, data: list[tuple[int, int, int]]) -> None:
+    def _compile(self, data: list[tuple[int, int, int]] | Any) -> None:
         self.write_value(len(data), signed=False)
         for a, b, c in data:
             self.write_value(a)
@@ -342,19 +345,19 @@ class GlyphSketchCompiler(BaseCompiler):
 
 
 class GlyphUnicodesCompiler(BaseCompiler):
-    def _compile(self, data: Any) -> None:
+    def _compile(self, data: list[int] | Any) -> None:
         for value in data:
             self.write_uint16(value)
 
 
 class GlyphUnicodesSuppCompiler(BaseCompiler):
-    def _compile(self, data: Any) -> None:
+    def _compile(self, data: list[int] | Any) -> None:
         for value in data:
             self.write_uint32(value)
 
 
 class InstructionsCompiler(BaseCompiler):
-    def _compile(self, data: Any) -> None:
+    def _compile(self, data: "list[Instruction] | Any") -> None:
         self.write_value(len(data))
         for cmd in data:
             command_id = TT_COMMAND_CONSTANTS[cmd["cmd"]]
@@ -367,13 +370,15 @@ class InstructionsCompiler(BaseCompiler):
 
 
 class OutlinesCompiler(StreamWriter):
-    def compile(self, data: Any, num_masters: int) -> tuple[bytes, int]:
+    def compile(
+        self, data: "list[MMNode] | Any", num_masters: int
+    ) -> tuple[bytes, int]:
         self.num_masters = num_masters
         self.stream = BytesIO()
         num_values = self._compile(data)
         return self.stream.getvalue(), num_values
 
-    def _compile(self, data: Any) -> int:
+    def _compile(self, data: "list[MMNode] | Any") -> int:
         self.write_value(len(data))  # Number of nodes, may be 0
         num_values = 0
         # Reference coordinates to build relative values for each master
@@ -395,7 +400,7 @@ class OutlinesCompiler(StreamWriter):
 
 
 class LinksCompiler(BaseCompiler):
-    def _compile(self, data: "LinkDict") -> None:
+    def _compile(self, data: "LinkDict | Any") -> None:
         for direction in ("y", "x"):
             dir_links = data[direction]
             self.write_value(len(dir_links))
@@ -405,7 +410,7 @@ class LinksCompiler(BaseCompiler):
 
 
 class MaskCompiler(GlyphCompiler):
-    def _compile(self, data: "MaskData") -> None:
+    def _compile(self, data: "MaskData | Any") -> None:
         weight_vector = data["weight_vector"]
         self.write_value(len(weight_vector))
         for value in weight_vector:
@@ -416,20 +421,20 @@ class MaskCompiler(GlyphCompiler):
 
 
 class GlobalMaskCompiler(GlyphCompiler):
-    def _compile(self, data: "GlyphData") -> None:
+    def _compile(self, data: "GlyphData | Any") -> None:
         self.num_masters = data["num_masters"]
         self.compile_outlines(data, write_key=False)
 
 
 class MaskMetricsCompiler(BaseCompiler):
-    def _compile(self, data: tuple[int, int]) -> None:
+    def _compile(self, data: tuple[int, int] | Any) -> None:
         x, y = data
         self.write_int16(x)
         self.write_int16(y)
 
 
 class MaskMetricsMMCompiler(BaseCompiler):
-    def _compile(self, data: list[tuple[int, int]]) -> None:
+    def _compile(self, data: list[tuple[int, int]] | Any) -> None:
         for value in data:
             x, y = value
             self.write_value(x)
@@ -437,5 +442,5 @@ class MaskMetricsMMCompiler(BaseCompiler):
 
 
 class PickleCompiler(BaseCompiler):
-    def _compile(self, data: dict) -> None:
+    def _compile(self, data: dict | Any) -> None:
         pickle.dump(data, self.stream, protocol=0)

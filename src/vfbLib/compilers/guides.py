@@ -1,5 +1,5 @@
 from math import radians, tan
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Any
 
 from vfbLib import DIRECTIONS
 from vfbLib.compilers.base import BaseCompiler
@@ -9,7 +9,7 @@ if TYPE_CHECKING:
 
 
 class GuidesCompiler(BaseCompiler):
-    def _compile(self, data: "MMGuidesDict") -> None:
+    def _compile(self, data: "MMGuidesDict | Any") -> None:
         assert self.vfb is not None
         for direction in DIRECTIONS:
             dir_guides = data[direction]
@@ -22,7 +22,7 @@ class GuidesCompiler(BaseCompiler):
 
 
 class GuidePropertiesCompiler(BaseCompiler):
-    def _compile(self, data: "GuidePropertiesDict") -> None:
+    def _compile(self, data: "GuidePropertiesDict | Any") -> None:
         for direction in DIRECTIONS:
             dir_guides = data[direction]
             for gpd in dir_guides:
