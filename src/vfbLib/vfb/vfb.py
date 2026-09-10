@@ -261,6 +261,7 @@ class Vfb:
                                 self.encoding = "macroman"
                         else:
                             self.encoding = "cp1252"
+                    logger.info(f"Detected VFB string encoding: {self.encoding}")
 
                 elif entry.id == F.MasterCount:
                     entry.decompile()
