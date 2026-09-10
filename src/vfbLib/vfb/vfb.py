@@ -13,7 +13,7 @@ from vfbLib.vfb.info import VfbInfo
 if TYPE_CHECKING:
     from io import BufferedIOBase
 
-    from vfbLib.typing import VfbDict
+    from vfbLib.typing import FLVersionDict, VfbDict
 
 
 logger = logging.getLogger(__name__)
@@ -252,16 +252,18 @@ class Vfb:
 
             if entry is not None:
                 if entry.id == F.FLVersion:
-                    entry.decompile()
-                    if entry.data is not None:
-                        self.writer_platform = entry.data["platform"]
-                        if (
-                            self.force_unicode_strings
-                            or self.writer_platform == "macos"
-                        ):
-                            self.encoding = "utf-8"
-                        else:
-                            self.encoding = "cp1252"
+                    if not self.force_unicode_strings:
+                        entry.decompile()
+                        if entry.data is not None:
+                            fl_version: FLVersionDict = entry.data
+                            self.writer_platform = fl_version["platform"]
+                            # Encoding is "utf-8" by default, overwrite based on platform
+                            # and FL version
+                            if self.writer_platform == "macos":
+                                if fl_version["version"] <= (5, 0, 4, 128):
+                                    self.encoding = "macroman"
+                            else:
+                                self.encoding = "cp1252"
 
                 elif entry.id == F.MasterCount:
                     entry.decompile()

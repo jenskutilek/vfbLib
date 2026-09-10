@@ -38,7 +38,7 @@ class StreamReader:
     """
 
     def __init__(self) -> None:
-        self.encoding = "cp1252"
+        self.encoding = "utf-8"
         self.stream: BufferedIOBase = BytesIO()
 
     def read_double(self) -> float:
@@ -184,7 +184,7 @@ class BaseParser(StreamReader):
     """
 
     def __init__(self) -> None:
-        self.encoding = "cp1252"
+        self.encoding = "utf-8"
         self.stream: BytesIO = BytesIO()
 
     def parse(self, stream: BytesIO, size: int, vfb: "Vfb | None") -> Any:
@@ -210,6 +210,8 @@ class BaseParser(StreamReader):
         """
         self.stream = BytesIO(stream.read(size))  # type: ignore
         self.vfb = vfb
+        if self.vfb is not None:
+            self.encoding = self.vfb.encoding
         decompiled = self._parse()
 
         # Make sure the parser consumed all of the data
