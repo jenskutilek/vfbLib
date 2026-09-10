@@ -1,0 +1,2406 @@
+{
+  "header": {
+    "signature": 1179408154,
+    "app_version": 49,
+    "file_version": 48,
+    "version_major": 3,
+    "version_minor": 0
+  },
+  "entries": [
+    {
+      "Block File Data Start": {
+        "data": ""
+      }
+    },
+    {
+      "Block Font Start": {
+        "data": ""
+      }
+    },
+    {
+      "FL Version": {
+        "platform": "macos",
+        "version": [
+          5,
+          2,
+          2,
+          128
+        ],
+        "owner": 0
+      }
+    },
+    {
+      "Block Names Start": {
+        "data": ""
+      }
+    },
+    {
+      "Encoding": [
+        0,
+        "space‹"
+      ]
+    },
+    {
+      "Encoding": [
+        1,
+        "a®"
+      ]
+    },
+    {
+      "Encoding": [
+        2,
+        "__END__"
+      ]
+    },
+    {
+      "Encoding": [
+        3,
+        "_0003"
+      ]
+    },
+    {
+      "Encoding": [
+        4,
+        "_0004"
+      ]
+    },
+    {
+      "Encoding": [
+        5,
+        "_0005"
+      ]
+    },
+    {
+      "Encoding": [
+        6,
+        "_0006"
+      ]
+    },
+    {
+      "Encoding": [
+        7,
+        "_0007"
+      ]
+    },
+    {
+      "Encoding": [
+        8,
+        "_0008"
+      ]
+    },
+    {
+      "Encoding": [
+        9,
+        "_0009"
+      ]
+    },
+    {
+      "Encoding": [
+        10,
+        "_0010"
+      ]
+    },
+    {
+      "Encoding": [
+        11,
+        "_0011"
+      ]
+    },
+    {
+      "Encoding": [
+        12,
+        "_0012"
+      ]
+    },
+    {
+      "Encoding": [
+        13,
+        "_0013"
+      ]
+    },
+    {
+      "Encoding": [
+        14,
+        "_0014"
+      ]
+    },
+    {
+      "Encoding": [
+        15,
+        "_0015"
+      ]
+    },
+    {
+      "Encoding": [
+        16,
+        "_0016"
+      ]
+    },
+    {
+      "Encoding": [
+        17,
+        "_0017"
+      ]
+    },
+    {
+      "Encoding": [
+        18,
+        "_0018"
+      ]
+    },
+    {
+      "Encoding": [
+        19,
+        "_0019"
+      ]
+    },
+    {
+      "Encoding": [
+        20,
+        "_0020"
+      ]
+    },
+    {
+      "Encoding": [
+        21,
+        "_0021"
+      ]
+    },
+    {
+      "Encoding": [
+        22,
+        "_0022"
+      ]
+    },
+    {
+      "Encoding": [
+        23,
+        "_0023"
+      ]
+    },
+    {
+      "Encoding": [
+        24,
+        "_0024"
+      ]
+    },
+    {
+      "Encoding": [
+        25,
+        "_0025"
+      ]
+    },
+    {
+      "Encoding": [
+        26,
+        "_0026"
+      ]
+    },
+    {
+      "Encoding": [
+        27,
+        "_0027"
+      ]
+    },
+    {
+      "Encoding": [
+        28,
+        "_0028"
+      ]
+    },
+    {
+      "Encoding": [
+        29,
+        "_0029"
+      ]
+    },
+    {
+      "Encoding": [
+        30,
+        "_0030"
+      ]
+    },
+    {
+      "Encoding": [
+        31,
+        "_0031"
+      ]
+    },
+    {
+      "Encoding": [
+        32,
+        "_0032"
+      ]
+    },
+    {
+      "Encoding": [
+        33,
+        "_0033"
+      ]
+    },
+    {
+      "Encoding": [
+        34,
+        "_0034"
+      ]
+    },
+    {
+      "Encoding": [
+        35,
+        "_0035"
+      ]
+    },
+    {
+      "Encoding": [
+        36,
+        "_0036"
+      ]
+    },
+    {
+      "Encoding": [
+        37,
+        "_0037"
+      ]
+    },
+    {
+      "Encoding": [
+        38,
+        "_0038"
+      ]
+    },
+    {
+      "Encoding": [
+        39,
+        "_0039"
+      ]
+    },
+    {
+      "Encoding": [
+        40,
+        "_0040"
+      ]
+    },
+    {
+      "Encoding": [
+        41,
+        "_0041"
+      ]
+    },
+    {
+      "Encoding": [
+        42,
+        "_0042"
+      ]
+    },
+    {
+      "Encoding": [
+        43,
+        "_0043"
+      ]
+    },
+    {
+      "Encoding": [
+        44,
+        "_0044"
+      ]
+    },
+    {
+      "Encoding": [
+        45,
+        "_0045"
+      ]
+    },
+    {
+      "Encoding": [
+        46,
+        "_0046"
+      ]
+    },
+    {
+      "Encoding": [
+        47,
+        "_0047"
+      ]
+    },
+    {
+      "Encoding": [
+        48,
+        "_0048"
+      ]
+    },
+    {
+      "Encoding": [
+        49,
+        "_0049"
+      ]
+    },
+    {
+      "Encoding": [
+        50,
+        "_0050"
+      ]
+    },
+    {
+      "Encoding": [
+        51,
+        "_0051"
+      ]
+    },
+    {
+      "Encoding": [
+        52,
+        "_0052"
+      ]
+    },
+    {
+      "Encoding": [
+        53,
+        "_0053"
+      ]
+    },
+    {
+      "Encoding": [
+        54,
+        "_0054"
+      ]
+    },
+    {
+      "Encoding": [
+        55,
+        "_0055"
+      ]
+    },
+    {
+      "Encoding": [
+        56,
+        "_0056"
+      ]
+    },
+    {
+      "Encoding": [
+        57,
+        "_0057"
+      ]
+    },
+    {
+      "Encoding": [
+        58,
+        "_0058"
+      ]
+    },
+    {
+      "Encoding": [
+        59,
+        "_0059"
+      ]
+    },
+    {
+      "Encoding": [
+        60,
+        "_0060"
+      ]
+    },
+    {
+      "Encoding": [
+        61,
+        "_0061"
+      ]
+    },
+    {
+      "Encoding": [
+        62,
+        "_0062"
+      ]
+    },
+    {
+      "Encoding": [
+        63,
+        "_0063"
+      ]
+    },
+    {
+      "Encoding": [
+        64,
+        "_0064"
+      ]
+    },
+    {
+      "Encoding": [
+        65,
+        "_0065"
+      ]
+    },
+    {
+      "Encoding": [
+        66,
+        "_0066"
+      ]
+    },
+    {
+      "Encoding": [
+        67,
+        "_0067"
+      ]
+    },
+    {
+      "Encoding": [
+        68,
+        "_0068"
+      ]
+    },
+    {
+      "Encoding": [
+        69,
+        "_0069"
+      ]
+    },
+    {
+      "Encoding": [
+        70,
+        "_0070"
+      ]
+    },
+    {
+      "Encoding": [
+        71,
+        "_0071"
+      ]
+    },
+    {
+      "Encoding": [
+        72,
+        "_0072"
+      ]
+    },
+    {
+      "Encoding": [
+        73,
+        "_0073"
+      ]
+    },
+    {
+      "Encoding": [
+        74,
+        "_0074"
+      ]
+    },
+    {
+      "Encoding": [
+        75,
+        "_0075"
+      ]
+    },
+    {
+      "Encoding": [
+        76,
+        "_0076"
+      ]
+    },
+    {
+      "Encoding": [
+        77,
+        "_0077"
+      ]
+    },
+    {
+      "Encoding": [
+        78,
+        "_0078"
+      ]
+    },
+    {
+      "Encoding": [
+        79,
+        "_0079"
+      ]
+    },
+    {
+      "Encoding": [
+        80,
+        "_0080"
+      ]
+    },
+    {
+      "Encoding": [
+        81,
+        "_0081"
+      ]
+    },
+    {
+      "Encoding": [
+        82,
+        "_0082"
+      ]
+    },
+    {
+      "Encoding": [
+        83,
+        "_0083"
+      ]
+    },
+    {
+      "Encoding": [
+        84,
+        "_0084"
+      ]
+    },
+    {
+      "Encoding": [
+        85,
+        "_0085"
+      ]
+    },
+    {
+      "Encoding": [
+        86,
+        "_0086"
+      ]
+    },
+    {
+      "Encoding": [
+        87,
+        "_0087"
+      ]
+    },
+    {
+      "Encoding": [
+        88,
+        "_0088"
+      ]
+    },
+    {
+      "Encoding": [
+        89,
+        "_0089"
+      ]
+    },
+    {
+      "Encoding": [
+        90,
+        "_0090"
+      ]
+    },
+    {
+      "Encoding": [
+        91,
+        "_0091"
+      ]
+    },
+    {
+      "Encoding": [
+        92,
+        "_0092"
+      ]
+    },
+    {
+      "Encoding": [
+        93,
+        "_0093"
+      ]
+    },
+    {
+      "Encoding": [
+        94,
+        "_0094"
+      ]
+    },
+    {
+      "Encoding": [
+        95,
+        "_0095"
+      ]
+    },
+    {
+      "Encoding": [
+        96,
+        "_0096"
+      ]
+    },
+    {
+      "Encoding": [
+        97,
+        "_0097"
+      ]
+    },
+    {
+      "Encoding": [
+        98,
+        "_0098"
+      ]
+    },
+    {
+      "Encoding": [
+        99,
+        "_0099"
+      ]
+    },
+    {
+      "Encoding": [
+        100,
+        "_0100"
+      ]
+    },
+    {
+      "Encoding": [
+        101,
+        "_0101"
+      ]
+    },
+    {
+      "Encoding": [
+        102,
+        "_0102"
+      ]
+    },
+    {
+      "Encoding": [
+        103,
+        "_0103"
+      ]
+    },
+    {
+      "Encoding": [
+        104,
+        "_0104"
+      ]
+    },
+    {
+      "Encoding": [
+        105,
+        "_0105"
+      ]
+    },
+    {
+      "Encoding": [
+        106,
+        "_0106"
+      ]
+    },
+    {
+      "Encoding": [
+        107,
+        "_0107"
+      ]
+    },
+    {
+      "Encoding": [
+        108,
+        "_0108"
+      ]
+    },
+    {
+      "Encoding": [
+        109,
+        "_0109"
+      ]
+    },
+    {
+      "Encoding": [
+        110,
+        "_0110"
+      ]
+    },
+    {
+      "Encoding": [
+        111,
+        "_0111"
+      ]
+    },
+    {
+      "Encoding": [
+        112,
+        "_0112"
+      ]
+    },
+    {
+      "Encoding": [
+        113,
+        "_0113"
+      ]
+    },
+    {
+      "Encoding": [
+        114,
+        "_0114"
+      ]
+    },
+    {
+      "Encoding": [
+        115,
+        "_0115"
+      ]
+    },
+    {
+      "Encoding": [
+        116,
+        "_0116"
+      ]
+    },
+    {
+      "Encoding": [
+        117,
+        "_0117"
+      ]
+    },
+    {
+      "Encoding": [
+        118,
+        "_0118"
+      ]
+    },
+    {
+      "Encoding": [
+        119,
+        "_0119"
+      ]
+    },
+    {
+      "Encoding": [
+        120,
+        "_0120"
+      ]
+    },
+    {
+      "Encoding": [
+        121,
+        "_0121"
+      ]
+    },
+    {
+      "Encoding": [
+        122,
+        "_0122"
+      ]
+    },
+    {
+      "Encoding": [
+        123,
+        "_0123"
+      ]
+    },
+    {
+      "Encoding": [
+        124,
+        "_0124"
+      ]
+    },
+    {
+      "Encoding": [
+        125,
+        "_0125"
+      ]
+    },
+    {
+      "Encoding": [
+        126,
+        "_0126"
+      ]
+    },
+    {
+      "Encoding": [
+        127,
+        "_0127"
+      ]
+    },
+    {
+      "Encoding": [
+        128,
+        "_0128"
+      ]
+    },
+    {
+      "Encoding": [
+        129,
+        "_0129"
+      ]
+    },
+    {
+      "Encoding": [
+        130,
+        "_0130"
+      ]
+    },
+    {
+      "Encoding": [
+        131,
+        "_0131"
+      ]
+    },
+    {
+      "Encoding": [
+        132,
+        "_0132"
+      ]
+    },
+    {
+      "Encoding": [
+        133,
+        "_0133"
+      ]
+    },
+    {
+      "Encoding": [
+        134,
+        "_0134"
+      ]
+    },
+    {
+      "Encoding": [
+        135,
+        "_0135"
+      ]
+    },
+    {
+      "Encoding": [
+        136,
+        "_0136"
+      ]
+    },
+    {
+      "Encoding": [
+        137,
+        "_0137"
+      ]
+    },
+    {
+      "Encoding": [
+        138,
+        "_0138"
+      ]
+    },
+    {
+      "Encoding": [
+        139,
+        "_0139"
+      ]
+    },
+    {
+      "Encoding": [
+        140,
+        "_0140"
+      ]
+    },
+    {
+      "Encoding": [
+        141,
+        "_0141"
+      ]
+    },
+    {
+      "Encoding": [
+        142,
+        "_0142"
+      ]
+    },
+    {
+      "Encoding": [
+        143,
+        "_0143"
+      ]
+    },
+    {
+      "Encoding": [
+        144,
+        "_0144"
+      ]
+    },
+    {
+      "Encoding": [
+        145,
+        "_0145"
+      ]
+    },
+    {
+      "Encoding": [
+        146,
+        "_0146"
+      ]
+    },
+    {
+      "Encoding": [
+        147,
+        "_0147"
+      ]
+    },
+    {
+      "Encoding": [
+        148,
+        "_0148"
+      ]
+    },
+    {
+      "Encoding": [
+        149,
+        "_0149"
+      ]
+    },
+    {
+      "Encoding": [
+        150,
+        "_0150"
+      ]
+    },
+    {
+      "Encoding": [
+        151,
+        "_0151"
+      ]
+    },
+    {
+      "Encoding": [
+        152,
+        "_0152"
+      ]
+    },
+    {
+      "Encoding": [
+        153,
+        "_0153"
+      ]
+    },
+    {
+      "Encoding": [
+        154,
+        "_0154"
+      ]
+    },
+    {
+      "Encoding": [
+        155,
+        "_0155"
+      ]
+    },
+    {
+      "Encoding": [
+        156,
+        "_0156"
+      ]
+    },
+    {
+      "Encoding": [
+        157,
+        "_0157"
+      ]
+    },
+    {
+      "Encoding": [
+        158,
+        "_0158"
+      ]
+    },
+    {
+      "Encoding": [
+        159,
+        "_0159"
+      ]
+    },
+    {
+      "Encoding": [
+        160,
+        "_0160"
+      ]
+    },
+    {
+      "Encoding": [
+        161,
+        "_0161"
+      ]
+    },
+    {
+      "Encoding": [
+        162,
+        "_0162"
+      ]
+    },
+    {
+      "Encoding": [
+        163,
+        "_0163"
+      ]
+    },
+    {
+      "Encoding": [
+        164,
+        "_0164"
+      ]
+    },
+    {
+      "Encoding": [
+        165,
+        "_0165"
+      ]
+    },
+    {
+      "Encoding": [
+        166,
+        "_0166"
+      ]
+    },
+    {
+      "Encoding": [
+        167,
+        "_0167"
+      ]
+    },
+    {
+      "Encoding": [
+        168,
+        "_0168"
+      ]
+    },
+    {
+      "Encoding": [
+        169,
+        "_0169"
+      ]
+    },
+    {
+      "Encoding": [
+        170,
+        "_0170"
+      ]
+    },
+    {
+      "Encoding": [
+        171,
+        "_0171"
+      ]
+    },
+    {
+      "Encoding": [
+        172,
+        "_0172"
+      ]
+    },
+    {
+      "Encoding": [
+        173,
+        "_0173"
+      ]
+    },
+    {
+      "Encoding": [
+        174,
+        "_0174"
+      ]
+    },
+    {
+      "Encoding": [
+        175,
+        "_0175"
+      ]
+    },
+    {
+      "Encoding": [
+        176,
+        "_0176"
+      ]
+    },
+    {
+      "Encoding": [
+        177,
+        "_0177"
+      ]
+    },
+    {
+      "Encoding": [
+        178,
+        "_0178"
+      ]
+    },
+    {
+      "Encoding": [
+        179,
+        "_0179"
+      ]
+    },
+    {
+      "Encoding": [
+        180,
+        "_0180"
+      ]
+    },
+    {
+      "Encoding": [
+        181,
+        "_0181"
+      ]
+    },
+    {
+      "Encoding": [
+        182,
+        "_0182"
+      ]
+    },
+    {
+      "Encoding": [
+        183,
+        "_0183"
+      ]
+    },
+    {
+      "Encoding": [
+        184,
+        "_0184"
+      ]
+    },
+    {
+      "Encoding": [
+        185,
+        "_0185"
+      ]
+    },
+    {
+      "Encoding": [
+        186,
+        "_0186"
+      ]
+    },
+    {
+      "Encoding": [
+        187,
+        "_0187"
+      ]
+    },
+    {
+      "Encoding": [
+        188,
+        "_0188"
+      ]
+    },
+    {
+      "Encoding": [
+        189,
+        "_0189"
+      ]
+    },
+    {
+      "Encoding": [
+        190,
+        "_0190"
+      ]
+    },
+    {
+      "Encoding": [
+        191,
+        "_0191"
+      ]
+    },
+    {
+      "Encoding": [
+        192,
+        "_0192"
+      ]
+    },
+    {
+      "Encoding": [
+        193,
+        "_0193"
+      ]
+    },
+    {
+      "Encoding": [
+        194,
+        "_0194"
+      ]
+    },
+    {
+      "Encoding": [
+        195,
+        "_0195"
+      ]
+    },
+    {
+      "Encoding": [
+        196,
+        "_0196"
+      ]
+    },
+    {
+      "Encoding": [
+        197,
+        "_0197"
+      ]
+    },
+    {
+      "Encoding": [
+        198,
+        "_0198"
+      ]
+    },
+    {
+      "Encoding": [
+        199,
+        "_0199"
+      ]
+    },
+    {
+      "Encoding": [
+        200,
+        "_0200"
+      ]
+    },
+    {
+      "Encoding": [
+        201,
+        "_0201"
+      ]
+    },
+    {
+      "Encoding": [
+        202,
+        "_0202"
+      ]
+    },
+    {
+      "Encoding": [
+        203,
+        "_0203"
+      ]
+    },
+    {
+      "Encoding": [
+        204,
+        "_0204"
+      ]
+    },
+    {
+      "Encoding": [
+        205,
+        "_0205"
+      ]
+    },
+    {
+      "Encoding": [
+        206,
+        "_0206"
+      ]
+    },
+    {
+      "Encoding": [
+        207,
+        "_0207"
+      ]
+    },
+    {
+      "Encoding": [
+        208,
+        "_0208"
+      ]
+    },
+    {
+      "Encoding": [
+        209,
+        "_0209"
+      ]
+    },
+    {
+      "Encoding": [
+        210,
+        "_0210"
+      ]
+    },
+    {
+      "Encoding": [
+        211,
+        "_0211"
+      ]
+    },
+    {
+      "Encoding": [
+        212,
+        "_0212"
+      ]
+    },
+    {
+      "Encoding": [
+        213,
+        "_0213"
+      ]
+    },
+    {
+      "Encoding": [
+        214,
+        "_0214"
+      ]
+    },
+    {
+      "Encoding": [
+        215,
+        "_0215"
+      ]
+    },
+    {
+      "Encoding": [
+        216,
+        "_0216"
+      ]
+    },
+    {
+      "Encoding": [
+        217,
+        "_0217"
+      ]
+    },
+    {
+      "Encoding": [
+        218,
+        "_0218"
+      ]
+    },
+    {
+      "Encoding": [
+        219,
+        "_0219"
+      ]
+    },
+    {
+      "Encoding": [
+        220,
+        "_0220"
+      ]
+    },
+    {
+      "Encoding": [
+        221,
+        "_0221"
+      ]
+    },
+    {
+      "Encoding": [
+        222,
+        "_0222"
+      ]
+    },
+    {
+      "Encoding": [
+        223,
+        "_0223"
+      ]
+    },
+    {
+      "Encoding": [
+        224,
+        "_0224"
+      ]
+    },
+    {
+      "Encoding": [
+        225,
+        "_0225"
+      ]
+    },
+    {
+      "Encoding": [
+        226,
+        "_0226"
+      ]
+    },
+    {
+      "Encoding": [
+        227,
+        "_0227"
+      ]
+    },
+    {
+      "Encoding": [
+        228,
+        "_0228"
+      ]
+    },
+    {
+      "Encoding": [
+        229,
+        "_0229"
+      ]
+    },
+    {
+      "Encoding": [
+        230,
+        "_0230"
+      ]
+    },
+    {
+      "Encoding": [
+        231,
+        "_0231"
+      ]
+    },
+    {
+      "Encoding": [
+        232,
+        "_0232"
+      ]
+    },
+    {
+      "Encoding": [
+        233,
+        "_0233"
+      ]
+    },
+    {
+      "Encoding": [
+        234,
+        "_0234"
+      ]
+    },
+    {
+      "Encoding": [
+        235,
+        "_0235"
+      ]
+    },
+    {
+      "Encoding": [
+        236,
+        "_0236"
+      ]
+    },
+    {
+      "Encoding": [
+        237,
+        "_0237"
+      ]
+    },
+    {
+      "Encoding": [
+        238,
+        "_0238"
+      ]
+    },
+    {
+      "Encoding": [
+        239,
+        "_0239"
+      ]
+    },
+    {
+      "Encoding": [
+        240,
+        "_0240"
+      ]
+    },
+    {
+      "Encoding": [
+        241,
+        "_0241"
+      ]
+    },
+    {
+      "Encoding": [
+        242,
+        "_0242"
+      ]
+    },
+    {
+      "Encoding": [
+        243,
+        "_0243"
+      ]
+    },
+    {
+      "Encoding": [
+        244,
+        "_0244"
+      ]
+    },
+    {
+      "Encoding": [
+        245,
+        "_0245"
+      ]
+    },
+    {
+      "Encoding": [
+        246,
+        "_0246"
+      ]
+    },
+    {
+      "Encoding": [
+        247,
+        "_0247"
+      ]
+    },
+    {
+      "Encoding": [
+        248,
+        "_0248"
+      ]
+    },
+    {
+      "Encoding": [
+        249,
+        "_0249"
+      ]
+    },
+    {
+      "Encoding": [
+        250,
+        "_0250"
+      ]
+    },
+    {
+      "Encoding": [
+        251,
+        "_0251"
+      ]
+    },
+    {
+      "Encoding": [
+        252,
+        "_0252"
+      ]
+    },
+    {
+      "Encoding": [
+        253,
+        "_0253"
+      ]
+    },
+    {
+      "Encoding": [
+        254,
+        "_0254"
+      ]
+    },
+    {
+      "Encoding": [
+        255,
+        "_0255"
+      ]
+    },
+    {
+      "MM Encoding Type": 0
+    },
+    {
+      "Block Names End": ""
+    },
+    {
+      "Block Font Info Start": ""
+    },
+    {
+      "font_name": ""
+    },
+    {
+      "Master Count": 1
+    },
+    {
+      "weight_vector": [
+        1.0
+      ]
+    },
+    {
+      "unique_id": -1
+    },
+    {
+      "version": ""
+    },
+    {
+      "notice": ""
+    },
+    {
+      "full_name": ""
+    },
+    {
+      "family_name": ""
+    },
+    {
+      "pref_family_name": ""
+    },
+    {
+      "menu_name": ""
+    },
+    {
+      "apple_name": ""
+    },
+    {
+      "weight": ""
+    },
+    {
+      "width": "Normal"
+    },
+    {
+      "License": ""
+    },
+    {
+      "License URL": ""
+    },
+    {
+      "copyright": ""
+    },
+    {
+      "trademark": ""
+    },
+    {
+      "designer": ""
+    },
+    {
+      "designer_url": ""
+    },
+    {
+      "vendor_url": ""
+    },
+    {
+      "source": ""
+    },
+    {
+      "is_fixed_pitch": 0
+    },
+    {
+      "weight_code": -1
+    },
+    {
+      "italic_angle": 0.0
+    },
+    {
+      "slant_angle": 0.0
+    },
+    {
+      "underline_position": -100
+    },
+    {
+      "underline_thickness": 50
+    },
+    {
+      "ms_charset": 0
+    },
+    {
+      "panose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "tt_version": ""
+    },
+    {
+      "tt_u_id": ""
+    },
+    {
+      "style_name": ""
+    },
+    {
+      "pref_style_name": ""
+    },
+    {
+      "mac_compatible": ""
+    },
+    {
+      "Sample Text": ""
+    },
+    {
+      "vendor": "pyrs"
+    },
+    {
+      "xuid": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "xuid_num": 0
+    },
+    {
+      "year": 0
+    },
+    {
+      "version_major": 1
+    },
+    {
+      "version_minor": 0
+    },
+    {
+      "upm": 1000
+    },
+    {
+      "fond_id": 128
+    },
+    {
+      "PostScript Hinting Options": {
+        "other": []
+      }
+    },
+    {
+      "Collection": []
+    },
+    {
+      "blue_values_num": 0
+    },
+    {
+      "other_blues_num": 0
+    },
+    {
+      "family_blues_num": 0
+    },
+    {
+      "family_other_blues_num": 0
+    },
+    {
+      "stem_snap_h_num": 0
+    },
+    {
+      "stem_snap_v_num": 0
+    },
+    {
+      "font_style": 64
+    },
+    {
+      "ms_id": 0
+    },
+    {
+      "pcl_chars_set": " 9U"
+    },
+    {
+      "ttinfo": {
+        "max_zones": 0,
+        "max_twilight_points": 0,
+        "max_storage": 0,
+        "max_function_defs": 0,
+        "max_instruction_defs": 0,
+        "max_stack_elements": 0,
+        "head_flags": {
+          "flags": [],
+          "options": [
+            "create_vdmx"
+          ]
+        },
+        "head_units_per_em": 1000,
+        "head_mac_style": 0,
+        "head_lowest_rec_ppem": 9,
+        "head_creation": -423087494,
+        "head_creation2": 0,
+        "head_font_direction_hint": 2,
+        "os2_us_weight_class": 400,
+        "os2_us_width_class": 5,
+        "os2_fs_type": 4,
+        "os2_y_subscript_x_size": 700,
+        "os2_y_subscript_y_size": 650,
+        "os2_y_subscript_x_offset": 0,
+        "os2_y_subscript_y_offset": 140,
+        "os2_y_superscript_x_size": 700,
+        "os2_y_superscript_y_size": 650,
+        "os2_y_superscript_x_offset": 0,
+        "os2_y_superscript_y_offset": 477,
+        "os2_y_strikeout_size": 50,
+        "os2_y_strikeout_position": 250,
+        "os2_s_family_class": 0,
+        "OpenTypeOS2Panose": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "os2_s_typo_ascender": 750,
+        "os2_s_typo_descender": -250,
+        "os2_s_typo_line_gap": 0,
+        "os2_fs_selection": 0,
+        "os2_us_win_ascent": 0,
+        "os2_us_win_descent": 0,
+        "Average Width": 0,
+        "Hdmx PPMs 1": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          19,
+          21,
+          24,
+          27,
+          29,
+          32,
+          33,
+          37,
+          42,
+          46,
+          50,
+          54,
+          58,
+          67,
+          75
+        ],
+        "Hdmx PPMs 2": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          19,
+          21,
+          24,
+          27,
+          29,
+          32,
+          33,
+          37,
+          42,
+          46,
+          50,
+          54,
+          58,
+          67,
+          75
+        ],
+        "Codepages": {
+          "os2_ul_code_page_range1": 0,
+          "os2_ul_code_page_range2": 0
+        }
+      }
+    },
+    {
+      "vdmx": []
+    },
+    {
+      "hhea_line_gap": 9
+    },
+    {
+      "hhea_ascender": 750
+    },
+    {
+      "hhea_descender": -250
+    },
+    {
+      "TrueType Stem PPEMs": {
+        "ttStemsV": [],
+        "ttStemsH": []
+      }
+    },
+    {
+      "TrueType Stems": {
+        "ttStemsV": [],
+        "ttStemsH": []
+      }
+    },
+    {
+      "TrueType Stem PPEMs 1": {
+        "ttStemsV": [],
+        "ttStemsH": []
+      }
+    },
+    {
+      "TrueType Zones": {
+        "ttZonesT": [],
+        "ttZonesB": []
+      }
+    },
+    {
+      "unicoderanges": []
+    },
+    {
+      "stemsnaplimit": 68
+    },
+    {
+      "zoneppm": 48
+    },
+    {
+      "codeppm": 0
+    },
+    {
+      "dropoutppm": 255
+    },
+    {
+      "Measurement Line": 300
+    },
+    {
+      "TrueType Zone Deltas": {}
+    },
+    {
+      "fontnames": []
+    },
+    {
+      "Custom CMAPs": []
+    },
+    {
+      "PCLT Table": {
+        "font_number": 0,
+        "pitch": 0,
+        "x_height": 0,
+        "style": 0,
+        "type_family": 0,
+        "cap_height": 0,
+        "symbol_set": 0,
+        "typeface": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+        "character_complement": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "file_name": "\u0000\u0000\u0000\u0000\u0000\u0000",
+        "stroke_weight": 0,
+        "width_type": 0,
+        "serif_style": 0
+      }
+    },
+    {
+      "Export PCLT Table": 0
+    },
+    {
+      "note": "›Hello‹"
+    },
+    {
+      "Font Flags": {
+        "data": "00000000"
+      }
+    },
+    {
+      "Block Font Info End": {
+        "data": ""
+      }
+    },
+    {
+      "Block MM Font Info Start": {
+        "data": ""
+      }
+    },
+    {
+      "Axis Count": 0
+    },
+    {
+      "Anisotropic Interpolation Mappings": []
+    },
+    {
+      "Axis Mappings Count": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Axis Mappings": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "Master Name": "Untitled"
+    },
+    {
+      "Master Location": [
+        1,
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "PostScript Info": {
+        "font_matrix": [
+          0.001,
+          0.0,
+          0.0,
+          0.001,
+          0.0,
+          0.0
+        ],
+        "force_bold": 0,
+        "blue_values": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "other_blues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "family_blues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "family_other_blues": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "blue_scale": 0.039625,
+        "blue_shift": 7,
+        "blue_fuzz": 1,
+        "std_hw": 100,
+        "std_vw": 50,
+        "stem_snap_h": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stem_snap_v": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bounding_box": {
+          "xMin": 32767,
+          "yMin": 32767,
+          "xMax": -32767,
+          "yMax": -32767
+        },
+        "adv_width_min": 0,
+        "adv_width_max": 0,
+        "adv_width_avg": 500,
+        "ascender": 750,
+        "descender": -250,
+        "x_height": 500,
+        "cap_height": 700
+      }
+    },
+    {
+      "Block MM Font Info End": {
+        "data": ""
+      }
+    },
+    {
+      "Glyph": {
+        "name": "›space‹",
+        "num_masters": 1,
+        "nodes": [],
+        "metrics": [
+          [
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "VSB": [
+        0
+      ]
+    },
+    {
+      "Glyph Hinting Options": {
+        "horizontal_3_stem": 1,
+        "vertical_3_stem": 1,
+        "other": [
+          2
+        ]
+      }
+    },
+    {
+      "Glyph Origin": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "unicodes": [
+        32
+      ]
+    },
+    {
+      "Glyph": {
+        "name": "a®",
+        "num_masters": 1,
+        "nodes": [],
+        "metrics": [
+          [
+            833,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "VSB": [
+        0
+      ]
+    },
+    {
+      "Glyph Hinting Options": {
+        "horizontal_3_stem": 1,
+        "vertical_3_stem": 1,
+        "other": [
+          2
+        ]
+      }
+    },
+    {
+      "Glyph Origin": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "unicodes": [
+        97
+      ]
+    },
+    {
+      "Mapping Mode": {
+        "mapping_mode": "names_or_index",
+        "m2": 152,
+        "m3": 54,
+        "mapping_id": -1
+      }
+    },
+    {
+      "Block Font End": {
+        "data": ""
+      }
+    },
+    {
+      "Block File Data End": {
+        "data": ""
+      }
+    }
+  ]
+}
