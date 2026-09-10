@@ -50,7 +50,6 @@ def vfb2tth():
             vfb_path,
             only_header=False,
             minimal=True,
-            unicode_strings=True,
         )
         suffix = f".tth.{args.format}"
         if args.path:

@@ -75,7 +75,6 @@ def vfb2json():
             out_path=args.path[0] if args.path else None,
             only_header=args.header,
             minimal=args.minimal,
-            unicode_strings=args.unicode_strings,
             no_decompile=args.no_decompile,
             roundtrip=args.roundtrip,
         )
@@ -219,7 +218,6 @@ def vfb2ufo():
             vfb_path,
             minimal=args.minimal,
             drop_keys={F.Encoding, F.EncodingDefault},
-            unicode_strings=args.unicode_strings,
         )
         suffix = ".ufo"
         if args.zip and not args.json:

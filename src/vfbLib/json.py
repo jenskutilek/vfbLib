@@ -11,7 +11,6 @@ def save_vfb_json(
     out_path: Path | None = None,
     only_header: bool = False,
     minimal: bool = False,
-    unicode_strings: bool = False,
     no_decompile: bool = False,
     roundtrip: bool = False,
 ) -> None:
@@ -19,7 +18,6 @@ def save_vfb_json(
         vfb_path,
         only_header=only_header,
         minimal=minimal,
-        unicode_strings=unicode_strings,
     )
     if roundtrip:
         vfb.decompile()

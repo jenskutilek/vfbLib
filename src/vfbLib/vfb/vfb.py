@@ -74,7 +74,6 @@ class Vfb:
         minimal=False,
         drop_keys: set[int] | None = None,
         only_header=False,
-        unicode_strings=False,
     ) -> None:
         self.vfb_path = vfb_path
         self.timing = timing
@@ -85,7 +84,6 @@ class Vfb:
             self.drop_keys = set(drop_keys)
         self.only_header = only_header
         self.encoding = "utf-8"
-        self.force_unicode_strings = unicode_strings
 
         # We need some minimal API to make pen access work ...
         self._glyphs: dict[str, VfbGlyph] = {}
@@ -252,18 +250,17 @@ class Vfb:
 
             if entry is not None:
                 if entry.id == F.FLVersion:
-                    if not self.force_unicode_strings:
-                        entry.decompile()
-                        if entry.data is not None:
-                            fl_version: FLVersionDict = entry.data
-                            self.writer_platform = fl_version["platform"]
-                            # Encoding is "utf-8" by default, overwrite based on platform
-                            # and FL version
-                            if self.writer_platform == "macos":
-                                if fl_version["version"] <= (5, 0, 4, 128):
-                                    self.encoding = "macroman"
-                            else:
-                                self.encoding = "cp1252"
+                    entry.decompile()
+                    if entry.data is not None:
+                        fl_version: FLVersionDict = entry.data
+                        self.writer_platform = fl_version["platform"]
+                        # Encoding is "utf-8" by default, overwrite based on platform
+                        # and FL version
+                        if self.writer_platform == "macos":
+                            if fl_version["version"] <= (5, 0, 4, 128):
+                                self.encoding = "macroman"
+                        else:
+                            self.encoding = "cp1252"
 
                 elif entry.id == F.MasterCount:
                     entry.decompile()
