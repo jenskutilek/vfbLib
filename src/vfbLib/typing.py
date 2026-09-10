@@ -263,10 +263,10 @@ class MMNode(TypedDict):
 
 
 class NameRecordDict(TypedDict):
+    name_id: int
     platform_id: int
     encoding_id: int
     language_id: int
-    name_id: int
     string: str
 
 
