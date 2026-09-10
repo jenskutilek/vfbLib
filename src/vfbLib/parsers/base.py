@@ -7,7 +7,6 @@ from vfbLib import mapping_modes
 from vfbLib.helpers import (
     deHexStr,
     double_size,
-    hexStr,
     int8_size,
     int16_size,
     int32_size,
@@ -129,7 +128,17 @@ class StreamReader:
         Returns:
             str: The string
         """
-        return self.stream.read().decode(self.encoding)
+        encoded_str = self.stream.read()
+        try:
+            s = encoded_str.decode(self.encoding)
+        except UnicodeDecodeError:
+            # TODO: Is this always the best fallback encoding?
+            s = encoded_str.decode("cp1252")
+            logger.warning(
+                "Could not decode string as UTF-8, using CP1252 in "
+                f"{self.__class__.__name__}: '{s}'"
+            )
+        return s
 
     def read_uint8(self) -> int:
         """
