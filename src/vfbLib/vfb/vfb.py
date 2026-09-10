@@ -275,6 +275,15 @@ class Vfb:
                         if self.writer_platform == "macos":
                             if fl_version["version"] <= (5, 0, 4, 128):
                                 self.encoding = "macroman"
+                            # For newer versions, leave encoding at the default "utf-8".
+                            # We can't decide whether the strings actually use utf-8, so
+                            # later when actually decoding strings, we try utf-8, then
+                            # fall back to cp1252 on errors.
+                            #
+                            # - FLS 5.2.2 on macOS writes utf-8 strings, but such files
+                            #   should be rare by now
+                            # - FLS 5.2.2 on Windows writes cp1252 strings, but also
+                            #   uses the "macos" platform identifier
                         else:
                             self.encoding = "cp1252"
                     logger.info(f"Detected VFB string encoding: {self.encoding}")
