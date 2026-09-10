@@ -29,7 +29,7 @@ class StreamWriter:
     """
 
     def __init__(self) -> None:
-        self.encoding = "utf-8"
+        self.encoding = "cp1252"
         self.stream: BufferedIOBase = BytesIO()
 
     def write_bytes(self, value: bytes) -> None:
@@ -184,7 +184,7 @@ class BaseCompiler(StreamWriter):
         """
         self.vfb = vfb
         if self.vfb is not None:
-            self.encoding = self.vfb.encoding
+            self.encoding = self.vfb.writer_encoding
         self.stream = BytesIO()
         if isinstance(data, bytes):
             self.stream.write(data)

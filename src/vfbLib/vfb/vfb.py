@@ -83,7 +83,6 @@ class Vfb:
         else:
             self.drop_keys = set(drop_keys)
         self.only_header = only_header
-        self.encoding = "utf-8"
 
         # We need some minimal API to make pen access work ...
         self._glyphs: dict[str, VfbGlyph] = {}
@@ -97,7 +96,10 @@ class Vfb:
         self.num_masters: int = 0
         self.ttStemsV_count: int = 0
         self.ttStemsH_count: int = 0
+
+        self.encoding = "utf-8"  # Default encoding for reading
         self.writer_platform: str = "macos"
+        self.writer_encoding = "cp1252"  # Default encoding for writing
 
         self.ps_hinting_options: VfbEntry | None = None
 
@@ -140,9 +142,23 @@ class Vfb:
     def compile(self) -> None:
         """
         Compile the header and all entries in the VFB.
+
+        The encoding for strings in the VFB will be determined by the `FLVersion` entry.
+        If you want to enforce UTF-8 encoding (which is only supported in FontLab Studio
+        5.2.2 on macOS), you can set `Vfb.writer_encoding = "utf-8"` before calling
+        `Vfb.compile()` or `Vfb.write()`.
         """
         self.header.compile()
         for e in self.entries:
+            if e.id == F.FLVersion:
+                fl_version: FLVersionDict = e.data
+                self.writer_platform = fl_version["platform"]
+                if self.writer_platform == "macos":
+                    if fl_version["version"] <= (5, 0, 4, 128):
+                        self.writer_encoding = "macroman"
+                else:
+                    self.writer_encoding = "cp1252"
+                logger.info(f"VFB writer string encoding: {self.writer_encoding}")
             e.compile()
 
     def _decompile_glyphs(self) -> None:
@@ -315,6 +331,11 @@ class Vfb:
     def write(self, out_path: Path) -> None:
         """
         Compile any entries with changes, and write the VFB to out_path.
+
+        The encoding for strings in the VFB will be determined by the `FLVersion` entry.
+        If you want to enforce UTF-8 encoding (which is only supported in FontLab Studio
+        5.2.2 on macOS), you can set `Vfb.writer_encoding = "utf-8"` before calling
+        `Vfb.compile()` or `Vfb.write()`.
         """
         with open(out_path, "wb") as vfb:
             self.write_bytes(vfb)
@@ -325,6 +346,11 @@ class Vfb:
 
         Args:
             buffer (BufferedIOBase): The buffer.
+
+        The encoding for strings in the VFB will be determined by the `FLVersion` entry.
+        If you want to enforce UTF-8 encoding (which is only supported in FontLab Studio
+        5.2.2 on macOS), you can set `Vfb.writer_encoding = "utf-8"` before calling
+        `Vfb.compile()` or `Vfb.write()`.
         """
         if self.header is None:
             raise ValueError
