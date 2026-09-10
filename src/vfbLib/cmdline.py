@@ -47,13 +47,6 @@ def vfb2json():
         help="roundtrip data by decompiling and compiling again before saving",
     )
     parser.add_argument(
-        "-u",
-        "--unicode-strings",
-        action="store_true",
-        default=False,
-        help="force strings to be interpreted as Unicode instead of Windows-1252",
-    )
-    parser.add_argument(
         "inputpath",
         type=str,
         nargs=1,
@@ -192,13 +185,6 @@ def vfb2ufo():
         action="store_true",
         default=False,
         help="parse only minimal amount of data, drop missing glyphs from groups, etc.",
-    )
-    parser.add_argument(
-        "-u",
-        "--unicode-strings",
-        action="store_true",
-        default=False,
-        help="force strings to be interpreted as Unicode instead of Windows-1252",
     )
     args = parser.parse_args()
     if args:
