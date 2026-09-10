@@ -2,6 +2,7 @@ from unittest import TestCase
 
 from vfbLib.parsers.base import (
     EncodedValueListParser,
+    GlyphEncodingParser,
     OpenTypeKerningClassFlagsParser,
     OpenTypeMetricsClassFlagsParser,
 )
@@ -61,3 +62,11 @@ class OpenTypeClassFlagsParserTest(TestCase):
 
         result = OpenTypeMetricsClassFlagsParser().parse_hex(data)
         assert result == expected
+
+    def test_glyph_encoding_outside_ascii(self):
+            data = "01 00 61 ae" # 1, a®
+            assert GlyphEncodingParser().parse_hex(data) == (1, "a®")
+
+    def test_glyph_encoding_outside_ascii_2(self):
+        data = "00 00 73 70 61 63 65 8b" # 0, space‹
+        assert GlyphEncodingParser().parse_hex(data) == (0, "space‹")
