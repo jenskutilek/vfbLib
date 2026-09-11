@@ -1,6 +1,6 @@
 [project]
 name = "vfbLib"
-version = "0.12.0-dev"
+version = "0.12.0"
 description = "Tools for converting FontLab Studio 5 (VFB) files."
 keywords = ["fonttools", "vfb", "vfbLib"]
 
@@ -22,9 +22,9 @@ classifiers = [
 
 requires-python = ">=3.11"
 dependencies = [
-  "fonttools[ufo] >= 4.63.0",
+  "fonttools[ufo] >= 4.65.0",
   "orjson >= 3.12.0, < 4",
-  "typing_extensions >= 4.15.0",
+  "typing_extensions >= 4.16.0",
   "ufoLib2[json] >= 0.18.1",
   "ufonormalizer >= 0.6.3",
 ]
@@ -50,28 +50,28 @@ all = [
 ]
 doc = [
   "sphinx >= 9.0.0",  # Update to 9.1.0 when we drop Python 3.11
-  "sphinx_rtd_theme",
+  "sphinx_rtd_theme >= 3.1.0",
 ]
 toml = ["tomli-w >= 1.2.0"]
 yaml = ["pyyaml >= 6.0.3"]
 
 [dependency-groups]
 dev = [
-  "mypy",
-  "ruff",
-  "types-pyyaml",
+  "mypy >= 2.3.1",
+  "ruff >= 0.16.7",
+  "types-pyyaml >= 6.0.12.20260906",
 ]
 test = [
-  "pytest",
-  "pytest-cov",
-  "tox",
-  "tox-gh",
-  "tox-uv",
+  "pytest-cov >= 7.1.0",
+  "pytest >= 9.1.1",
+  "tox-gh >= 1.8.0",
+  "tox-uv >= 1.36.0",
+  "tox >= 4.61.4",
   { include-group = "dev" },
 ]
 
 [build-system]
-requires = ["uv_build>=0.12.10,<0.13"]
+requires = ["uv_build>=0.12.13,<0.13"]
 build-backend = "uv_build"
 
 [tool.coverage.paths]
