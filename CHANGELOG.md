@@ -1,5 +1,24 @@
 # Change Log
 
+## 0.12.0
+
+This release contains incompatible changes. Please check thoroughly before updating and
+deploying.
+
+- Drop Python 3.12 from test environments. Python 3.11 continues to be supported for use
+  of vfbLib with stock Python in Glyphs 3.
+- Decompile unhandled and binary entries to bytes instead of hex strings. Representation
+  as hex strings is now handled on JSON serialization.
+- Make JSON output shorter and more like in `vfbLib-rust`.
+- Improve detection of string encoding from the VFB writer platform and app version in
+  the `F.FLVersion` entry.
+- Remove the "force unicode strings" option.
+- Change the decompiled format for the `F.fontnames` entry to a `NameRecordDict`.
+- Improve error message when compilation of an entry fails.
+- Add `NullCompiler` for empty (marker) entries
+- Decode/encode "Additional OpenType names" entries correctly.
+- Add debug output option to vfb2json (`-v/--verbose`).
+
 ## 0.11.7
 
 UFO
