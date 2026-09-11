@@ -621,6 +621,7 @@ class MockVfb:
     def __init__(self, master_count: int, platform: str = "macos") -> None:
         self.num_masters = master_count
         self.writer_platform = platform
+        self.encoding = "utf-8"
 
 
 class BackgroundBitmapParserTest(TestCase):
