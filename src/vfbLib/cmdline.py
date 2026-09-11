@@ -47,6 +47,13 @@ def vfb2json():
         help="roundtrip data by decompiling and compiling again before saving",
     )
     parser.add_argument(
+        "-v",
+        "--verbose",
+        action="store_true",
+        default=False,
+        help="Log debugging output",
+    )
+    parser.add_argument(
         "inputpath",
         type=str,
         nargs=1,
@@ -63,6 +70,8 @@ def vfb2json():
 
         print(parser.description)
         print(f"Reading file {vfb_path} ...")
+        if args.verbose:
+            logging.basicConfig(level=logging.DEBUG)
         save_vfb_json(
             vfb_path,
             out_path=args.path[0] if args.path else None,
@@ -158,7 +167,7 @@ def vfb2ufo():
         "--verbose",
         action="store_true",
         default=False,
-        help="Print debugging output",
+        help="Log debugging output",
     )
     parser.add_argument(
         "-z",
