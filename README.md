@@ -41,7 +41,8 @@ not be overwritten unless you specify the `-fo` option.
 
 ```
 vfb3ufo -h
-usage: vfb3ufo [-h] [-p PATH] [-fo] [-g] [-j] [-k] [-ttx] [-64] [-s] [-n] [-nops] [-v] [-z] [-m] [-u] inputpath [outputpath]
+usage: vfb3ufo [-h] [-p PATH] [-fo] [-g] [-j] [-k] [-ttx] [-64] [-s] [-n] [-nops] [-v] [-z] [-m]
+               inputpath [outputpath]
 
 vfb3ufo Converter Copyright (c) 2026 by LucasFonts
 
@@ -54,23 +55,18 @@ options:
   -p, --path PATH       output folder
   -fo, --force-overwrite
                         force overwrite
-  -64, --base64         write GLIF lib 'data' section using base64
-  -s, --silent          no display (silent mode)
-  -v, --verbose         Print debugging output
-  -z, --zip             write UFOZ (compressed UFO)
-
-Additional options not present in vfb2ufo:
-
   -g, --keep-groups     don't move non-kerning groups from groups.plist to feature code
   -j, --json            serialize UFO as JSON; combine with -z to write JSON without line breaks/indentation
   -k, --add-kerning-groups
                         add kerning groups to feature code
-  -m, --minimal         parse only minimal amount of data, drop missing glyphs from groups, etc.
+  -64, --base64         write GLIF lib 'data' section using base64
+  -s, --silent          no display (silent mode)
   -n, --no-normalize    don't normalize the UFOs (faster)
   -nops, --no-postscript-hints
                         Don't output PostScript hinting
-  -u, --unicode-strings
-                        force strings to be interpreted as Unicode instead of Windows-1252
+  -v, --verbose         Log debugging output
+  -z, --zip             write UFOZ (compressed UFO)
+  -m, --minimal         parse only minimal amount of data, drop missing glyphs from groups, etc.
 
 Options not implemented here, but present in the original vfb2ufo:
 
@@ -90,22 +86,21 @@ overwritten. This is probably mostly useful for debugging purposes.
 
 ```
 vfb2json -h
-usage: vfb2json [-h] [-d] [--header] [-m] [-p PATH] [-r] [-u] inputpath
+usage: vfb2json [-h] [-d] [--header] [-m] [-p PATH] [-r] [-v] inputpath
 
 vfb2json Converter Copyright (c) 2026 by LucasFonts
 
 positional arguments:
-  inputpath             input file path (.vfb)
+  inputpath           input file path (.vfb)
 
 options:
-  -h, --help            show this help message and exit
-  -d, --no-decompile    don't decompile data, output binary in JSON
-  --header              only read the VFB header, not the actual data
-  -m, --minimal         parse only minimal amount of data
-  -p, --path PATH       output folder
-  -r, --roundtrip       roundtrip data by decompiling and compiling again before saving
-  -u, --unicode-strings
-                        force strings to be interpreted as Unicode instead of Windows-1252
+  -h, --help          show this help message and exit
+  -d, --no-decompile  don't decompile data, output binary in JSON
+  --header            only read the VFB header, not the actual data
+  -m, --minimal       parse only minimal amount of data
+  -p, --path PATH     output folder
+  -r, --roundtrip     roundtrip data by decompiling and compiling again before saving
+  -v, --verbose       Log debugging output
 ```
 
 ### vfb2tth
@@ -181,6 +176,39 @@ options:
   --html HTML  Output diff in HTML format to file path
 ```
 
+### yuri
+
+A helper tool to decode from/encode to the
+"[encoded value](https://github.com/LucasFonts/vfbLib/blob/main/FILEFORMAT.md#encoded-value-format)"
+format used throughout the VFB binary data.
+
+```bash
+$ yuri -e 1 23
+8ca2
+```
+
+```
+yuri -h
+usage: yuri [-h] [-e] [-l] [-s] hexstring [hexstring ...]
+
+vfbtool Copyright (c) 2024 by LucasFonts
+
+positional arguments:
+  hexstring     Input hex string
+
+options:
+  -h, --help    show this help message and exit
+  -e, --encode  Encode value instead of decoding
+  -l, --long    Output longest notation when encoding
+  -s, --signed  Treat value as signed
+```
+
+## Python Support Policy
+
+We like to drop unsupported Python versions early. Python 3.11 support remains for now,
+because it is the standard version of Python supported out of the box in Glyphs 3. Other
+than that, `vfbLib` is tested in Python 3.13 to 3.15.
+
 ## History
 
 FontLab’s own `vfb2ufo` converter is from 2015, only outputs UFO v2, and
@@ -191,10 +219,6 @@ That’s why in 2022 a single determined programmer, me, Jens Kutílek, armed wi
 but a hex editor set out to rectify this situation. In late 2025, Yuri Yarmola let me
 have a look at the original VFB code from FontLab. I am very grateful for his kindness.
 Without Yuri’s help, I would probably never have figured out some parts of the format.
-
-The VFB file format is described in the
-[vfbLib-rust](https://github.com/jenskutilek/vfbLib-rust/blob/main/FILEFORMAT.md) repo,
-a work-in-progress implementation of vfbLib in rust.
 
 ## Copyright
 
