@@ -1,7 +1,70 @@
+import logging
 from re import search
 
 from vfbLib.parsers.base import BaseParser
 from vfbLib.typing import FeaturesDict, NameRecordDict
+
+logger = logging.getLogger(__name__)
+
+
+platform_encoding_to_python: dict[int, dict[int, str]] = {
+    0: {  # Unicode
+        0: "",  # Unicode 1.0 semantics—deprecated
+        1: "",  # Unicode 1.1 semantics—deprecated
+        2: "",  # ISO/IEC 10646 semantics—deprecated
+        3: "utf_16_be",  # Unicode 2.0 and onwards semantics, Unicode BMP only
+        4: "utf_16_be",  # Unicode 2.0 and onwards semantics, Unicode full repertoire
+    },
+    1: {  # Macintosh
+        0: "macroman",  # Roman
+        1: "",  # Japanese
+        2: "",  # Chinese (Traditional)
+        3: "",  # Korean
+        4: "",  # Arabic
+        5: "",  # Hebrew
+        6: "mac_greek",  # Greek
+        7: "mac_cyrillic",  # Russian
+        8: "",  # RSymbol
+        9: "",  # Devanagari
+        10: "",  # Gurmukhi
+        11: "",  # Gujarati
+        12: "",  # Odia
+        13: "",  # Bangla
+        14: "",  # Tamil
+        15: "",  # Telugu
+        16: "",  # Kannada
+        17: "",  # Malayalam
+        18: "",  # Sinhalese
+        19: "",  # Burmese
+        20: "",  # Khmer
+        21: "",  # Thai
+        22: "",  # Laotian
+        23: "",  # Georgian
+        24: "",  # Armenian
+        25: "",  # Chinese (Simplified)
+        26: "",  # Tibetan
+        27: "",  # Mongolian
+        28: "",  # Geez
+        29: "",  # Slavic
+        30: "",  # Vietnamese
+        31: "",  # Sindhi
+        32: "",  # Uninterpreted
+    },
+    # https://learn.microsoft.com/en-us/typography/opentype/spec/name#windows-encoding-ids
+    3: {  # Windows,
+        0: "utf_16_be",  # Symbol
+        1: "utf_16_be",  # Unicode BMP
+        2: "utf_16_be",  # ShiftJIS
+        3: "cp936",  # PRC, CP 936
+        4: "cp950",  # Big5, CP 950
+        5: "cp949",  # Wansung, CP 949
+        6: "utf_16_be",  # Johab
+        7: "utf_16_be",  # Reserved
+        8: "utf_16_be",  # Reserved
+        9: "utf_16_be",  # Reserved
+        10: "utf_16_be",  # Unicode full repertoire
+    },
+}
 
 
 class NameRecordsParser(BaseParser):
@@ -16,15 +79,21 @@ class NameRecordsParser(BaseParser):
             name_length = self.read_value()
             name_codes = [self.read_value() for _ in range(name_length)]
             name = ""
+            python_encoding = platform_encoding_to_python.get(platID, {}).get(encID, "")
+            if python_encoding == "":
+                # We have not encountered those
+                logger.warning(
+                    "Could not determine string encoding for name record for platform "
+                    f"{platID} and encoding {encID}. Please file an issue on the vfbLib"
+                    " GitHub."
+                )
+                python_encoding = "utf_16_be"  # FIXME: What happens?
             for c in name_codes:
-                try:
-                    char = chr(c)
-                    # Fix platform-specific encodings for Mac
-                    if platID == 1 and encID == 0:
-                        char = c.to_bytes().decode("macroman")
-                except ValueError:
-                    char = "\ufeff"
+                num_bytes = 2 if python_encoding == "utf_16_be" or platID == 3 else 1
+                s = c.to_bytes(num_bytes)
+                char = s.decode(python_encoding, errors="replace")
                 name += char
+
             result.append(
                 NameRecordDict(
                     name_id=nameID,
