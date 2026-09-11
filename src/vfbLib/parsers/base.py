@@ -18,7 +18,6 @@ if TYPE_CHECKING:
     from io import BufferedIOBase
 
     from vfbLib.typing import (
-        BinaryEntryDict,
         KerningClassFlagDict,
         MetricsClassFlagDict,
     )
@@ -242,7 +241,7 @@ class BaseParser(StreamReader):
         data = deHexStr(hexstr)
         return self.parse(BytesIO(data), len(data), vfb)
 
-    def _parse(self) -> "BinaryEntryDict | Any":
+    def _parse(self) -> "bytes | Any":
         """
         Custom parsing method. By default, it returns the bytes of the entry in a dict.
         The bytes are converted to a a human-readable hex string when serialized to
@@ -251,9 +250,9 @@ class BaseParser(StreamReader):
         Implement specific parsing methods in subclasses of all VFB entries to support.
 
         Returns:
-            BinaryEntryDict: The dict representing the binary data.
+            bytes: The dict representing the binary data.
         """
-        return {"data": self.stream.read()}
+        return self.stream.read()
 
     def skip_stream(self) -> None:
         """

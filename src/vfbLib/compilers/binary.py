@@ -6,7 +6,7 @@ from vfbLib.typing import BinaryTableDict
 
 class BinaryTableCompiler(BaseCompiler):
     """
-    A compiler that compiles binary table data.
+    A compiler that compiles binary SFNT table data.
     """
 
     def _compile(self, data: BinaryTableDict | Any) -> None:

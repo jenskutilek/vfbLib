@@ -44,7 +44,7 @@ from vfbLib.ufo.vfb2ufo import TT_GLYPH_LIB_KEY, TT_LIB_KEY, TT_UFO_LIB_KEY
 if TYPE_CHECKING:
     from fontTools.designspaceLib import DiscreteAxisDescriptor
 
-    from vfbLib.typing import BinaryEntryDict, GlyphBitmapDict, TTZoneDict
+    from vfbLib.typing import GlyphBitmapDict, TTZoneDict
     from vfbLib.ufo.typing import UfoGroups, UfoMMKerning
     from vfbLib.vfb.vfb import Vfb
 
@@ -249,17 +249,17 @@ class VfbToUfoBuilder:
             bitmaps.append(br)
         self.current_glyph.lib["com.fontlab.v5.bitmaps"] = bitmaps
 
-    def set_tt_cvt(self, data: "BinaryEntryDict") -> None:
+    def set_tt_cvt(self, data: bytes) -> None:
         from struct import iter_unpack
 
-        values = [v[0] for v in iter_unpack("<h", data["data"])]
+        values = [v[0] for v in iter_unpack("<h", data)]
         self.info.set_tt_instructions(
             "controlValue", {str(i): v for i, v in enumerate(values)}
         )
 
-    def set_tt_program(self, key: str, data: "BinaryEntryDict") -> None:
+    def set_tt_program(self, key: str, data: bytes) -> None:
         # data comes in as a hex string from the VFB
-        asm = format_assembly(data["data"])
+        asm = format_assembly(data)
         self.info.set_tt_instructions(key, asm)
 
     def set_tt_stem_ppms(self, data: TUfoStemPPMsDict) -> None:
