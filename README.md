@@ -191,7 +191,7 @@ $ yuri -e 1 23
 yuri -h
 usage: yuri [-h] [-e] [-l] [-s] hexstring [hexstring ...]
 
-vfbtool Copyright (c) 2024 by LucasFonts
+Decode and encode VFB/Type1 'encoded values'
 
 positional arguments:
   hexstring     Input hex string

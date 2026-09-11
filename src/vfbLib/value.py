@@ -13,7 +13,7 @@ def yuri():
     The encoded format is identical to the one used in Type 1 font charstring number
     encoding.
     """
-    parser = ArgumentParser(description="vfbtool\nCopyright (c) 2024 by LucasFonts")
+    parser = ArgumentParser(description="Decode and encode VFB/Type1 'encoded values'")
     parser.add_argument(
         "-e",
         "--encode",
