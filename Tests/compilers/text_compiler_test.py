@@ -178,6 +178,44 @@ class NameRecordsCompilerTest(TestCase):
         )
         assert result == hexStr(deHexStr("8c 8b 8e 8c fa9d 90 d3 f778 f700 f700 f703"))
 
+    def test_windows_cyrillic(self) -> None:
+        result = NameRecordsCompiler().compile_hex(
+            [
+                {
+                    "name_id": 1,
+                    "platform_id": 3,
+                    "encoding_id": 1,
+                    "language_id": 1049,
+                    "string": "Комик Йенс Про",
+                }
+            ]
+        )
+        assert result == hexStr(
+            deHexStr(
+                "8c 8c 8e 8c faad 99 faae fad2 fad0 facc face ab faad fac9 fad1 fad5 ab"
+                "fab3 fad4 fad2"
+            )
+        )
+
+    def test_mac_cyrillic(self) -> None:
+        result = NameRecordsCompiler().compile_hex(
+            [
+                {
+                    "name_id": 1,
+                    "platform_id": 1,
+                    "encoding_id": 7,
+                    "language_id": 32,
+                    "string": "Комик Йенс Про",
+                }
+            ]
+        )
+        assert result == hexStr(
+            deHexStr(
+                "8c 8c 8c 92 ab 99 f71e f782 f780 f77c f77e ab f71d f779 f781 f785 ab"
+                "f723 f784 f782"
+            )
+        )
+
     def test_ibm_serif_text(self) -> None:
         # Build a NameRecordDict list
         decompiled = [
