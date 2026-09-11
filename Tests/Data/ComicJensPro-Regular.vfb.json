@@ -8,14 +8,10 @@
   },
   "entries": [
     {
-      "Block File Data Start": {
-        "data": ""
-      }
+      "Block File Data Start": ""
     },
     {
-      "Block Font Start": {
-        "data": ""
-      }
+      "Block Font Start": ""
     },
     {
       "FL Version": {
@@ -30,9 +26,7 @@
       }
     },
     {
-      "Block Names Start": {
-        "data": ""
-      }
+      "Block Names Start": ""
     },
     {
       "Encoding Default": [
@@ -6321,9 +6315,7 @@
       "Export PCLT Table": 0
     },
     {
-      "Font Flags": {
-        "data": "01000000"
-      }
+      "Font Flags": "01000000"
     },
     {
       "OpenType Kerning Class Flags": {
@@ -7177,14 +7169,10 @@
       "OpenType Class": "_GRK_Omega_LEFT: Omega' Omegatonos"
     },
     {
-      "Block Font Info End": {
-        "data": ""
-      }
+      "Block Font Info End": ""
     },
     {
-      "Block MM Font Info Start": {
-        "data": ""
-      }
+      "Block MM Font Info Start": ""
     },
     {
       "Axis Count": 0
@@ -7494,9 +7482,7 @@
       }
     },
     {
-      "Block MM Font Info End": {
-        "data": ""
-      }
+      "Block MM Font Info End": ""
     },
     {
       "Global Guides": {
@@ -516872,14 +516858,10 @@
       }
     },
     {
-      "Block Font End": {
-        "data": ""
-      }
+      "Block Font End": ""
     },
     {
-      "Block File Data End": {
-        "data": ""
-      }
+      "Block File Data End": ""
     }
   ]
 }

@@ -8,14 +8,10 @@
   },
   "entries": [
     {
-      "Block File Data Start": {
-        "data": ""
-      }
+      "Block File Data Start": ""
     },
     {
-      "Block Font Start": {
-        "data": ""
-      }
+      "Block Font Start": ""
     },
     {
       "FL Version": {
@@ -30,9 +26,7 @@
       }
     },
     {
-      "Block Names Start": {
-        "data": ""
-      }
+      "Block Names Start": ""
     },
     {
       "Encoding": [
@@ -4037,22 +4031,16 @@
       "note": "How razorback-jumping frogs can level six piqued gymnasts!"
     },
     {
-      "Font Flags": {
-        "data": "00000000"
-      }
+      "Font Flags": "00000000"
     },
     {
       "customdata": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n\t<key>com.type-invaders.fontnaming.macfam</key>\n\t<string>IBM Plex Sans Hebrew</string>\n\t<key>com.type-invaders.fontnaming.macstyle</key>\n\t<string>ExtraLight</string>\n\t<key>com.type-invaders.fontnaming.winfam</key>\n\t<string>IBM Plex Sans Hebrew ExtLt</string>\n\t<key>com.type-invaders.fontnaming.winstyle</key>\n\t<string>Regular</string>\n</dict>\n</plist>\n"
     },
     {
-      "Block Font Info End": {
-        "data": ""
-      }
+      "Block Font Info End": ""
     },
     {
-      "Block MM Font Info Start": {
-        "data": ""
-      }
+      "Block MM Font Info Start": ""
     },
     {
       "Axis Count": 0
@@ -4362,9 +4350,7 @@
       }
     },
     {
-      "Block MM Font Info End": {
-        "data": ""
-      }
+      "Block MM Font Info End": ""
     },
     {
       "Global Guides": {
@@ -5420,14 +5406,10 @@
       }
     },
     {
-      "Block Font End": {
-        "data": ""
-      }
+      "Block Font End": ""
     },
     {
-      "Block File Data End": {
-        "data": ""
-      }
+      "Block File Data End": ""
     }
   ]
 }

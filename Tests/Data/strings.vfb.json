@@ -8,14 +8,10 @@
   },
   "entries": [
     {
-      "Block File Data Start": {
-        "data": ""
-      }
+      "Block File Data Start": ""
     },
     {
-      "Block Font Start": {
-        "data": ""
-      }
+      "Block Font Start": ""
     },
     {
       "FL Version": {
@@ -30,9 +26,7 @@
       }
     },
     {
-      "Block Names Start": {
-        "data": ""
-      }
+      "Block Names Start": ""
     },
     {
       "Encoding": [
@@ -1982,19 +1976,13 @@
       "note": "›Hello‹"
     },
     {
-      "Font Flags": {
-        "data": "00000000"
-      }
+      "Font Flags": "00000000"
     },
     {
-      "Block Font Info End": {
-        "data": ""
-      }
+      "Block Font Info End": ""
     },
     {
-      "Block MM Font Info Start": {
-        "data": ""
-      }
+      "Block MM Font Info Start": ""
     },
     {
       "Axis Count": 0
@@ -2304,9 +2292,7 @@
       }
     },
     {
-      "Block MM Font Info End": {
-        "data": ""
-      }
+      "Block MM Font Info End": ""
     },
     {
       "Glyph": {
@@ -2393,14 +2379,10 @@
       }
     },
     {
-      "Block Font End": {
-        "data": ""
-      }
+      "Block Font End": ""
     },
     {
-      "Block File Data End": {
-        "data": ""
-      }
+      "Block File Data End": ""
     }
   ]
 }
